@@ -1,0 +1,630 @@
+{
+    "new_entries": {
+        "has_next": false,
+        "page": 1,
+        "results": [
+            {
+                "entry": 8026220,
+                "entry_name": "Seder",
+                "joined_time": "2022-03-08T13:12:43.062485Z",
+                "player_first_name": "Ikemefuna",
+                "player_last_name": "Atta"
+            },
+            {
+                "entry": 9021597,
+                "entry_name": "Natchez$",
+                "joined_time": "2022-03-08T10:41:42.536985Z",
+                "player_first_name": "Mcrae",
+                "player_last_name": "Allison"
+            },
+            {
+                "entry": 334133,
+                "entry_name": "barcelona",
+                "joined_time": "2022-03-08T08:03:16.243166Z",
+                "player_first_name": "Bodi",
+                "player_last_name": "Hussein"
+            },
+            {
+                "entry": 8991850,
+                "entry_name": "Ramallah",
+                "joined_time": "2022-03-08T06:36:31.854251Z",
+                "player_first_name": "Ramalaa",
+                "player_last_name": "Rame"
+            },
+            {
+                "entry": 1068784,
+                "entry_name": "Hueso \ufffd",
+                "joined_time": "2022-03-08T04:24:46.489257Z",
+                "player_first_name": "Fabi\u00e1n",
+                "player_last_name": "Jim\u00e9nez"
+            },
+            {
+                "entry": 8967651,
+                "entry_name": "royal soccer",
+                "joined_time": "2022-03-08T01:23:06.772209Z",
+                "player_first_name": "Richmond",
+                "player_last_name": "Sarquah"
+            },
+            {
+                "entry": 9033074,
+                "entry_name": "Kajiko Fc",
+                "joined_time": "2022-03-06T20:14:11.654793Z",
+                "player_first_name": "Ian",
+                "player_last_name": "Membo"
+            }
+        ]
+    },
+    "last_updated_data": "2022-03-07T23:42:08Z",
+    "league": {
+        "id": 169392,
+        "name": "fantasyfootballfix.com",
+        "created": "2021-07-09T16:49:47.881192Z",
+        "closed": false,
+        "max_entries": null,
+        "league_type": "x",
+        "scoring": "c",
+        "admin_entry": 2328,
+        "start_event": 1,
+        "code_privacy": "p",
+        "has_cup": false,
+        "cup_league": null,
+        "rank": null,
+        "lgCount": 7450
+    },
+    "standings": {
+        "has_next": true,
+        "page": 1,
+        "results": [
+            {
+                "id": 37568005,
+                "event_total": 84,
+                "player_name": "Ross OMalley",
+                "rank": 1,
+                "last_rank": 3,
+                "rank_sort": 1,
+                "total": 1955,
+                "entry": 195608,
+                "entry_name": "Reggie Jackson FC"
+            },
+            {
+                "id": 51909984,
+                "event_total": 79,
+                "player_name": "Filip Karsberg",
+                "rank": 2,
+                "last_rank": 7,
+                "rank_sort": 2,
+                "total": 1942,
+                "entry": 63964,
+                "entry_name": "Los Filles Hermanos"
+            },
+            {
+                "id": 60562226,
+                "event_total": 105,
+                "player_name": "Odhran Naughton",
+                "rank": 3,
+                "last_rank": 23,
+                "rank_sort": 3,
+                "total": 1941,
+                "entry": 52629,
+                "entry_name": "FC DOOM"
+            },
+            {
+                "id": 53712322,
+                "event_total": 82,
+                "player_name": "Adam Rundle",
+                "rank": 4,
+                "last_rank": 9,
+                "rank_sort": 4,
+                "total": 1936,
+                "entry": 2331111,
+                "entry_name": "Change Name"
+            },
+            {
+                "id": 26063851,
+                "event_total": 87,
+                "player_name": "Vidar Einlien",
+                "rank": 5,
+                "last_rank": 17,
+                "rank_sort": 5,
+                "total": 1936,
+                "entry": 454683,
+                "entry_name": "Stonehill FC"
+            },
+            {
+                "id": 47705400,
+                "event_total": 87,
+                "player_name": "Danny Sambrooks",
+                "rank": 6,
+                "last_rank": 18,
+                "rank_sort": 6,
+                "total": 1935,
+                "entry": 269985,
+                "entry_name": "Ds"
+            },
+            {
+                "id": 53601598,
+                "event_total": 75,
+                "player_name": "Richard You",
+                "rank": 7,
+                "last_rank": 5,
+                "rank_sort": 7,
+                "total": 1934,
+                "entry": 36996,
+                "entry_name": "Legends FC"
+            },
+            {
+                "id": 64176977,
+                "event_total": 105,
+                "player_name": "Adam Gugerly",
+                "rank": 8,
+                "last_rank": 0,
+                "rank_sort": 8,
+                "total": 1933,
+                "entry": 47414,
+                "entry_name": "eats shoots & leaves"
+            },
+            {
+                "id": 61255270,
+                "event_total": 57,
+                "player_name": "Khaled Beddakhe",
+                "rank": 9,
+                "last_rank": 1,
+                "rank_sort": 9,
+                "total": 1932,
+                "entry": 5670616,
+                "entry_name": "safe guards"
+            },
+            {
+                "id": 53387666,
+                "event_total": 94,
+                "player_name": "Josh Baker",
+                "rank": 10,
+                "last_rank": 22,
+                "rank_sort": 10,
+                "total": 1931,
+                "entry": 854782,
+                "entry_name": "XI"
+            },
+            {
+                "id": 36428460,
+                "event_total": 91,
+                "player_name": "Hans Michaelsen",
+                "rank": 11,
+                "last_rank": 28,
+                "rank_sort": 11,
+                "total": 1928,
+                "entry": 1145867,
+                "entry_name": "The Paincakes"
+            },
+            {
+                "id": 50145001,
+                "event_total": 85,
+                "player_name": "Josu\u00e9 Figuera",
+                "rank": 12,
+                "last_rank": 14,
+                "rank_sort": 12,
+                "total": 1928,
+                "entry": 5229149,
+                "entry_name": "Kreeds United F.C."
+            },
+            {
+                "id": 59380976,
+                "event_total": 68,
+                "player_name": "Ahmed tremo",
+                "rank": 13,
+                "last_rank": 11,
+                "rank_sort": 13,
+                "total": 1926,
+                "entry": 6163844,
+                "entry_name": "ICaptainHeTrolls"
+            },
+            {
+                "id": 60814324,
+                "event_total": 76,
+                "player_name": "Alex Western",
+                "rank": 14,
+                "last_rank": 16,
+                "rank_sort": 14,
+                "total": 1926,
+                "entry": 505614,
+                "entry_name": "Main Man Man\u00e9"
+            },
+            {
+                "id": 57515929,
+                "event_total": 105,
+                "player_name": "Karl Pilsworth",
+                "rank": 15,
+                "last_rank": 53,
+                "rank_sort": 15,
+                "total": 1924,
+                "entry": 3818,
+                "entry_name": "Red mist fc"
+            },
+            {
+                "id": 29790431,
+                "event_total": 73,
+                "player_name": "Djaber Benrabah",
+                "rank": 16,
+                "last_rank": 18,
+                "rank_sort": 16,
+                "total": 1921,
+                "entry": 126602,
+                "entry_name": "El Loco"
+            },
+            {
+                "id": 17713329,
+                "event_total": 90,
+                "player_name": "Mo Hussein",
+                "rank": 17,
+                "last_rank": 47,
+                "rank_sort": 17,
+                "total": 1918,
+                "entry": 1545714,
+                "entry_name": "\u0646\u0645\u0628\u0631 1"
+            },
+            {
+                "id": 53946343,
+                "event_total": 47,
+                "player_name": "Richard Scharde",
+                "rank": 18,
+                "last_rank": 4,
+                "rank_sort": 18,
+                "total": 1917,
+                "entry": 3141,
+                "entry_name": "Scharde FC"
+            },
+            {
+                "id": 54402388,
+                "event_total": 54,
+                "player_name": "Paul Warren",
+                "rank": 19,
+                "last_rank": 6,
+                "rank_sort": 19,
+                "total": 1917,
+                "entry": 774418,
+                "entry_name": "CLARET&HUGH"
+            },
+            {
+                "id": 57464588,
+                "event_total": 51,
+                "player_name": "Michael Barnard",
+                "rank": 20,
+                "last_rank": 2,
+                "rank_sort": 20,
+                "total": 1917,
+                "entry": 148018,
+                "entry_name": "Heaven XI"
+            },
+            {
+                "id": 49799276,
+                "event_total": 69,
+                "player_name": "Shaharia Hossain Sajjad",
+                "rank": 21,
+                "last_rank": 21,
+                "rank_sort": 21,
+                "total": 1915,
+                "entry": 138270,
+                "entry_name": "xhakalacasaka"
+            },
+            {
+                "id": 13074253,
+                "event_total": 79,
+                "player_name": "Sreerag Sasidharan",
+                "rank": 22,
+                "last_rank": 15,
+                "rank_sort": 22,
+                "total": 1913,
+                "entry": 351609,
+                "entry_name": "FPL Malayali"
+            },
+            {
+                "id": 61945510,
+                "event_total": 85,
+                "player_name": "Eugene Opoku-Ware",
+                "rank": 23,
+                "last_rank": 51,
+                "rank_sort": 23,
+                "total": 1912,
+                "entry": 3230987,
+                "entry_name": "Shuga Zaddy FC"
+            },
+            {
+                "id": 53926476,
+                "event_total": 60,
+                "player_name": "Sayantan Bera",
+                "rank": 24,
+                "last_rank": 10,
+                "rank_sort": 24,
+                "total": 1911,
+                "entry": 951500,
+                "entry_name": "Sayantan's PL Galaxy"
+            },
+            {
+                "id": 63495050,
+                "event_total": 60,
+                "player_name": "Payman Armin",
+                "rank": 25,
+                "last_rank": 8,
+                "rank_sort": 25,
+                "total": 1911,
+                "entry": 813920,
+                "entry_name": "Armin Hammer"
+            },
+            {
+                "id": 30111651,
+                "event_total": 78,
+                "player_name": "Ryan Jeearry",
+                "rank": 26,
+                "last_rank": 37,
+                "rank_sort": 26,
+                "total": 1910,
+                "entry": 82,
+                "entry_name": "FF Ninja"
+            },
+            {
+                "id": 54031010,
+                "event_total": 95,
+                "player_name": "Alex Friend",
+                "rank": 27,
+                "last_rank": 64,
+                "rank_sort": 27,
+                "total": 1910,
+                "entry": 1675,
+                "entry_name": "JustAFriendlyGuy"
+            },
+            {
+                "id": 54216361,
+                "event_total": 80,
+                "player_name": "Daniel Wendt",
+                "rank": 28,
+                "last_rank": 41,
+                "rank_sort": 28,
+                "total": 1910,
+                "entry": 701413,
+                "entry_name": "tekz0r"
+            },
+            {
+                "id": 21186157,
+                "event_total": 56,
+                "player_name": "Marcin Bukowski",
+                "rank": 29,
+                "last_rank": 12,
+                "rank_sort": 29,
+                "total": 1910,
+                "entry": 700,
+                "entry_name": "Dzier\u017c\u0105\u017cnia DDZ"
+            },
+            {
+                "id": 39873169,
+                "event_total": 85,
+                "player_name": "Ahmed Ehab",
+                "rank": 29,
+                "last_rank": 45,
+                "rank_sort": 30,
+                "total": 1910,
+                "entry": 1484252,
+                "entry_name": "team of the devil"
+            },
+            {
+                "id": 54852125,
+                "event_total": 93,
+                "player_name": "Jordan Liddle",
+                "rank": 31,
+                "last_rank": 61,
+                "rank_sort": 31,
+                "total": 1909,
+                "entry": 66088,
+                "entry_name": "cheesy wiggles"
+            },
+            {
+                "id": 54297268,
+                "event_total": 95,
+                "player_name": "Diego Somf\u00fcnso",
+                "rank": 32,
+                "last_rank": 83,
+                "rank_sort": 32,
+                "total": 1908,
+                "entry": 1120817,
+                "entry_name": "White Bellied Heron"
+            },
+            {
+                "id": 37210635,
+                "event_total": 82,
+                "player_name": "cheenu madan",
+                "rank": 33,
+                "last_rank": 56,
+                "rank_sort": 33,
+                "total": 1907,
+                "entry": 188765,
+                "entry_name": "Bald Fraud FC"
+            },
+            {
+                "id": 62840386,
+                "event_total": 96,
+                "player_name": "Matthew Proctor",
+                "rank": 34,
+                "last_rank": 67,
+                "rank_sort": 34,
+                "total": 1907,
+                "entry": 17782,
+                "entry_name": "Fc Dunbarcelona"
+            },
+            {
+                "id": 61535064,
+                "event_total": 80,
+                "player_name": "Liam Murdoch",
+                "rank": 35,
+                "last_rank": 40,
+                "rank_sort": 35,
+                "total": 1906,
+                "entry": 400356,
+                "entry_name": "Right Up Dias"
+            },
+            {
+                "id": 58144127,
+                "event_total": 69,
+                "player_name": "Robert Forsyth",
+                "rank": 36,
+                "last_rank": 30,
+                "rank_sort": 36,
+                "total": 1905,
+                "entry": 50530,
+                "entry_name": "2 Time Champions"
+            },
+            {
+                "id": 12909375,
+                "event_total": 57,
+                "player_name": "F. A. Tanmoy",
+                "rank": 37,
+                "last_rank": 20,
+                "rank_sort": 37,
+                "total": 1905,
+                "entry": 2091279,
+                "entry_name": "wilymonk"
+            },
+            {
+                "id": 36942402,
+                "event_total": 66,
+                "player_name": "Ralph Prince",
+                "rank": 38,
+                "last_rank": 25,
+                "rank_sort": 38,
+                "total": 1904,
+                "entry": 3082781,
+                "entry_name": "Raptor$"
+            },
+            {
+                "id": 54300772,
+                "event_total": 79,
+                "player_name": "Akshay Gaonkar",
+                "rank": 39,
+                "last_rank": 64,
+                "rank_sort": 39,
+                "total": 1902,
+                "entry": 3846530,
+                "entry_name": "AG19"
+            },
+            {
+                "id": 54562590,
+                "event_total": 88,
+                "player_name": "Petar Delcev",
+                "rank": 40,
+                "last_rank": 95,
+                "rank_sort": 40,
+                "total": 1902,
+                "entry": 1815652,
+                "entry_name": "kerovi"
+            },
+            {
+                "id": 53600591,
+                "event_total": 78,
+                "player_name": "Paul Tangney",
+                "rank": 41,
+                "last_rank": 66,
+                "rank_sort": 41,
+                "total": 1901,
+                "entry": 271551,
+                "entry_name": "Cold Trickle"
+            },
+            {
+                "id": 53626868,
+                "event_total": 94,
+                "player_name": "Kyle Stepp",
+                "rank": 42,
+                "last_rank": 105,
+                "rank_sort": 42,
+                "total": 1900,
+                "entry": 236618,
+                "entry_name": "Steppy\u2019s XI"
+            },
+            {
+                "id": 56219618,
+                "event_total": 76,
+                "player_name": "SAN GORAN HANNA",
+                "rank": 43,
+                "last_rank": 49,
+                "rank_sort": 43,
+                "total": 1899,
+                "entry": 208588,
+                "entry_name": "KOYYYYA"
+            },
+            {
+                "id": 59085989,
+                "event_total": 79,
+                "player_name": "Abs Rathod",
+                "rank": 44,
+                "last_rank": 38,
+                "rank_sort": 44,
+                "total": 1899,
+                "entry": 4715248,
+                "entry_name": "Boom Xhakalaka"
+            },
+            {
+                "id": 59840158,
+                "event_total": 65,
+                "player_name": "Nicholas Harmon",
+                "rank": 45,
+                "last_rank": 27,
+                "rank_sort": 45,
+                "total": 1898,
+                "entry": 1364400,
+                "entry_name": "The Syndicate"
+            },
+            {
+                "id": 53992916,
+                "event_total": 63,
+                "player_name": "Piotr Kowalski",
+                "rank": 46,
+                "last_rank": 35,
+                "rank_sort": 46,
+                "total": 1896,
+                "entry": 344666,
+                "entry_name": "Kowal Dzik 3000"
+            },
+            {
+                "id": 60741022,
+                "event_total": 81,
+                "player_name": "David Williams",
+                "rank": 47,
+                "last_rank": 92,
+                "rank_sort": 47,
+                "total": 1895,
+                "entry": 939126,
+                "entry_name": "Twit\u2019s Trialists"
+            },
+            {
+                "id": 61473769,
+                "event_total": 52,
+                "player_name": "Peter O'Carroll",
+                "rank": 48,
+                "last_rank": 24,
+                "rank_sort": 48,
+                "total": 1894,
+                "entry": 3330159,
+                "entry_name": "NetflixandChillwell"
+            },
+            {
+                "id": 34865430,
+                "event_total": 68,
+                "player_name": "Luigi D'Ascenzo",
+                "rank": 49,
+                "last_rank": 55,
+                "rank_sort": 49,
+                "total": 1894,
+                "entry": 3713638,
+                "entry_name": "Tormented Souls"
+            },
+            {
+                "id": 55318404,
+                "event_total": 67,
+                "player_name": "Tom Strong",
+                "rank": 50,
+                "last_rank": 52,
+                "rank_sort": 50,
+                "total": 1894,
+                "entry": 13899,
+                "entry_name": "ThreeFiveToe"
+            }
+        ]
+    }
+}
