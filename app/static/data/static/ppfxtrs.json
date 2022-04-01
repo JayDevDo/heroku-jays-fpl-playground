@@ -58,8 +58,38 @@
 							"team_h_id": 6,
 							"team_a_nm": "LEI",
 							"team_a_id": 9,
-							"reason": "CHE plays EFL Cup Final)"
-						}
+							"reason": "CHE plays EFL Cup Final"
+						},
+						{   "ppid": 321,
+							"nwRound": 39,
+							"origRnd": 33,
+							"added": false,
+							"team_h_nm": "AVL",
+							"team_h_id": 2,
+							"team_a_nm": "LIV",
+							"team_a_id": 11,
+							"reason": "FA cup reschedule"
+						},
+						{   "ppid": 323,
+							"nwRound": 39,
+							"origRnd": 33,
+							"added": false,
+							"team_h_nm": "LEE",
+							"team_h_id": 10,
+							"team_a_nm": "CHE",
+							"team_a_id": 6,
+							"reason": "FA cup reschedule"
+						},
+						{   "ppid": 330,
+							"nwRound": 39,
+							"origRnd": 33,
+							"added": false,
+							"team_h_nm": "WOL",
+							"team_h_id": 20,
+							"team_a_nm": "MNC",
+							"team_a_id": 12,
+							"reason": "FA cup reschedule"
+						}						
 					]
 
 	},
@@ -345,5 +375,5 @@
 					183, 184, 190, 191, 195, 196, 209, 213, 232, 243, 
 					261, 292, 294, 295, 296 
 				] },
-	{ "ppIds":	[ 171, 207, 218, 264, 299, 322 ] }
+	{ "ppIds":	[ 171, 207, 218, 264, 299, 321, 322, 323, 330 ] }
 ]

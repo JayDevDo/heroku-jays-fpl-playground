@@ -384,7 +384,7 @@
             }
         ],
         "team_h_difficulty": 2,
-        "team_a_difficulty": 4,
+        "team_a_difficulty": 3,
         "pulse_id": 66641,
         "team_h_nm": "Wolves",
         "team_a_nm": "Leeds",
@@ -752,8 +752,8 @@
                 ]
             }
         ],
-        "team_h_difficulty": 3,
-        "team_a_difficulty": 3,
+        "team_h_difficulty": 4,
+        "team_a_difficulty": 2,
         "pulse_id": 66632,
         "team_h_nm": "Aston Villa",
         "team_a_nm": "Arsenal",
@@ -806,7 +806,7 @@
     {
         "code": 2210563,
         "event": 30,
-        "finished": false,
+        "finished": true,
         "finished_provisional": true,
         "id": 293,
         "kickoff_time": "2022-03-20T14:00:00Z",
@@ -908,8 +908,22 @@
             },
             {
                 "identifier": "bonus",
-                "a": [],
-                "h": []
+                "a": [
+                    {
+                        "value": 1,
+                        "element": 524
+                    }
+                ],
+                "h": [
+                    {
+                        "value": 3,
+                        "element": 212
+                    },
+                    {
+                        "value": 2,
+                        "element": 209
+                    }
+                ]
             },
             {
                 "identifier": "bps",
@@ -1120,7 +1134,7 @@
         "pulse_id": 66634,
         "team_h_nm": "Leicester",
         "team_a_nm": "Brentford",
-        "status": "live",
+        "status": "finished",
         "event_bonus": [
             {
                 "value": 46,
@@ -1169,23 +1183,358 @@
     {
         "code": 2210568,
         "event": 30,
-        "finished": false,
-        "finished_provisional": false,
+        "finished": true,
+        "finished_provisional": true,
         "id": 298,
         "kickoff_time": "2022-03-20T16:30:00Z",
-        "minutes": 0,
+        "minutes": 90,
         "provisional_start_time": false,
-        "started": false,
+        "started": true,
         "team_a": 19,
-        "team_a_score": null,
+        "team_a_score": 1,
         "team_h": 17,
-        "team_h_score": null,
-        "stats": [],
+        "team_h_score": 3,
+        "stats": [
+            {
+                "identifier": "goals_scored",
+                "a": [
+                    {
+                        "value": 1,
+                        "element": 419
+                    }
+                ],
+                "h": [
+                    {
+                        "value": 2,
+                        "element": 359
+                    }
+                ]
+            },
+            {
+                "identifier": "assists",
+                "a": [
+                    {
+                        "value": 1,
+                        "element": 414
+                    }
+                ],
+                "h": [
+                    {
+                        "value": 3,
+                        "element": 357
+                    }
+                ]
+            },
+            {
+                "identifier": "own_goals",
+                "a": [
+                    {
+                        "value": 1,
+                        "element": 128
+                    }
+                ],
+                "h": []
+            },
+            {
+                "identifier": "penalties_saved",
+                "a": [],
+                "h": []
+            },
+            {
+                "identifier": "penalties_missed",
+                "a": [],
+                "h": []
+            },
+            {
+                "identifier": "yellow_cards",
+                "a": [
+                    {
+                        "value": 1,
+                        "element": 414
+                    }
+                ],
+                "h": []
+            },
+            {
+                "identifier": "red_cards",
+                "a": [],
+                "h": []
+            },
+            {
+                "identifier": "saves",
+                "a": [
+                    {
+                        "value": 2,
+                        "element": 408
+                    }
+                ],
+                "h": []
+            },
+            {
+                "identifier": "bonus",
+                "a": [
+                    {
+                        "value": 1,
+                        "element": 419
+                    }
+                ],
+                "h": [
+                    {
+                        "value": 3,
+                        "element": 359
+                    },
+                    {
+                        "value": 2,
+                        "element": 357
+                    }
+                ]
+            },
+            {
+                "identifier": "bps",
+                "a": [
+                    {
+                        "value": 25,
+                        "element": 419,
+                        "web_name": "Benrahma",
+                        "bns_rank": 3,
+                        "bns_pts": 1
+                    },
+                    {
+                        "value": 24,
+                        "element": 414,
+                        "web_name": "Dawson",
+                        "bns_rank": 4,
+                        "bns_pts": 0
+                    },
+                    {
+                        "value": 18,
+                        "element": 421,
+                        "web_name": "Rice",
+                        "bns_rank": 5,
+                        "bns_pts": 0
+                    },
+                    {
+                        "value": 16,
+                        "element": 416,
+                        "web_name": "Lanzini",
+                        "bns_rank": 7,
+                        "bns_pts": 0
+                    },
+                    {
+                        "value": 15,
+                        "element": 411,
+                        "web_name": "Cresswell",
+                        "bns_rank": 7,
+                        "bns_pts": 0
+                    },
+                    {
+                        "value": 12,
+                        "element": 408,
+                        "web_name": "Fabianski",
+                        "bns_rank": 7,
+                        "bns_pts": 0
+                    },
+                    {
+                        "value": 12,
+                        "element": 425,
+                        "web_name": "Johnson",
+                        "bns_rank": 7,
+                        "bns_pts": -3
+                    },
+                    {
+                        "value": 11,
+                        "element": 423,
+                        "web_name": "Fornals",
+                        "bns_rank": 7,
+                        "bns_pts": 0
+                    },
+                    {
+                        "value": 7,
+                        "element": 422,
+                        "web_name": "Soucek",
+                        "bns_rank": 7,
+                        "bns_pts": 0
+                    },
+                    {
+                        "value": 6,
+                        "element": 128,
+                        "web_name": "Zouma",
+                        "bns_rank": 7,
+                        "bns_pts": 0
+                    },
+                    {
+                        "value": 2,
+                        "element": 412,
+                        "web_name": "Yarmolenko",
+                        "bns_rank": 7,
+                        "bns_pts": 0
+                    },
+                    {
+                        "value": 2,
+                        "element": 413,
+                        "web_name": "Antonio",
+                        "bns_rank": 7,
+                        "bns_pts": -3
+                    },
+                    {
+                        "value": 2,
+                        "element": 582,
+                        "web_name": "Vlasic",
+                        "bns_rank": 7,
+                        "bns_pts": -3
+                    }
+                ],
+                "h": [
+                    {
+                        "value": 51,
+                        "element": 359,
+                        "web_name": "Son",
+                        "bns_rank": 1,
+                        "bns_pts": 3
+                    },
+                    {
+                        "value": 34,
+                        "element": 357,
+                        "web_name": "Kane",
+                        "bns_rank": 2,
+                        "bns_pts": 2
+                    },
+                    {
+                        "value": 18,
+                        "element": 702,
+                        "web_name": "Bentancur",
+                        "bns_rank": 5,
+                        "bns_pts": -1
+                    },
+                    {
+                        "value": 17,
+                        "element": 701,
+                        "web_name": "Kulusevski",
+                        "bns_rank": 7,
+                        "bns_pts": 0
+                    },
+                    {
+                        "value": 16,
+                        "element": 360,
+                        "web_name": "Doherty",
+                        "bns_rank": 7,
+                        "bns_pts": -3
+                    },
+                    {
+                        "value": 16,
+                        "element": 365,
+                        "web_name": "H\u00f8jbjerg",
+                        "bns_rank": 7,
+                        "bns_pts": -3
+                    },
+                    {
+                        "value": 15,
+                        "element": 494,
+                        "web_name": "Romero",
+                        "bns_rank": 7,
+                        "bns_pts": -3
+                    },
+                    {
+                        "value": 14,
+                        "element": 361,
+                        "web_name": "Dier",
+                        "bns_rank": 7,
+                        "bns_pts": 0
+                    },
+                    {
+                        "value": 10,
+                        "element": 364,
+                        "web_name": "Davies",
+                        "bns_rank": 7,
+                        "bns_pts": 0
+                    },
+                    {
+                        "value": 9,
+                        "element": 370,
+                        "web_name": "Reguil\u00f3n",
+                        "bns_rank": 7,
+                        "bns_pts": 0
+                    },
+                    {
+                        "value": 7,
+                        "element": 353,
+                        "web_name": "Lloris",
+                        "bns_rank": 7,
+                        "bns_pts": -3
+                    },
+                    {
+                        "value": 4,
+                        "element": 362,
+                        "web_name": "Lucas Moura",
+                        "bns_rank": 7,
+                        "bns_pts": 0
+                    },
+                    {
+                        "value": 4,
+                        "element": 369,
+                        "web_name": "Bergwijn",
+                        "bns_rank": 7,
+                        "bns_pts": -3
+                    },
+                    {
+                        "value": 3,
+                        "element": 588,
+                        "web_name": "Emerson Royal",
+                        "bns_rank": 7,
+                        "bns_pts": 0
+                    }
+                ]
+            }
+        ],
         "team_h_difficulty": 3,
         "team_a_difficulty": 4,
         "pulse_id": 66639,
         "team_h_nm": "Spurs",
         "team_a_nm": "West Ham",
-        "status": "later"
+        "status": "finished",
+        "event_bonus": [
+            {
+                "value": 51,
+                "element": 359,
+                "web_name": "Son",
+                "bns_rank": 1,
+                "bns_pts": 3
+            },
+            {
+                "value": 34,
+                "element": 357,
+                "web_name": "Kane",
+                "bns_rank": 2,
+                "bns_pts": 2
+            },
+            {
+                "value": 25,
+                "element": 419,
+                "web_name": "Benrahma",
+                "bns_rank": 3,
+                "bns_pts": 1
+            },
+            {
+                "value": 24,
+                "element": 414,
+                "web_name": "Dawson",
+                "bns_rank": 4,
+                "bns_pts": 0
+            },
+            {
+                "value": 18,
+                "element": 421,
+                "web_name": "Rice",
+                "bns_rank": 5,
+                "bns_pts": 0
+            },
+            {
+                "value": 18,
+                "element": 702,
+                "web_name": "Bentancur",
+                "bns_rank": 5,
+                "bns_pts": -1
+            }
+        ]
     }
 ]

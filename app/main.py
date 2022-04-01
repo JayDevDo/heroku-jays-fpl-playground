@@ -3,18 +3,8 @@
 # main.py
 
 """ python modules """
-import requests as datareq
-import json
-import os
-import sys
-import random
-import time
-import pathlib as Path
-
-from time import gmtime, strftime
-from os.path import exists
-from flask import Flask, send_file, render_template, url_for, request, redirect
-from urllib.request import urlopen
+import	sys
+import	time
 
 """ own modules """
 import app.static.scripts.rounds	as mod_rnd
@@ -27,6 +17,7 @@ import app.static.scripts.getData	as mod_data
 import app.static.scripts.leagues 	as mod_lgs
 import app.static.scripts.fdl 		as mod_fdl
 
+from flask import Flask, render_template, url_for, request, redirect
 
 """		######## variables ######## 	"""
 cli = sys.modules['flask.cli']
@@ -46,9 +37,9 @@ global posArr
 global lgManagerIds
 
 mod_data.getStatic("r")
-myTeamId = 993831
-posArr = ["POS","GKP","DEF","MID","FWD"]
-fplData = 	[
+myTeamId =	993831
+posArr =	["POS","GKP","DEF","MID","FWD"]
+fplData =	[
 				{ "id":"rounds"		, "data": mod_rnd.getRnds() 		},			#0
 				{ "id":"fixtures" 	, "data": mod_fxt.getFxtrs("r") 	},			#1
 				{ "id":"clubs"		, "data": mod_clb.getClubs("l") 	},			#2
@@ -65,9 +56,9 @@ fplData = 	[
 			]
 
 fplData[10]["data"] =	578444
-lgManagerIds 		=	fplData[9]["data"];
-oppId 				=	fplData[10]["data"];
-refr_interval 		=	fplData[11]["data"];
+lgManagerIds 		=	fplData[9]["data"]
+oppId 				=	fplData[10]["data"]
+refr_interval 		=	fplData[11]["data"]
 
 def updFPLdata(idx):
 	mod_data.fplDataTS[idx] = float(time.time())
@@ -77,14 +68,14 @@ def changeMyTmId(newTmId):
 	myTeamId = newTmId
 
 def fplDataCounter():
-	if(fplData):
+	if fplData :
 		cntr = 0
 		for d in fplData:
 			# print("counting fplData[", str(cntr), "]" )
-			if( isinstance( d["data"] , dict )):
-				# print("fplData[", str(cntr),"]["data"] is <dict>, count = ", doListCount( d["data"] ) ) 
+			if  isinstance( d["data"] , dict ):
+				# print("fplData[", str(cntr),"]["data"] is <dict>, count = ", doListCount( d["data"] ) )
 				fplData[cntr]["count"] =  doListCount( d["data"] )
-			elif( isinstance( d["data"] , list )):
+			elif isinstance( d["data"] , list ):
 				# print("fplData[", str(cntr),"]["data"] is <list>, count = ", doListCount( d["data"] ) )
 				fplData[cntr]["count"] =  doListCount( d["data"] )
 			else:
@@ -92,7 +83,6 @@ def fplDataCounter():
 				fplData[cntr]["count"] =  d["data"]
 
 			cntr += 1
-
 	else:
 		print("no fplData !")
 
@@ -101,7 +91,7 @@ def doListCount(dict):
 	for d in dict:
 		cntr +=1
 		
-	return cntr	
+	return cntr
 
 
 def doMyUpdate():

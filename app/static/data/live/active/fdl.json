@@ -3,10 +3,10 @@
         "id": "evw",
         "data": [
             {
-                "evwStart": 29
+                "evwStart": 31
             },
             {
-                "evwEnd": 33
+                "evwEnd": 35
             },
             {
                 "evwPeriod": 5
@@ -37,7 +37,7 @@
                 "team_division": null,
                 "unavailable": false,
                 "win": 0,
-                "strength_overall_home": 1210,
+                "strength_overall_home": 1250,
                 "strength_overall_away": 1270,
                 "strength_attack_home": 1150,
                 "strength_attack_away": 1210,
@@ -69,8 +69,8 @@
                 "team_division": null,
                 "unavailable": false,
                 "win": 0,
-                "strength_overall_home": 1130,
-                "strength_overall_away": 1160,
+                "strength_overall_home": 1100,
+                "strength_overall_away": 1100,
                 "strength_attack_home": 1140,
                 "strength_attack_away": 1110,
                 "strength_defence_home": 1090,
@@ -84,7 +84,7 @@
                     3,
                     3
                 ],
-                "ppgc": 1
+                "ppgc": 2
             },
             {
                 "code": 94,
@@ -133,8 +133,8 @@
                 "team_division": null,
                 "unavailable": false,
                 "win": 0,
-                "strength_overall_home": 1130,
-                "strength_overall_away": 1130,
+                "strength_overall_home": 1100,
+                "strength_overall_away": 1090,
                 "strength_attack_home": 1160,
                 "strength_attack_away": 1160,
                 "strength_defence_home": 1100,
@@ -166,7 +166,7 @@
                 "unavailable": false,
                 "win": 0,
                 "strength_overall_home": 1060,
-                "strength_overall_away": 1050,
+                "strength_overall_away": 1060,
                 "strength_attack_home": 1080,
                 "strength_attack_away": 1130,
                 "strength_defence_home": 1060,
@@ -193,12 +193,12 @@
                 "points": 0,
                 "position": 0,
                 "short_name": "CHE",
-                "strength": 5,
+                "strength": 4,
                 "team_division": null,
                 "unavailable": false,
                 "win": 0,
-                "strength_overall_home": 1320,
-                "strength_overall_away": 1350,
+                "strength_overall_home": 1290,
+                "strength_overall_away": 1320,
                 "strength_attack_home": 1300,
                 "strength_attack_away": 1300,
                 "strength_defence_home": 1250,
@@ -212,7 +212,7 @@
                     5,
                     4
                 ],
-                "ppgc": 1
+                "ppgc": 2
             },
             {
                 "code": 31,
@@ -257,11 +257,11 @@
                 "points": 0,
                 "position": 0,
                 "short_name": "EVE",
-                "strength": 3,
+                "strength": 2,
                 "team_division": null,
                 "unavailable": false,
                 "win": 0,
-                "strength_overall_home": 1090,
+                "strength_overall_home": 1050,
                 "strength_overall_away": 1090,
                 "strength_attack_home": 1130,
                 "strength_attack_away": 1090,
@@ -293,8 +293,8 @@
                 "team_division": null,
                 "unavailable": false,
                 "win": 0,
-                "strength_overall_home": 1160,
-                "strength_overall_away": 1190,
+                "strength_overall_home": 1090,
+                "strength_overall_away": 1200,
                 "strength_attack_home": 1100,
                 "strength_attack_away": 1080,
                 "strength_defence_home": 1150,
@@ -325,8 +325,8 @@
                 "team_division": null,
                 "unavailable": false,
                 "win": 0,
-                "strength_overall_home": 1090,
-                "strength_overall_away": 1100,
+                "strength_overall_home": 1070,
+                "strength_overall_away": 1080,
                 "strength_attack_home": 1080,
                 "strength_attack_away": 1070,
                 "strength_defence_home": 1100,
@@ -340,7 +340,7 @@
                     2,
                     2
                 ],
-                "ppgc": 0
+                "ppgc": 1
             },
             {
                 "code": 14,
@@ -357,8 +357,8 @@
                 "team_division": null,
                 "unavailable": false,
                 "win": 0,
-                "strength_overall_home": 1330,
-                "strength_overall_away": 1350,
+                "strength_overall_home": 1340,
+                "strength_overall_away": 1360,
                 "strength_attack_home": 1300,
                 "strength_attack_away": 1350,
                 "strength_defence_home": 1340,
@@ -372,7 +372,7 @@
                     5,
                     4
                 ],
-                "ppgc": 0
+                "ppgc": 1
             },
             {
                 "code": 43,
@@ -404,7 +404,7 @@
                     5,
                     4
                 ],
-                "ppgc": 0
+                "ppgc": 1
             },
             {
                 "code": 1,
@@ -454,7 +454,7 @@
                 "unavailable": false,
                 "win": 0,
                 "strength_overall_home": 1090,
-                "strength_overall_away": 1070,
+                "strength_overall_away": 1170,
                 "strength_attack_home": 1050,
                 "strength_attack_away": 1030,
                 "strength_defence_home": 1040,
@@ -485,8 +485,8 @@
                 "team_division": null,
                 "unavailable": false,
                 "win": 0,
-                "strength_overall_home": 1010,
-                "strength_overall_away": 1030,
+                "strength_overall_home": 1030,
+                "strength_overall_away": 1040,
                 "strength_attack_home": 1040,
                 "strength_attack_away": 1040,
                 "strength_defence_home": 1040,
@@ -517,8 +517,8 @@
                 "team_division": null,
                 "unavailable": false,
                 "win": 0,
-                "strength_overall_home": 1090,
-                "strength_overall_away": 1100,
+                "strength_overall_home": 1080,
+                "strength_overall_away": 1110,
                 "strength_attack_home": 1090,
                 "strength_attack_away": 1140,
                 "strength_defence_home": 1120,
@@ -581,8 +581,8 @@
                 "team_division": null,
                 "unavailable": false,
                 "win": 0,
-                "strength_overall_home": 1050,
-                "strength_overall_away": 1050,
+                "strength_overall_home": 1060,
+                "strength_overall_away": 1030,
                 "strength_attack_home": 1090,
                 "strength_attack_away": 1040,
                 "strength_defence_home": 1120,
@@ -609,12 +609,12 @@
                 "points": 0,
                 "position": 0,
                 "short_name": "WHU",
-                "strength": 4,
+                "strength": 3,
                 "team_division": null,
                 "unavailable": false,
                 "win": 0,
-                "strength_overall_home": 1200,
-                "strength_overall_away": 1200,
+                "strength_overall_home": 1130,
+                "strength_overall_away": 1190,
                 "strength_attack_home": 1110,
                 "strength_attack_away": 1150,
                 "strength_defence_home": 1160,
@@ -641,12 +641,12 @@
                 "points": 0,
                 "position": 0,
                 "short_name": "WOL",
-                "strength": 4,
+                "strength": 3,
                 "team_division": null,
                 "unavailable": false,
                 "win": 0,
                 "strength_overall_home": 1200,
-                "strength_overall_away": 1220,
+                "strength_overall_away": 1170,
                 "strength_attack_home": 1150,
                 "strength_attack_away": 1160,
                 "strength_defence_home": 1080,
@@ -660,7 +660,7 @@
                     3,
                     3
                 ],
-                "ppgc": 0
+                "ppgc": 1
             }
         ]
     },
@@ -683,10 +683,31 @@
                 "team_h_score": null,
                 "stats": [],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66512,
                 "team_h_nm": "AVL",
                 "team_a_nm": "BUR"
+            },
+            {
+                "code": 2210591,
+                "event": 39,
+                "finished": false,
+                "finished_provisional": false,
+                "id": 321,
+                "kickoff_time": null,
+                "minutes": 0,
+                "provisional_start_time": false,
+                "started": null,
+                "team_a": 11,
+                "team_a_score": null,
+                "team_h": 2,
+                "team_h_score": null,
+                "stats": [],
+                "team_h_difficulty": 4,
+                "team_a_difficulty": 2,
+                "pulse_id": 66662,
+                "team_h_nm": "AVL",
+                "team_a_nm": "LIV"
             },
             {
                 "code": 2210534,
@@ -703,8 +724,8 @@
                 "team_h": 6,
                 "team_h_score": null,
                 "stats": [],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 5,
+                "team_h_difficulty": 2,
+                "team_a_difficulty": 4,
                 "pulse_id": 66605,
                 "team_h_nm": "CHE",
                 "team_a_nm": "LEI"
@@ -729,6 +750,27 @@
                 "pulse_id": 66663,
                 "team_h_nm": "EVE",
                 "team_a_nm": "CRY"
+            },
+            {
+                "code": 2210593,
+                "event": 39,
+                "finished": false,
+                "finished_provisional": false,
+                "id": 323,
+                "kickoff_time": null,
+                "minutes": 0,
+                "provisional_start_time": false,
+                "started": null,
+                "team_a": 6,
+                "team_a_score": null,
+                "team_h": 10,
+                "team_h_score": null,
+                "stats": [],
+                "team_h_difficulty": 4,
+                "team_a_difficulty": 2,
+                "pulse_id": 66664,
+                "team_h_nm": "LEE",
+                "team_a_nm": "CHE"
             },
             {
                 "code": 2210477,
@@ -766,7 +808,7 @@
                 "team_h": 17,
                 "team_h_score": null,
                 "stats": [],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 4,
                 "team_a_difficulty": 4,
                 "pulse_id": 66559,
                 "team_h_nm": "TOT",
@@ -792,6 +834,27 @@
                 "pulse_id": 66640,
                 "team_h_nm": "WAT",
                 "team_a_nm": "EVE"
+            },
+            {
+                "code": 2210600,
+                "event": 39,
+                "finished": false,
+                "finished_provisional": false,
+                "id": 330,
+                "kickoff_time": null,
+                "minutes": 0,
+                "provisional_start_time": false,
+                "started": null,
+                "team_a": 12,
+                "team_a_score": null,
+                "team_h": 20,
+                "team_h_score": null,
+                "stats": [],
+                "team_h_difficulty": 5,
+                "team_a_difficulty": 3,
+                "pulse_id": 66671,
+                "team_h_nm": "WOL",
+                "team_a_nm": "MCI"
             },
             {
                 "code": 2210271,
@@ -1006,7 +1069,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 4,
                 "team_a_difficulty": 2,
                 "pulse_id": 66342,
                 "team_h_nm": "BRE",
@@ -1509,7 +1572,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 2,
                 "pulse_id": 66343,
                 "team_h_nm": "BUR",
@@ -1737,7 +1800,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 5,
+                "team_a_difficulty": 4,
                 "pulse_id": 66344,
                 "team_h_nm": "CHE",
                 "team_a_nm": "CRY"
@@ -2490,7 +2553,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 2,
                 "pulse_id": 66351,
                 "team_h_nm": "WAT",
@@ -3001,7 +3064,7 @@
                     }
                 ],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66348,
                 "team_h_nm": "NEW",
                 "team_a_nm": "WHU"
@@ -3710,7 +3773,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66353,
                 "team_h_nm": "AVL",
                 "team_a_nm": "NEW"
@@ -4669,7 +4732,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66354,
                 "team_h_nm": "BHA",
                 "team_a_nm": "WAT"
@@ -4913,7 +4976,7 @@
                     }
                 ],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66359,
                 "team_h_nm": "SOU",
                 "team_a_nm": "MUN"
@@ -5149,7 +5212,7 @@
                     }
                 ],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 4,
+                "team_a_difficulty": 3,
                 "pulse_id": 66361,
                 "team_h_nm": "WOL",
                 "team_a_nm": "TOT"
@@ -5633,7 +5696,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 3,
                 "pulse_id": 66360,
                 "team_h_nm": "WHU",
@@ -5886,7 +5949,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 4,
                 "team_a_difficulty": 5,
                 "pulse_id": 66366,
                 "team_h_nm": "MCI",
@@ -6139,7 +6202,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66362,
                 "team_h_nm": "AVL",
                 "team_a_nm": "BRE"
@@ -6372,7 +6435,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66363,
                 "team_h_nm": "BHA",
                 "team_a_nm": "EVE"
@@ -6636,7 +6699,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66367,
                 "team_h_nm": "NEW",
                 "team_a_nm": "SOU"
@@ -6887,7 +6950,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 2,
                 "pulse_id": 66368,
                 "team_h_nm": "NOR",
@@ -8104,7 +8167,7 @@
                     }
                 ],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 4,
+                "team_a_difficulty": 3,
                 "pulse_id": 66371,
                 "team_h_nm": "WOL",
                 "team_a_nm": "MUN"
@@ -8823,7 +8886,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 2,
                 "pulse_id": 66373,
                 "team_h_nm": "BRE",
@@ -9516,7 +9579,7 @@
                     }
                 ],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66380,
                 "team_h_nm": "SOU",
                 "team_a_nm": "WHU"
@@ -10006,8 +10069,8 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 5,
+                "team_h_difficulty": 2,
+                "team_a_difficulty": 4,
                 "pulse_id": 66374,
                 "team_h_nm": "CHE",
                 "team_a_nm": "AVL"
@@ -10760,7 +10823,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66387,
                 "team_h_nm": "NEW",
                 "team_a_nm": "LEE"
@@ -11009,7 +11072,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 4,
+                "team_a_difficulty": 3,
                 "pulse_id": 66391,
                 "team_h_nm": "WOL",
                 "team_a_nm": "BRE"
@@ -11241,7 +11304,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 4,
                 "team_a_difficulty": 2,
                 "pulse_id": 66384,
                 "team_h_nm": "BUR",
@@ -12204,7 +12267,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66382,
                 "team_h_nm": "AVL",
                 "team_a_nm": "EVE"
@@ -12455,8 +12518,8 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 3,
+                "team_h_difficulty": 2,
+                "team_a_difficulty": 2,
                 "pulse_id": 66383,
                 "team_h_nm": "BHA",
                 "team_a_nm": "LEI"
@@ -13168,7 +13231,7 @@
                     }
                 ],
                 "team_h_difficulty": 5,
-                "team_a_difficulty": 5,
+                "team_a_difficulty": 4,
                 "pulse_id": 66394,
                 "team_h_nm": "CHE",
                 "team_a_nm": "MCI"
@@ -13410,7 +13473,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 4,
                 "pulse_id": 66399,
                 "team_h_nm": "MUN",
@@ -14923,7 +14986,7 @@
                     }
                 ],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66400,
                 "team_h_nm": "SOU",
                 "team_a_nm": "WOL"
@@ -15437,7 +15500,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 2,
                 "pulse_id": 66395,
                 "team_h_nm": "CRY",
@@ -16174,7 +16237,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 5,
+                "team_a_difficulty": 4,
                 "pulse_id": 66404,
                 "team_h_nm": "CHE",
                 "team_a_nm": "SOU"
@@ -16623,7 +16686,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 4,
+                "team_a_difficulty": 3,
                 "pulse_id": 66411,
                 "team_h_nm": "WOL",
                 "team_a_nm": "NEW"
@@ -16842,8 +16905,8 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 3,
+                "team_h_difficulty": 4,
+                "team_a_difficulty": 2,
                 "pulse_id": 66402,
                 "team_h_nm": "BHA",
                 "team_a_nm": "ARS"
@@ -17093,7 +17156,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 2,
                 "pulse_id": 66405,
                 "team_h_nm": "CRY",
@@ -17334,7 +17397,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 4,
                 "pulse_id": 66409,
                 "team_h_nm": "TOT",
@@ -18338,7 +18401,7 @@
                     }
                 ],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66413,
                 "team_h_nm": "AVL",
                 "team_a_nm": "WOL"
@@ -19063,7 +19126,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 2,
                 "pulse_id": 66419,
                 "team_h_nm": "NOR",
@@ -19300,7 +19363,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66420,
                 "team_h_nm": "SOU",
                 "team_a_nm": "LEE"
@@ -20004,7 +20067,7 @@
                     }
                 ],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66418,
                 "team_h_nm": "NEW",
                 "team_a_nm": "TOT"
@@ -20537,7 +20600,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 4,
                 "pulse_id": 66422,
                 "team_h_nm": "ARS",
@@ -20804,7 +20867,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 5,
+                "team_a_difficulty": 4,
                 "pulse_id": 66425,
                 "team_h_nm": "CHE",
                 "team_a_nm": "NOR"
@@ -21855,7 +21918,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66430,
                 "team_h_nm": "SOU",
                 "team_a_nm": "BUR"
@@ -22127,7 +22190,7 @@
                     }
                 ],
                 "team_h_difficulty": 5,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66424,
                 "team_h_nm": "BHA",
                 "team_a_nm": "MCI"
@@ -22366,7 +22429,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 2,
                 "pulse_id": 66423,
                 "team_h_nm": "BRE",
@@ -23100,7 +23163,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 4,
                 "team_a_difficulty": 3,
                 "pulse_id": 66434,
                 "team_h_nm": "LEI",
@@ -23611,7 +23674,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 5,
                 "pulse_id": 66435,
                 "team_h_nm": "LIV",
@@ -24107,7 +24170,7 @@
                     }
                 ],
                 "team_h_difficulty": 4,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66437,
                 "team_h_nm": "NEW",
                 "team_a_nm": "CHE"
@@ -25112,7 +25175,7 @@
                     }
                 ],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66432,
                 "team_h_nm": "AVL",
                 "team_a_nm": "WHU"
@@ -25352,7 +25415,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 4,
+                "team_a_difficulty": 3,
                 "pulse_id": 66441,
                 "team_h_nm": "WOL",
                 "team_a_nm": "EVE"
@@ -25583,8 +25646,8 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 2,
+                "team_h_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66450,
                 "team_h_nm": "SOU",
                 "team_a_nm": "AVL"
@@ -26309,7 +26372,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 5,
+                "team_a_difficulty": 4,
                 "pulse_id": 66445,
                 "team_h_nm": "CHE",
                 "team_a_nm": "BUR"
@@ -26786,7 +26849,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66444,
                 "team_h_nm": "BHA",
                 "team_a_nm": "NEW"
@@ -27496,7 +27559,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 2,
                 "pulse_id": 66448,
                 "team_h_nm": "LEE",
@@ -28260,8 +28323,8 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 3,
+                "team_h_difficulty": 2,
+                "team_a_difficulty": 2,
                 "pulse_id": 66452,
                 "team_h_nm": "AVL",
                 "team_a_nm": "BHA"
@@ -28794,7 +28857,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66457,
                 "team_h_nm": "NEW",
                 "team_a_nm": "BRE"
@@ -29562,7 +29625,7 @@
                     }
                 ],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 4,
+                "team_a_difficulty": 3,
                 "pulse_id": 66461,
                 "team_h_nm": "WOL",
                 "team_a_nm": "WHU"
@@ -29801,7 +29864,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 4,
                 "team_a_difficulty": 5,
                 "pulse_id": 66455,
                 "team_h_nm": "LIV",
@@ -30807,7 +30870,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 2,
                 "pulse_id": 66467,
                 "team_h_nm": "CRY",
@@ -31504,7 +31567,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66464,
                 "team_h_nm": "BHA",
                 "team_a_nm": "LEE"
@@ -32469,7 +32532,7 @@
                     }
                 ],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 5,
+                "team_a_difficulty": 4,
                 "pulse_id": 66466,
                 "team_h_nm": "CHE",
                 "team_a_nm": "MUN"
@@ -32699,7 +32762,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66479,
                 "team_h_nm": "NEW",
                 "team_a_nm": "NOR"
@@ -33199,8 +33262,8 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 2,
+                "team_h_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66480,
                 "team_h_nm": "SOU",
                 "team_a_nm": "LEI"
@@ -33707,7 +33770,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 3,
                 "pulse_id": 66477,
                 "team_h_nm": "WHU",
@@ -33928,7 +33991,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 4,
+                "team_a_difficulty": 3,
                 "pulse_id": 66478,
                 "team_h_nm": "WOL",
                 "team_a_nm": "BUR"
@@ -34158,7 +34221,7 @@
                     }
                 ],
                 "team_h_difficulty": 5,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66472,
                 "team_h_nm": "AVL",
                 "team_a_nm": "MCI"
@@ -34898,7 +34961,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 4,
                 "team_a_difficulty": 4,
                 "pulse_id": 66475,
                 "team_h_nm": "MUN",
@@ -35396,7 +35459,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66486,
                 "team_h_nm": "NEW",
                 "team_a_nm": "BUR"
@@ -35643,8 +35706,8 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 2,
+                "team_h_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66487,
                 "team_h_nm": "SOU",
                 "team_a_nm": "BHA"
@@ -35881,7 +35944,7 @@
                     }
                 ],
                 "team_h_difficulty": 4,
-                "team_a_difficulty": 4,
+                "team_a_difficulty": 3,
                 "pulse_id": 66491,
                 "team_h_nm": "WOL",
                 "team_a_nm": "LIV"
@@ -37132,8 +37195,8 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 3,
+                "team_h_difficulty": 2,
+                "team_a_difficulty": 2,
                 "pulse_id": 66482,
                 "team_h_nm": "AVL",
                 "team_a_nm": "LEI"
@@ -37384,7 +37447,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 4,
                 "team_a_difficulty": 2,
                 "pulse_id": 66483,
                 "team_h_nm": "EVE",
@@ -38390,7 +38453,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 5,
+                "team_a_difficulty": 4,
                 "pulse_id": 66496,
                 "team_h_nm": "CHE",
                 "team_a_nm": "LEE"
@@ -38608,7 +38671,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 5,
                 "pulse_id": 66499,
                 "team_h_nm": "LIV",
@@ -39801,7 +39864,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 2,
                 "pulse_id": 66508,
                 "team_h_nm": "NOR",
@@ -40291,7 +40354,7 @@
                     }
                 ],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66504,
                 "team_h_nm": "BHA",
                 "team_a_nm": "WOL"
@@ -41051,7 +41114,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 5,
+                "team_a_difficulty": 4,
                 "pulse_id": 66509,
                 "team_h_nm": "CHE",
                 "team_a_nm": "EVE"
@@ -41569,7 +41632,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 4,
                 "team_a_difficulty": 2,
                 "pulse_id": 66514,
                 "team_h_nm": "LEE",
@@ -41827,7 +41890,7 @@
                     }
                 ],
                 "team_h_difficulty": 5,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66516,
                 "team_h_nm": "NEW",
                 "team_a_nm": "MCI"
@@ -42042,7 +42105,7 @@
                     }
                 ],
                 "team_h_difficulty": 4,
-                "team_a_difficulty": 4,
+                "team_a_difficulty": 3,
                 "pulse_id": 66521,
                 "team_h_nm": "WOL",
                 "team_a_nm": "CHE"
@@ -42606,7 +42669,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 5,
                 "pulse_id": 66526,
                 "team_h_nm": "MCI",
@@ -42859,7 +42922,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 4,
                 "team_a_difficulty": 2,
                 "pulse_id": 66528,
                 "team_h_nm": "NOR",
@@ -43631,7 +43694,7 @@
                     }
                 ],
                 "team_h_difficulty": 4,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66522,
                 "team_h_nm": "AVL",
                 "team_a_nm": "CHE"
@@ -43876,7 +43939,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66523,
                 "team_h_nm": "BHA",
                 "team_a_nm": "BRE"
@@ -44127,7 +44190,7 @@
                     }
                 ],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66527,
                 "team_h_nm": "NEW",
                 "team_a_nm": "MUN"
@@ -44616,7 +44679,7 @@
                     }
                 ],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66540,
                 "team_h_nm": "SOU",
                 "team_a_nm": "TOT"
@@ -45351,8 +45414,8 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 5,
+                "team_h_difficulty": 2,
+                "team_a_difficulty": 4,
                 "pulse_id": 66534,
                 "team_h_nm": "CHE",
                 "team_a_nm": "BHA"
@@ -46781,7 +46844,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 2,
                 "pulse_id": 66543,
                 "team_h_nm": "BRE",
@@ -47034,7 +47097,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 2,
                 "pulse_id": 66546,
                 "team_h_nm": "EVE",
@@ -47532,7 +47595,7 @@
                     }
                 ],
                 "team_h_difficulty": 4,
-                "team_a_difficulty": 5,
+                "team_a_difficulty": 4,
                 "pulse_id": 66544,
                 "team_h_nm": "CHE",
                 "team_a_nm": "LIV"
@@ -48020,7 +48083,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66517,
                 "team_h_nm": "SOU",
                 "team_a_nm": "BRE"
@@ -48488,7 +48551,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66553,
                 "team_h_nm": "BHA",
                 "team_a_nm": "CRY"
@@ -48942,7 +49005,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66557,
                 "team_h_nm": "NEW",
                 "team_a_nm": "WAT"
@@ -49449,7 +49512,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 4,
+                "team_a_difficulty": 3,
                 "pulse_id": 66561,
                 "team_h_nm": "WOL",
                 "team_a_nm": "SOU"
@@ -49701,7 +49764,7 @@
                     }
                 ],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66552,
                 "team_h_nm": "AVL",
                 "team_a_nm": "MUN"
@@ -50453,7 +50516,7 @@
                     }
                 ],
                 "team_h_difficulty": 4,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66573,
                 "team_h_nm": "BHA",
                 "team_a_nm": "CHE"
@@ -51439,7 +51502,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 2,
                 "pulse_id": 66566,
                 "team_h_nm": "EVE",
@@ -52388,7 +52451,7 @@
                     }
                 ],
                 "team_h_difficulty": 5,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66570,
                 "team_h_nm": "SOU",
                 "team_a_nm": "MCI"
@@ -53093,7 +53156,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 3,
                 "pulse_id": 66568,
                 "team_h_nm": "LEI",
@@ -53339,7 +53402,7 @@
                     }
                 ],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 5,
+                "team_a_difficulty": 4,
                 "pulse_id": 66564,
                 "team_h_nm": "CHE",
                 "team_a_nm": "TOT"
@@ -53808,7 +53871,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66580,
                 "team_h_nm": "NEW",
                 "team_a_nm": "EVE"
@@ -55252,7 +55315,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66572,
                 "team_h_nm": "AVL",
                 "team_a_nm": "LEE"
@@ -55475,7 +55538,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 5,
                 "pulse_id": 66578,
                 "team_h_nm": "LIV",
@@ -55721,8 +55784,8 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 4,
+                "team_h_difficulty": 4,
+                "team_a_difficulty": 3,
                 "pulse_id": 66577,
                 "team_h_nm": "WOL",
                 "team_a_nm": "ARS"
@@ -56660,7 +56723,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 2,
                 "pulse_id": 66591,
                 "team_h_nm": "WAT",
@@ -57370,8 +57433,8 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 2,
+                "team_h_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66588,
                 "team_h_nm": "NEW",
                 "team_a_nm": "AVL"
@@ -58100,7 +58163,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 4,
                 "pulse_id": 66515,
                 "team_h_nm": "MUN",
@@ -58821,7 +58884,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66593,
                 "team_h_nm": "AVL",
                 "team_a_nm": "WAT"
@@ -59086,7 +59149,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66594,
                 "team_h_nm": "BHA",
                 "team_a_nm": "BUR"
@@ -59782,7 +59845,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66599,
                 "team_h_nm": "SOU",
                 "team_a_nm": "EVE"
@@ -60587,8 +60650,8 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 4,
+                "team_h_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66601,
                 "team_h_nm": "WOL",
                 "team_a_nm": "LEI"
@@ -61773,7 +61836,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66610,
                 "team_h_nm": "SOU",
                 "team_a_nm": "NOR"
@@ -62988,8 +63051,8 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 3,
+                "team_h_difficulty": 2,
+                "team_a_difficulty": 2,
                 "pulse_id": 66604,
                 "team_h_nm": "BHA",
                 "team_a_nm": "AVL"
@@ -63677,7 +63740,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 2,
                 "pulse_id": 66554,
                 "team_h_nm": "BUR",
@@ -64152,7 +64215,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66612,
                 "team_h_nm": "AVL",
                 "team_a_nm": "SOU"
@@ -64638,8 +64701,8 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 2,
+                "team_h_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66617,
                 "team_h_nm": "NEW",
                 "team_a_nm": "BHA"
@@ -65135,7 +65198,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 4,
+                "team_a_difficulty": 3,
                 "pulse_id": 66621,
                 "team_h_nm": "WOL",
                 "team_a_nm": "CRY"
@@ -65623,7 +65686,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 4,
                 "team_a_difficulty": 2,
                 "pulse_id": 66620,
                 "team_h_nm": "WAT",
@@ -66593,7 +66656,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66550,
                 "team_h_nm": "SOU",
                 "team_a_nm": "NEW"
@@ -66846,7 +66909,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 4,
+                "team_a_difficulty": 3,
                 "pulse_id": 66531,
                 "team_h_nm": "WOL",
                 "team_a_nm": "WAT"
@@ -67114,7 +67177,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 2,
                 "pulse_id": 66537,
                 "team_h_nm": "LEE",
@@ -67356,7 +67419,7 @@
                     }
                 ],
                 "team_h_difficulty": 4,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66624,
                 "team_h_nm": "BHA",
                 "team_a_nm": "LIV"
@@ -68083,7 +68146,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 5,
+                "team_a_difficulty": 4,
                 "pulse_id": 66625,
                 "team_h_nm": "CHE",
                 "team_a_nm": "NEW"
@@ -68809,7 +68872,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66630,
                 "team_h_nm": "SOU",
                 "team_a_nm": "WAT"
@@ -69047,7 +69110,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 3,
                 "pulse_id": 66631,
                 "team_h_nm": "WHU",
@@ -69287,7 +69350,7 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 4,
                 "pulse_id": 66622,
                 "team_h_nm": "ARS",
@@ -69736,7 +69799,7 @@
                     }
                 ],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66494,
                 "team_h_nm": "BHA",
                 "team_a_nm": "TOT"
@@ -70507,7 +70570,7 @@
                     }
                 ],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 4,
+                "team_a_difficulty": 3,
                 "pulse_id": 66641,
                 "team_h_nm": "WOL",
                 "team_a_nm": "LEE"
@@ -70746,8 +70809,8 @@
                         ]
                     }
                 ],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 3,
+                "team_h_difficulty": 4,
+                "team_a_difficulty": 2,
                 "pulse_id": 66632,
                 "team_h_nm": "AVL",
                 "team_a_nm": "ARS"
@@ -70755,7 +70818,7 @@
             {
                 "code": 2210563,
                 "event": 30,
-                "finished": false,
+                "finished": true,
                 "finished_provisional": true,
                 "id": 293,
                 "kickoff_time": "2022-03-20T14:00:00Z",
@@ -70857,8 +70920,22 @@
                     },
                     {
                         "identifier": "bonus",
-                        "a": [],
-                        "h": []
+                        "a": [
+                            {
+                                "value": 1,
+                                "element": 524
+                            }
+                        ],
+                        "h": [
+                            {
+                                "value": 3,
+                                "element": 212
+                            },
+                            {
+                                "value": 2,
+                                "element": 209
+                            }
+                        ]
                     },
                     {
                         "identifier": "bps",
@@ -70989,18 +71066,228 @@
             {
                 "code": 2210568,
                 "event": 30,
-                "finished": false,
-                "finished_provisional": false,
+                "finished": true,
+                "finished_provisional": true,
                 "id": 298,
                 "kickoff_time": "2022-03-20T16:30:00Z",
-                "minutes": 0,
+                "minutes": 90,
                 "provisional_start_time": false,
-                "started": false,
+                "started": true,
                 "team_a": 19,
-                "team_a_score": null,
+                "team_a_score": 1,
                 "team_h": 17,
-                "team_h_score": null,
-                "stats": [],
+                "team_h_score": 3,
+                "stats": [
+                    {
+                        "identifier": "goals_scored",
+                        "a": [
+                            {
+                                "value": 1,
+                                "element": 419
+                            }
+                        ],
+                        "h": [
+                            {
+                                "value": 2,
+                                "element": 359
+                            }
+                        ]
+                    },
+                    {
+                        "identifier": "assists",
+                        "a": [
+                            {
+                                "value": 1,
+                                "element": 414
+                            }
+                        ],
+                        "h": [
+                            {
+                                "value": 3,
+                                "element": 357
+                            }
+                        ]
+                    },
+                    {
+                        "identifier": "own_goals",
+                        "a": [
+                            {
+                                "value": 1,
+                                "element": 128
+                            }
+                        ],
+                        "h": []
+                    },
+                    {
+                        "identifier": "penalties_saved",
+                        "a": [],
+                        "h": []
+                    },
+                    {
+                        "identifier": "penalties_missed",
+                        "a": [],
+                        "h": []
+                    },
+                    {
+                        "identifier": "yellow_cards",
+                        "a": [
+                            {
+                                "value": 1,
+                                "element": 414
+                            }
+                        ],
+                        "h": []
+                    },
+                    {
+                        "identifier": "red_cards",
+                        "a": [],
+                        "h": []
+                    },
+                    {
+                        "identifier": "saves",
+                        "a": [
+                            {
+                                "value": 2,
+                                "element": 408
+                            }
+                        ],
+                        "h": []
+                    },
+                    {
+                        "identifier": "bonus",
+                        "a": [
+                            {
+                                "value": 1,
+                                "element": 419
+                            }
+                        ],
+                        "h": [
+                            {
+                                "value": 3,
+                                "element": 359
+                            },
+                            {
+                                "value": 2,
+                                "element": 357
+                            }
+                        ]
+                    },
+                    {
+                        "identifier": "bps",
+                        "a": [
+                            {
+                                "value": 25,
+                                "element": 419
+                            },
+                            {
+                                "value": 24,
+                                "element": 414
+                            },
+                            {
+                                "value": 18,
+                                "element": 421
+                            },
+                            {
+                                "value": 16,
+                                "element": 416
+                            },
+                            {
+                                "value": 15,
+                                "element": 411
+                            },
+                            {
+                                "value": 12,
+                                "element": 408
+                            },
+                            {
+                                "value": 12,
+                                "element": 425
+                            },
+                            {
+                                "value": 11,
+                                "element": 423
+                            },
+                            {
+                                "value": 7,
+                                "element": 422
+                            },
+                            {
+                                "value": 6,
+                                "element": 128
+                            },
+                            {
+                                "value": 2,
+                                "element": 412
+                            },
+                            {
+                                "value": 2,
+                                "element": 413
+                            },
+                            {
+                                "value": 2,
+                                "element": 582
+                            }
+                        ],
+                        "h": [
+                            {
+                                "value": 51,
+                                "element": 359
+                            },
+                            {
+                                "value": 34,
+                                "element": 357
+                            },
+                            {
+                                "value": 18,
+                                "element": 702
+                            },
+                            {
+                                "value": 17,
+                                "element": 701
+                            },
+                            {
+                                "value": 16,
+                                "element": 360
+                            },
+                            {
+                                "value": 16,
+                                "element": 365
+                            },
+                            {
+                                "value": 15,
+                                "element": 494
+                            },
+                            {
+                                "value": 14,
+                                "element": 361
+                            },
+                            {
+                                "value": 10,
+                                "element": 364
+                            },
+                            {
+                                "value": 9,
+                                "element": 370
+                            },
+                            {
+                                "value": 7,
+                                "element": 353
+                            },
+                            {
+                                "value": 4,
+                                "element": 362
+                            },
+                            {
+                                "value": 4,
+                                "element": 369
+                            },
+                            {
+                                "value": 3,
+                                "element": 588
+                            }
+                        ]
+                    }
+                ],
                 "team_h_difficulty": 3,
                 "team_a_difficulty": 4,
                 "pulse_id": 66639,
@@ -71044,7 +71331,7 @@
                 "team_h_score": null,
                 "stats": [],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66642,
                 "team_h_nm": "BHA",
                 "team_a_nm": "NOR"
@@ -71086,7 +71373,7 @@
                 "team_h_score": null,
                 "stats": [],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 5,
+                "team_a_difficulty": 4,
                 "pulse_id": 66644,
                 "team_h_nm": "CHE",
                 "team_a_nm": "BRE"
@@ -71127,8 +71414,8 @@
                 "team_h": 20,
                 "team_h_score": null,
                 "stats": [],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 4,
+                "team_h_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66651,
                 "team_h_nm": "WOL",
                 "team_a_nm": "AVL"
@@ -71148,7 +71435,7 @@
                 "team_h": 13,
                 "team_h_score": null,
                 "stats": [],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 4,
                 "pulse_id": 66648,
                 "team_h_nm": "MUN",
@@ -71211,7 +71498,7 @@
                 "team_h": 7,
                 "team_h_score": null,
                 "stats": [],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 4,
                 "team_a_difficulty": 2,
                 "pulse_id": 66645,
                 "team_h_nm": "CRY",
@@ -71254,7 +71541,7 @@
                 "team_h_score": null,
                 "stats": [],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66658,
                 "team_h_nm": "NEW",
                 "team_a_nm": "WOL"
@@ -71295,53 +71582,11 @@
                 "team_h": 1,
                 "team_h_score": null,
                 "stats": [],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 4,
                 "pulse_id": 66652,
                 "team_h_nm": "ARS",
                 "team_a_nm": "BHA"
-            },
-            {
-                "code": 2210583,
-                "event": 32,
-                "finished": false,
-                "finished_provisional": false,
-                "id": 313,
-                "kickoff_time": "2022-04-09T14:00:00Z",
-                "minutes": 0,
-                "provisional_start_time": false,
-                "started": false,
-                "team_a": 19,
-                "team_a_score": null,
-                "team_h": 3,
-                "team_h_score": null,
-                "stats": [],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 2,
-                "pulse_id": 66654,
-                "team_h_nm": "BRE",
-                "team_a_nm": "WHU"
-            },
-            {
-                "code": 2210585,
-                "event": 32,
-                "finished": false,
-                "finished_provisional": false,
-                "id": 315,
-                "kickoff_time": "2022-04-09T14:00:00Z",
-                "minutes": 0,
-                "provisional_start_time": false,
-                "started": false,
-                "team_a": 7,
-                "team_a_score": null,
-                "team_h": 9,
-                "team_h_score": null,
-                "stats": [],
-                "team_h_difficulty": 2,
-                "team_a_difficulty": 3,
-                "pulse_id": 66656,
-                "team_h_nm": "LEI",
-                "team_a_nm": "CRY"
             },
             {
                 "code": 2210589,
@@ -71359,7 +71604,7 @@
                 "team_h_score": null,
                 "stats": [],
                 "team_h_difficulty": 4,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66660,
                 "team_h_nm": "SOU",
                 "team_a_nm": "CHE"
@@ -71401,10 +71646,52 @@
                 "team_h_score": null,
                 "stats": [],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66653,
                 "team_h_nm": "AVL",
                 "team_a_nm": "TOT"
+            },
+            {
+                "code": 2210583,
+                "event": 32,
+                "finished": false,
+                "finished_provisional": false,
+                "id": 313,
+                "kickoff_time": "2022-04-10T13:00:00Z",
+                "minutes": 0,
+                "provisional_start_time": false,
+                "started": false,
+                "team_a": 19,
+                "team_a_score": null,
+                "team_h": 3,
+                "team_h_score": null,
+                "stats": [],
+                "team_h_difficulty": 3,
+                "team_a_difficulty": 2,
+                "pulse_id": 66654,
+                "team_h_nm": "BRE",
+                "team_a_nm": "WHU"
+            },
+            {
+                "code": 2210585,
+                "event": 32,
+                "finished": false,
+                "finished_provisional": false,
+                "id": 315,
+                "kickoff_time": "2022-04-10T13:00:00Z",
+                "minutes": 0,
+                "provisional_start_time": false,
+                "started": false,
+                "team_a": 7,
+                "team_a_score": null,
+                "team_h": 9,
+                "team_h_score": null,
+                "stats": [],
+                "team_h_difficulty": 2,
+                "team_a_difficulty": 3,
+                "pulse_id": 66656,
+                "team_h_nm": "LEI",
+                "team_a_nm": "CRY"
             },
             {
                 "code": 2210588,
@@ -71463,7 +71750,7 @@
                 "team_h": 17,
                 "team_h_score": null,
                 "stats": [],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 4,
                 "pulse_id": 66668,
                 "team_h_nm": "TOT",
@@ -71505,8 +71792,8 @@
                 "team_h": 16,
                 "team_h_score": null,
                 "stats": [],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 2,
+                "team_h_difficulty": 4,
+                "team_a_difficulty": 3,
                 "pulse_id": 66667,
                 "team_h_nm": "SOU",
                 "team_a_nm": "ARS"
@@ -71533,69 +71820,6 @@
                 "team_a_nm": "BRE"
             },
             {
-                "code": 2210599,
-                "event": 33,
-                "finished": false,
-                "finished_provisional": false,
-                "id": 329,
-                "kickoff_time": "2022-04-16T14:00:00Z",
-                "minutes": 0,
-                "provisional_start_time": false,
-                "started": false,
-                "team_a": 5,
-                "team_a_score": null,
-                "team_h": 19,
-                "team_h_score": null,
-                "stats": [],
-                "team_h_difficulty": 2,
-                "team_a_difficulty": 3,
-                "pulse_id": 66670,
-                "team_h_nm": "WHU",
-                "team_a_nm": "BUR"
-            },
-            {
-                "code": 2210591,
-                "event": 33,
-                "finished": false,
-                "finished_provisional": false,
-                "id": 321,
-                "kickoff_time": "2022-04-16T16:30:00Z",
-                "minutes": 0,
-                "provisional_start_time": false,
-                "started": false,
-                "team_a": 11,
-                "team_a_score": null,
-                "team_h": 2,
-                "team_h_score": null,
-                "stats": [],
-                "team_h_difficulty": 4,
-                "team_a_difficulty": 3,
-                "pulse_id": 66662,
-                "team_h_nm": "AVL",
-                "team_a_nm": "LIV"
-            },
-            {
-                "code": 2210593,
-                "event": 33,
-                "finished": false,
-                "finished_provisional": false,
-                "id": 323,
-                "kickoff_time": "2022-04-17T11:00:00Z",
-                "minutes": 0,
-                "provisional_start_time": false,
-                "started": false,
-                "team_a": 6,
-                "team_a_score": null,
-                "team_h": 10,
-                "team_h_score": null,
-                "stats": [],
-                "team_h_difficulty": 4,
-                "team_a_difficulty": 2,
-                "pulse_id": 66664,
-                "team_h_nm": "LEE",
-                "team_a_nm": "CHE"
-            },
-            {
                 "code": 2210595,
                 "event": 33,
                 "finished": false,
@@ -71610,32 +71834,32 @@
                 "team_h": 14,
                 "team_h_score": null,
                 "stats": [],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 2,
+                "team_h_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66666,
                 "team_h_nm": "NEW",
                 "team_a_nm": "LEI"
             },
             {
-                "code": 2210600,
+                "code": 2210599,
                 "event": 33,
                 "finished": false,
                 "finished_provisional": false,
-                "id": 330,
-                "kickoff_time": "2022-04-17T15:30:00Z",
+                "id": 329,
+                "kickoff_time": "2022-04-17T13:15:00Z",
                 "minutes": 0,
                 "provisional_start_time": false,
                 "started": false,
-                "team_a": 12,
+                "team_a": 5,
                 "team_a_score": null,
-                "team_h": 20,
+                "team_h": 19,
                 "team_h_score": null,
                 "stats": [],
-                "team_h_difficulty": 5,
-                "team_a_difficulty": 4,
-                "pulse_id": 66671,
-                "team_h_nm": "WOL",
-                "team_a_nm": "MCI"
+                "team_h_difficulty": 2,
+                "team_a_difficulty": 3,
+                "pulse_id": 66670,
+                "team_h_nm": "WHU",
+                "team_a_nm": "BUR"
             },
             {
                 "code": 2210564,
@@ -71673,8 +71897,8 @@
                 "team_h": 6,
                 "team_h_score": null,
                 "stats": [],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 5,
+                "team_h_difficulty": 4,
+                "team_a_difficulty": 4,
                 "pulse_id": 66584,
                 "team_h_nm": "CHE",
                 "team_a_nm": "ARS"
@@ -71694,7 +71918,7 @@
                 "team_h": 8,
                 "team_h_score": null,
                 "stats": [],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 2,
                 "pulse_id": 66513,
                 "team_h_nm": "EVE",
@@ -71716,7 +71940,7 @@
                 "team_h_score": null,
                 "stats": [],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66637,
                 "team_h_nm": "NEW",
                 "team_a_nm": "CRY"
@@ -71736,7 +71960,7 @@
                 "team_h": 12,
                 "team_h_score": null,
                 "stats": [],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 5,
                 "pulse_id": 66636,
                 "team_h_nm": "MCI",
@@ -71820,7 +72044,7 @@
                 "team_h": 9,
                 "team_h_score": null,
                 "stats": [],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 3,
                 "pulse_id": 66678,
                 "team_h_nm": "LEI",
@@ -71905,7 +72129,7 @@
                 "team_h_score": null,
                 "stats": [],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66674,
                 "team_h_nm": "BHA",
                 "team_a_nm": "SOU"
@@ -71947,7 +72171,7 @@
                 "team_h_score": null,
                 "stats": [],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 5,
+                "team_a_difficulty": 4,
                 "pulse_id": 66676,
                 "team_h_nm": "CHE",
                 "team_a_nm": "WHU"
@@ -71989,7 +72213,7 @@
                 "team_h_score": null,
                 "stats": [],
                 "team_h_difficulty": 4,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66686,
                 "team_h_nm": "NEW",
                 "team_a_nm": "LIV"
@@ -72010,7 +72234,7 @@
                 "team_h_score": null,
                 "stats": [],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66682,
                 "team_h_nm": "AVL",
                 "team_a_nm": "NOR"
@@ -72031,7 +72255,7 @@
                 "team_h_score": null,
                 "stats": [],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66687,
                 "team_h_nm": "SOU",
                 "team_a_nm": "CRY"
@@ -72051,7 +72275,7 @@
                 "team_h": 17,
                 "team_h_score": null,
                 "stats": [],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 4,
                 "pulse_id": 66688,
                 "team_h_nm": "TOT",
@@ -72093,8 +72317,8 @@
                 "team_h": 20,
                 "team_h_score": null,
                 "stats": [],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 4,
+                "team_h_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66691,
                 "team_h_nm": "WOL",
                 "team_a_nm": "BHA"
@@ -72156,7 +72380,7 @@
                 "team_h": 19,
                 "team_h_score": null,
                 "stats": [],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 4,
                 "team_a_difficulty": 3,
                 "pulse_id": 66690,
                 "team_h_nm": "WHU",
@@ -72241,7 +72465,7 @@
                 "team_h_score": null,
                 "stats": [],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66694,
                 "team_h_nm": "BHA",
                 "team_a_nm": "MUN"
@@ -72261,7 +72485,7 @@
                 "team_h": 5,
                 "team_h_score": null,
                 "stats": [],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 2,
                 "pulse_id": 66695,
                 "team_h_nm": "BUR",
@@ -72283,7 +72507,7 @@
                 "team_h_score": null,
                 "stats": [],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 5,
+                "team_a_difficulty": 4,
                 "pulse_id": 66696,
                 "team_h_nm": "CHE",
                 "team_a_nm": "WOL"
@@ -72409,7 +72633,7 @@
                 "team_h_score": null,
                 "stats": [],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66702,
                 "team_h_nm": "AVL",
                 "team_a_nm": "CRY"
@@ -72450,7 +72674,7 @@
                 "team_h": 10,
                 "team_h_score": null,
                 "stats": [],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 2,
                 "pulse_id": 66704,
                 "team_h_nm": "LEE",
@@ -72492,8 +72716,8 @@
                 "team_h": 14,
                 "team_h_score": null,
                 "stats": [],
-                "team_h_difficulty": 3,
-                "team_a_difficulty": 2,
+                "team_h_difficulty": 4,
+                "team_a_difficulty": 3,
                 "pulse_id": 66706,
                 "team_h_nm": "NEW",
                 "team_a_nm": "ARS"
@@ -72514,7 +72738,7 @@
                 "team_h_score": null,
                 "stats": [],
                 "team_h_difficulty": 4,
-                "team_a_difficulty": 2,
+                "team_a_difficulty": 3,
                 "pulse_id": 66707,
                 "team_h_nm": "SOU",
                 "team_a_nm": "LIV"
@@ -72555,7 +72779,7 @@
                 "team_h": 18,
                 "team_h_score": null,
                 "stats": [],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 2,
                 "pulse_id": 66709,
                 "team_h_nm": "WAT",
@@ -72598,7 +72822,7 @@
                 "team_h_score": null,
                 "stats": [],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 4,
+                "team_a_difficulty": 3,
                 "pulse_id": 66711,
                 "team_h_nm": "WOL",
                 "team_a_nm": "NOR"
@@ -72661,7 +72885,7 @@
                 "team_h_score": null,
                 "stats": [],
                 "team_h_difficulty": 3,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 2,
                 "pulse_id": 66714,
                 "team_h_nm": "BHA",
                 "team_a_nm": "WHU"
@@ -72703,7 +72927,7 @@
                 "team_h_score": null,
                 "stats": [],
                 "team_h_difficulty": 2,
-                "team_a_difficulty": 5,
+                "team_a_difficulty": 4,
                 "pulse_id": 66716,
                 "team_h_nm": "CHE",
                 "team_a_nm": "WAT"
@@ -72786,7 +73010,7 @@
                 "team_h": 12,
                 "team_h_score": null,
                 "stats": [],
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_a_difficulty": 5,
                 "pulse_id": 66720,
                 "team_h_nm": "MCI",
@@ -72883,7 +73107,40 @@
                     "team_h_id": 6,
                     "team_a_nm": "LEI",
                     "team_a_id": 9,
-                    "reason": "CHE plays EFL Cup Final)"
+                    "reason": "CHE plays EFL Cup Final"
+                },
+                {
+                    "ppid": 321,
+                    "nwRound": 39,
+                    "origRnd": 33,
+                    "added": false,
+                    "team_h_nm": "AVL",
+                    "team_h_id": 2,
+                    "team_a_nm": "LIV",
+                    "team_a_id": 11,
+                    "reason": "FA cup reschedule"
+                },
+                {
+                    "ppid": 323,
+                    "nwRound": 39,
+                    "origRnd": 33,
+                    "added": false,
+                    "team_h_nm": "LEE",
+                    "team_h_id": 10,
+                    "team_a_nm": "CHE",
+                    "team_a_id": 6,
+                    "reason": "FA cup reschedule"
+                },
+                {
+                    "ppid": 330,
+                    "nwRound": 39,
+                    "origRnd": 33,
+                    "added": false,
+                    "team_h_nm": "WOL",
+                    "team_h_id": 20,
+                    "team_a_nm": "MNC",
+                    "team_a_id": 12,
+                    "reason": "FA cup reschedule"
                 }
             ]
         }

@@ -114,6 +114,9 @@ import app.static.scripts.clubs 	as mod_clb
 global ballerArr
 ballerArr = [];
 
+global elmnts_to_log 
+elmnts_to_log = [357,475];
+
 global liveBallerArr
 liveBallerArr = [];
 
@@ -121,7 +124,7 @@ el_cr = mod_cr.getCurrentRnd()
 
 elmnts_file = "./app/static/data/static/elements.json"
 live_ballers_file = "./app/static/data/live/active/liveBallers-" + str( el_cr ) + ".json"
-
+live_ballers_log =  "./app/static/data/live/active/liveBallersLog-" + str( el_cr ) + ".json"
 
 def getElmnts(w):
 	mod_data.infoRt(3)
@@ -250,6 +253,11 @@ def getLiveBaller(elId):
 				# print("lb['web_name']",  getBallerName(elId) )
 				# print("lb['position']",  getBallerPos(elId) )
 				# print("lb['event_points']", lb["event_points"] )
+				if (elId in elmnts_to_log ):
+					lb_log = open( live_ballers_log, "a+")
+					lb_log.write( json.dumps( str(lb)+"/n") )
+					lb_log.close
+
 				if( ("explain" in lb.keys()) and (len(lb['explain']) > 0 ) ):
 					# print("elId",elId,"lb['explain']",lb['explain'],"len",len(lb['explain']))
 					if( "fixture" in lb['explain'][0].keys() ):
