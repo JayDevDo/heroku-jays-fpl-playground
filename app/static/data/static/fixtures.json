@@ -70630,17 +70630,216 @@
         "code": 2210576,
         "event": 31,
         "finished": false,
-        "finished_provisional": false,
+        "finished_provisional": true,
         "id": 306,
         "kickoff_time": "2022-04-02T11:30:00Z",
-        "minutes": 0,
+        "minutes": 90,
         "provisional_start_time": false,
-        "started": false,
+        "started": true,
         "team_a": 18,
-        "team_a_score": null,
+        "team_a_score": 0,
         "team_h": 11,
-        "team_h_score": null,
-        "stats": [],
+        "team_h_score": 2,
+        "stats": [
+            {
+                "identifier": "goals_scored",
+                "a": [],
+                "h": [
+                    {
+                        "value": 1,
+                        "element": 232
+                    },
+                    {
+                        "value": 1,
+                        "element": 240
+                    }
+                ]
+            },
+            {
+                "identifier": "assists",
+                "a": [],
+                "h": [
+                    {
+                        "value": 1,
+                        "element": 238
+                    },
+                    {
+                        "value": 1,
+                        "element": 240
+                    }
+                ]
+            },
+            {
+                "identifier": "own_goals",
+                "a": [],
+                "h": []
+            },
+            {
+                "identifier": "penalties_saved",
+                "a": [],
+                "h": []
+            },
+            {
+                "identifier": "penalties_missed",
+                "a": [],
+                "h": []
+            },
+            {
+                "identifier": "yellow_cards",
+                "a": [
+                    {
+                        "value": 1,
+                        "element": 472
+                    }
+                ],
+                "h": [
+                    {
+                        "value": 1,
+                        "element": 238
+                    }
+                ]
+            },
+            {
+                "identifier": "red_cards",
+                "a": [],
+                "h": []
+            },
+            {
+                "identifier": "saves",
+                "a": [
+                    {
+                        "value": 1,
+                        "element": 376
+                    }
+                ],
+                "h": [
+                    {
+                        "value": 2,
+                        "element": 231
+                    }
+                ]
+            },
+            {
+                "identifier": "bonus",
+                "a": [],
+                "h": []
+            },
+            {
+                "identifier": "bps",
+                "a": [
+                    {
+                        "value": 15,
+                        "element": 403
+                    },
+                    {
+                        "value": 12,
+                        "element": 677
+                    },
+                    {
+                        "value": 11,
+                        "element": 676
+                    },
+                    {
+                        "value": 10,
+                        "element": 382
+                    },
+                    {
+                        "value": 10,
+                        "element": 384
+                    },
+                    {
+                        "value": 7,
+                        "element": 354
+                    },
+                    {
+                        "value": 7,
+                        "element": 376
+                    },
+                    {
+                        "value": 6,
+                        "element": 404
+                    },
+                    {
+                        "value": 3,
+                        "element": 399
+                    },
+                    {
+                        "value": 3,
+                        "element": 468
+                    },
+                    {
+                        "value": 2,
+                        "element": 381
+                    },
+                    {
+                        "value": 1,
+                        "element": 472
+                    },
+                    {
+                        "value": -4,
+                        "element": 495
+                    }
+                ],
+                "h": [
+                    {
+                        "value": 34,
+                        "element": 240
+                    },
+                    {
+                        "value": 28,
+                        "element": 238
+                    },
+                    {
+                        "value": 27,
+                        "element": 224
+                    },
+                    {
+                        "value": 27,
+                        "element": 232
+                    },
+                    {
+                        "value": 26,
+                        "element": 234
+                    },
+                    {
+                        "value": 25,
+                        "element": 231
+                    },
+                    {
+                        "value": 22,
+                        "element": 229
+                    },
+                    {
+                        "value": 17,
+                        "element": 225
+                    },
+                    {
+                        "value": 15,
+                        "element": 222
+                    },
+                    {
+                        "value": 15,
+                        "element": 228
+                    },
+                    {
+                        "value": 6,
+                        "element": 244
+                    },
+                    {
+                        "value": 3,
+                        "element": 221
+                    },
+                    {
+                        "value": 1,
+                        "element": 230
+                    },
+                    {
+                        "value": -2,
+                        "element": 233
+                    }
+                ]
+            }
+        ],
         "team_h_difficulty": 2,
         "team_a_difficulty": 5,
         "pulse_id": 66647,
@@ -71341,27 +71540,6 @@
         "team_a_nm": "MUN"
     },
     {
-        "code": 2210606,
-        "event": 34,
-        "finished": false,
-        "finished_provisional": false,
-        "id": 336,
-        "kickoff_time": "2022-04-23T14:00:00Z",
-        "minutes": 0,
-        "provisional_start_time": false,
-        "started": false,
-        "team_a": 10,
-        "team_a_score": null,
-        "team_h": 7,
-        "team_h_score": null,
-        "stats": [],
-        "team_h_difficulty": 2,
-        "team_a_difficulty": 2,
-        "pulse_id": 66677,
-        "team_h_nm": "CRY",
-        "team_a_nm": "LEE"
-    },
-    {
         "code": 2210607,
         "event": 34,
         "finished": false,
@@ -71528,6 +71706,27 @@
         "pulse_id": 66679,
         "team_h_nm": "LIV",
         "team_a_nm": "EVE"
+    },
+    {
+        "code": 2210606,
+        "event": 34,
+        "finished": false,
+        "finished_provisional": false,
+        "id": 336,
+        "kickoff_time": "2022-04-25T19:00:00Z",
+        "minutes": 0,
+        "provisional_start_time": false,
+        "started": false,
+        "team_a": 10,
+        "team_a_score": null,
+        "team_h": 7,
+        "team_h_score": null,
+        "stats": [],
+        "team_h_difficulty": 2,
+        "team_a_difficulty": 2,
+        "pulse_id": 66677,
+        "team_h_nm": "CRY",
+        "team_a_nm": "LEE"
     },
     {
         "code": 2210615,

@@ -164,7 +164,7 @@ def getFixture(fxtrId):
 
 def getLiveFxtrData():
 	global live_fixtures
-	if( mod_data.infoRt(8) ):
+	if( mod_data.infoRt(8) or (True) ):
 		print("mod_data.infoRt(8) == True. using remote live_fixtures")
 		url = "https://fantasy.premierleague.com/api/fixtures/?event=" + str(fxtr_cr)
 		response = urlopen( url)

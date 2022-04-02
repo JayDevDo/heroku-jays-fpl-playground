@@ -27,7 +27,7 @@
         "results": [
             {
                 "id": 31982177,
-                "event_total": 55,
+                "event_total": 0,
                 "player_name": "Eddie Demirian",
                 "rank": 1,
                 "last_rank": 1,
@@ -38,7 +38,7 @@
             },
             {
                 "id": 31982153,
-                "event_total": 48,
+                "event_total": 0,
                 "player_name": "Cristian Mihala",
                 "rank": 2,
                 "last_rank": 2,
@@ -49,7 +49,7 @@
             },
             {
                 "id": 31982148,
-                "event_total": 41,
+                "event_total": 0,
                 "player_name": "Mark Duggan",
                 "rank": 3,
                 "last_rank": 3,
@@ -60,7 +60,7 @@
             },
             {
                 "id": 31982151,
-                "event_total": 42,
+                "event_total": 0,
                 "player_name": "John Scott",
                 "rank": 4,
                 "last_rank": 4,
@@ -71,7 +71,7 @@
             },
             {
                 "id": 31982159,
-                "event_total": 52,
+                "event_total": 0,
                 "player_name": "Focsaneanu Iulian",
                 "rank": 5,
                 "last_rank": 5,
@@ -82,7 +82,7 @@
             },
             {
                 "id": 31982170,
-                "event_total": 48,
+                "event_total": 0,
                 "player_name": "Jay Vando",
                 "rank": 6,
                 "last_rank": 6,
@@ -93,7 +93,7 @@
             },
             {
                 "id": 31982161,
-                "event_total": 48,
+                "event_total": 0,
                 "player_name": "Cristian Topirceanu",
                 "rank": 7,
                 "last_rank": 7,
@@ -104,7 +104,7 @@
             },
             {
                 "id": 31982145,
-                "event_total": 72,
+                "event_total": 0,
                 "player_name": "Bogdan Milea",
                 "rank": 8,
                 "last_rank": 8,
@@ -115,7 +115,7 @@
             },
             {
                 "id": 52338744,
-                "event_total": 67,
+                "event_total": 0,
                 "player_name": "Lukats Hunor",
                 "rank": 9,
                 "last_rank": 9,
@@ -126,7 +126,7 @@
             },
             {
                 "id": 43679369,
-                "event_total": 46,
+                "event_total": 0,
                 "player_name": "Cristian Topirceanu",
                 "rank": 10,
                 "last_rank": 10,
@@ -137,10 +137,10 @@
             },
             {
                 "id": 31982168,
-                "event_total": 70,
+                "event_total": 0,
                 "player_name": "Mircea Stefan",
                 "rank": 11,
-                "last_rank": 13,
+                "last_rank": 11,
                 "rank_sort": 11,
                 "total": 1483,
                 "entry": 3958212,
@@ -148,10 +148,10 @@
             },
             {
                 "id": 31982143,
-                "event_total": 61,
+                "event_total": 0,
                 "player_name": "Gabriela Popescu",
                 "rank": 12,
-                "last_rank": 11,
+                "last_rank": 12,
                 "rank_sort": 12,
                 "total": 1464,
                 "entry": 4748392,
@@ -159,10 +159,10 @@
             },
             {
                 "id": 31982181,
-                "event_total": 53,
+                "event_total": 0,
                 "player_name": "Cristian Topirceanu",
                 "rank": 13,
-                "last_rank": 12,
+                "last_rank": 13,
                 "rank_sort": 13,
                 "total": 1446,
                 "entry": 411177,
@@ -170,7 +170,7 @@
             },
             {
                 "id": 33280129,
-                "event_total": 7,
+                "event_total": 0,
                 "player_name": "Ionut Tataru",
                 "rank": 14,
                 "last_rank": 14,
@@ -181,7 +181,7 @@
             },
             {
                 "id": 31982167,
-                "event_total": 31,
+                "event_total": 0,
                 "player_name": "Mihalcea Andrei",
                 "rank": 15,
                 "last_rank": 15,
