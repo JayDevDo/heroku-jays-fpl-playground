@@ -60,7 +60,7 @@ global rounds
 rounds = []
 
 def getRnds():
-	if( mod_data.infoRt(0) ):
+	if( mod_data.infoRt(2) ):
 		data_rnds = getRemoteRnds()
 	else:
 		data_rnds = getLocalRnds()

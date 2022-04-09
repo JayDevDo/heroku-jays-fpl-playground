@@ -5,6 +5,9 @@
 """ python modules """
 import	sys
 import	time
+import 	os
+import 	pathlib
+from pathlib import Path
 
 """ own modules """
 import app.static.scripts.rounds	as mod_rnd
@@ -42,8 +45,8 @@ posArr =	["POS","GKP","DEF","MID","FWD"]
 fplData =	[
 				{ "id":"rounds"		, "data": mod_rnd.getRnds() 		},			#0
 				{ "id":"fixtures" 	, "data": mod_fxt.getFxtrs("r") 	},			#1
-				{ "id":"clubs"		, "data": mod_clb.getClubs("l") 	},			#2
-				{ "id":"players"	, "data": mod_plyr.getElmnts("l") 	},			#3
+				{ "id":"clubs"		, "data": mod_clb.getClubs("r") 	},			#2
+				{ "id":"players"	, "data": mod_plyr.getElmnts("r") 	},			#3
 				{ "id":"ownteam"	, "data": [] },									#4
 				{ "id":"oppteam"	, "data": [] },									#5
 				{ "id":"LgCls"		, "data": mod_mng.getManagerLeagues(myTeamId,0)},#6
@@ -52,7 +55,8 @@ fplData =	[
 				{ "id":"lgManIds"	, "data": mod_mng.getManIdsFromLeague(1,436866)},#9
 				{ "id":"oppId"		, "data": 2045927 },							#10
 				{ "id":"refresh"	, "data": 60 },									#11
-				{ "id": "selLg" 	, "data": { "id":436866, "nm":"League 436866"}}	#12
+				{ "id": "selLg" 	, "data": { "id":436866, "nm":"League 436866"}},#12
+				{ "id": "curRound" 	, "data": 32 }	 								#13
 			]
 
 fplData[10]["data"] =	578444
@@ -122,11 +126,42 @@ def doOppUpdate():
 def urlError(error_msg):
 	print(error_msg)
 
+def newRound(newRound):
+	# get current round
+	curRound = int(fplData[13]["data"])
+	fpath = "app/static/data/live/active/"
+	hpath = "app/static/data/static/his/wk00/"
+
+	# compare to newRound
+	print("newRound was called with: " + str(newRound) + " The fplData has: " + str(curRound) + " Check: " +  str(newRound==curRound) )
+	# files to be handled:
+	fileNames 		= ["liveBallersLog-"+str(curRound)+".json", "liveBallers-"+str(curRound)+".json", "fixtures_"+str(curRound)+"_live.json", "fdl.json" ]
+	filesCurrent 	= [ fpath+fileNames[0], fpath+fileNames[1], fpath+fileNames[2], fpath+fileNames[3] ]
+	filesHis 		= [ hpath+fileNames[0], hpath+fileNames[1], hpath+fileNames[2]] # fdl.json is not saved in his.
+	# first save to history.
+	for f in range(3):
+		if os.path.exists( filesCurrent[f] ):
+			Path(filesCurrent[f]).rename( filesHis[f] )
+
+	# decide file actions:
+	if (newRound>=curRound) :
+	#	- Remove files
+		for f in range(4):
+			if os.path.exists( filesCurrent[f] ):
+				os.remove( filesCurrent[f] )
+
+	# remove existing team files:
+	p = Path(fpath + "tm/")
+	for x in p.iterdir():
+		if x.is_file():
+			os.remove(x)
+
 
 @app.route("/")
 @app.route("/home")
 @app.route("/index")
 def home():
+	newRound( int(fplData[13]["data"] ) )
 	fplDataCounter()
 	return render_template( 'home.html', fpl=fplData ) 
 

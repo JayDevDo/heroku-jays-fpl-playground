@@ -156,7 +156,7 @@ def getLocalElmnts():
 
 
 def getRemoteElmnts():
-	response = getStatic("r")
+	response = mod_data.getStatic("r")
 	elf = open( elmnts_file, "w+")
 	elf.write( json.dumps(response["elements"], indent=4) )
 	elf.close
