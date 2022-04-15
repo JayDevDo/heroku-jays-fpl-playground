@@ -136,7 +136,7 @@ $(document).ready(
 <div id="bnsCnt">
 	{% for fxr in fpl[8]['data'] %}
 		<div class="fxtr_bns fxtr_bns_hidden" fxtrid="{{ fxr['id'] }}" title="{{ fxr['id'] }}" >
-			<table>
+			<table class="fxtr_bns">
 				<tr>
 					<th>bns_rank</th>
 					<th>web_name</th>
@@ -145,7 +145,7 @@ $(document).ready(
 				</tr>
 
 				{% for e in fxr['event_bonus']  %}
-				<tr>
+				<tr class="fxtr_bns_data" style="background-color: black !important;">
 					<td>{{ e["bns_rank"] }}</td>
 					<td>{{ e["web_name"] }}</td>
 					<td>{{ e["value"] }}</td>
