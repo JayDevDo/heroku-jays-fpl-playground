@@ -115,7 +115,7 @@ global ballerArr
 ballerArr = [];
 
 global elmnts_to_log 
-elmnts_to_log = [357,475];
+elmnts_to_log = [22, 39, 142, 159, 200, 212, 220, 233, 234, 357, 370, 475, 697, 700, 701];
 
 global liveBallerArr
 liveBallerArr = [];
@@ -191,9 +191,58 @@ def getBallerClub(elId):
 def getBallerPos(elId):
 	return getBaller(elId)["element_type"]
 
+def getBallerGameOpponent(elId, evId):
+	# get baller's club id from elId
+	ballerClub = getBallerClub(elId)
+	# get h_tm + a_tm from evId
+	event = mod_fxt.getFixture(evId)
+	# opp club id = NOT baller team id
+	if (ballerClub == event['team_a']):
+		oppClub =  event['team_h_nm']
+	elif(ballerClub == event['team_h']):
+		oppClub =  event['team_a_nm']
+	else:
+		oppClub =  "No Game"
+
+	# return opp short_name 
+	return oppClub
+		
+
+
+def ballerGamesGW(liveBaller):
+	"""
+	ballerGamesGW: 
+
+	requires: 	liveBaller object 
+				-	(as above)
+
+	returns: 	Array containing event Id and opponent name.
+				-	[
+					{ "fxt": 0,"opp": ''},
+					{ "fxt": 0,"opp": ''}
+				]
+				"fxt":liveBaller['explain'][g]['fixture'], "opp":oppClubName 	
+				-	(for a Leicester player in gw 33)
+	"""
+	retValInt = 0
+	retValList = []
+	for k in liveBaller.keys():
+		if(k == "explain"):
+			retValInt = len(liveBaller['explain'])
+
+			if ( retValInt > 0 ):
+				for g in range( 0, retValInt ):
+					retValList.append( {"fxt":liveBaller['explain'][g]['fixture'], "opp":getBallerGameOpponent(liveBaller['id'],liveBaller['explain'][g]['fixture']) } )
+					# print("retValList", str(retValList[g][0]), str(retValList[g][1])  )
+
+			else:
+				retValList = [{"fxt":0,"opp":'No game'}]
+
+	# print("retValList b4return", str(retValList) )
+	return retValList
+
 def getLiveElements(w):
-	mod_data.infoRt(11)
-	if( w =="r" ):
+	if( w =="r" or mod_data.infoRt(11) ):
 		data_live_elmnts = getRemoteLiveBallers()
 	else:
 		data_live_elmnts = getLocalLiveBallers()
@@ -224,6 +273,7 @@ def getRemoteLiveBallers():
 	if( doUpd ):
 		print("getRemoteLiveBallers infoRt 11", doUpd )
 		url = "https://fantasy.premierleague.com/api/event/" + str( el_cr ) + "/live/"
+		# add try-catch-finally.
 		response = urlopen(url)
 		data_live_elmnts = json.loads(response.read())
 		liveBallerArr.clear()
@@ -253,23 +303,36 @@ def getLiveBaller(elId):
 				# print("lb['web_name']",  getBallerName(elId) )
 				# print("lb['position']",  getBallerPos(elId) )
 				# print("lb['event_points']", lb["event_points"] )
-				if (elId in elmnts_to_log ):
-					lb_log = open( live_ballers_log, "a+")
-					lb_log.write( json.dumps( str(lb)+"/n") )
-					lb_log.close
+				gwGames	= ballerGamesGW(lb)
+				lb['stats']['gwGames'] =  gwGames
+
+				for l in range(0, len( lb['explain'] ) ):
+					# print("each lb['explain']", lb['explain'][l]['fixture'], "gwGames[l]", gwGames[l] )
+					lb['explain'][l]['opp'] = gwGames[l]['opp']
+					lb['explain'][l]['gmTotal'] = 0
+
+					if "stats" in lb['explain'][l].keys():
+						for p in range(0, len( lb['explain'][l]['stats'])):
+							# print("p in explain-stats", lb['explain'][l]['stats'][p] )
+							lb['explain'][l]['gmTotal'] += lb['explain'][l]['stats'][p]['points']
+
+				if not ( len(gwGames) > 0 ):
+					print("gwGames<=0/else__ do we get here? ")
+					lb['explain'].append({'fixture': 0, 'opp': "No Game"})
 
 				if( ("explain" in lb.keys()) and (len(lb['explain']) > 0 ) ):
 					# print("elId",elId,"lb['explain']",lb['explain'],"len",len(lb['explain']))
 					if( "fixture" in lb['explain'][0].keys() ):
 						return lb
 					else:
-						lb['explain']['fixture'] = 0
+						lb['explain'].append({'fixture': 0, 'opp': "No Game"})
 						return lb
 				else:
-					lb["explain"].append({'fixture': 0})
+					# lb.append({'explain': {} })
+					lb['explain'].append({'fixture': 0, 'opp': "No Game"})
 					return lb
 
-
+# Need to rewrite: 1st 'finished'==True then check ['explain'][0] and [1]
 def potentialSub(elId):
 	liveInfo = getLiveBaller(elId)
 	liveInfo.setdefault('explain', [{'fixture':0}] )

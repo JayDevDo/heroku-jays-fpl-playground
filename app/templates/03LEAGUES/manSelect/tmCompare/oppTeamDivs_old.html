@@ -52,21 +52,18 @@
 		</div>
 	</div>	
 
-
 	<div class="row gutter-3">
 		<div class="tmCntTmRowHdr gkp">Goalkeeper</div>
 		<div>
-			{% for s_gkp in fpl[5]['data']["strtrs"] %}
-	
-				{% if ( s_gkp["ballerData"]["element_type"] == 1 ) %}
-
+		{% for s_gkp in fpl[5]['data']["strtrs"] %}
+			{% if (s_gkp["ballerData"]["element_type"]==1) %}
 				<div class="ballerStrtr baller starters"
 					ballerid="{{ s_gkp['liveBallerData']['id'] }}"
-					fxtrids="{{ s_gkp['liveBallerData']['stats']['gwGames'] }}"
+					fxtrid="{{ s_gkp['liveBallerData']['stats']['gwGames'][0]['fxt'] }}"
 					potsub="{{ s_gkp['liveBallerData']['potentialSub'] }}"
 					style="flex-grow: 5;"
 					>
-					<div class="ballerLiveHdr">
+					<div>
 						<span cap="{{ s_gkp['multiplier']==2 }}">
 							{{ s_gkp["web_name"] }}
 						</span>
@@ -76,54 +73,49 @@
 							</span>
 						</div>
 						<div><span></span></div>
-					</div>
-
-					{% for s in s_gkp['liveBallerData']['explain'] %}
-						<div class="ballerLiveGameHdr" fxtrid="{{ s['fixture'] }}" >
-							<h6>{{ s['opp'] }} : {{ s['gmTotal']}}</h6>
-
-							<select value="{{ s['gmTotal'] }}">
-
-								{% for e in s['stats'] %}
-
+					
+					{% for i,g in s_gkp["liveBallerData"]["explain"] %}
+					<div 
+						class="ballerGameStats" 
+						fxtrid="{{ i }}"
+					>
+						<h6>
+							O: {{ i }}
+						</h6>
+						<select value="more">
+							{% for e in s_gkp['liveBallerData']["explain"][i]  %}
 								<option value="{{ e['points'] }}">
-									<span class="span_l">{{ e["identifier"] }}: </span>
-									<span class="span_m">{{ e["value"] }}</span>
-									<span class="span_r"> = {{ e["points"] }}</span>
+									<span class="span_l">
+										{{ e }}
+										{{ e["points"] }}
+									</span>
+									<span class="span_r">
+										({{ e["value"] }}:{{ e["identifier"] }})
+									</span>
 								</option>
-
-								{% endfor %}
-
-							</select>
-
-						</div>
-					{% endfor %}
-
+							{% endfor %}
+						</select>
 					</div>
-
-				{% endif %}
-	
-			{% endfor %}
+					{% endfor %}
+					</div>	
+				</div>
+			{% endif %}	
+		{% endfor %}
 		</div>
-
 	</div>
-
-
 
 	<div class="row gutter-3">
 		<div class="tmCntTmRowHdr def">Defenders</div>
 		<div>
-			{% for s_def in fpl[5]['data']["strtrs"] %}
-	
-				{% if ( s_def["ballerData"]["element_type"] == 2 ) %}
-
+		{% for s_def in fpl[5]['data']["strtrs"] %}
+			{% if (s_def["ballerData"]["element_type"]==2) %}
 				<div class="ballerStrtr baller starters"
 					ballerid="{{ s_def['liveBallerData']['id'] }}"
-					fxtrids="{{ s_def['liveBallerData']['stats']['gwGames'] }}"
+					fxtrid="{{ s_def['liveBallerData']['explain'][0]['fixture'] }}"
 					potsub="{{ s_def['liveBallerData']['potentialSub'] }}"
 					style="flex-grow: 2;"
 					>
-					<div class="ballerLiveHdr">
+					<div>
 						<span cap="{{ s_def['multiplier']==2 }}">
 							{{ s_def["web_name"] }}
 						</span>
@@ -133,54 +125,37 @@
 							</span>
 						</div>
 						<div><span></span></div>
+						<select value="more">
+						{% for e in s_def["liveBallerData"]["explain"][0]["stats"] %}
+							<option value="{{ e['points'] }}">
+								<span class="span_l">
+									{{ e["points"] }}
+								</span>
+								<span class="span_r">
+									({{ e["value"] }}:{{ e["identifier"] }})
+								</span>
+							</option>
+						{% endfor %}
+						</select>
 					</div>
-
-					{% for s in s_def['liveBallerData']['explain'] %}
-						<div class="ballerLiveGameHdr" fxtrid="{{ s['fixture'] }}" >
-							<h6>{{ s['opp'] }} : {{ s['gmTotal']}}</h6>
-
-							<select value="{{ s['gmTotal'] }}">
-
-								{% for e in s['stats'] %}
-
-								<option value="{{ e['points'] }}">
-									<span class="span_l">{{ e["identifier"] }}: </span>
-									<span class="span_m">{{ e["value"] }}</span>
-									<span class="span_r"> = {{ e["points"] }}</span>
-								</option>
-
-								{% endfor %}
-
-							</select>
-
-						</div>
-					{% endfor %}
-
-					</div>
-
-				{% endif %}
-	
-			{% endfor %}
+				</div>
+			{% endif %}	
+		{% endfor %}
 		</div>
-
 	</div>
-
-
 
 	<div class="row gutter-3">
 		<div class="tmCntTmRowHdr mid">Midfielders</div>
 		<div>
-			{% for s_mid in fpl[5]['data']["strtrs"] %}
-	
-				{% if ( s_mid["ballerData"]["element_type"] == 3 ) %}
-
+		{% for s_mid in fpl[5]['data']["strtrs"] %}
+			{% if (s_mid["ballerData"]["element_type"]==3) %}
 				<div class="ballerStrtr baller starters"
 					ballerid="{{ s_mid['liveBallerData']['id'] }}"
-					fxtrids="{{ s_mid['liveBallerData']['stats']['gwGames'] }}"
+					fxtrid="{{ s_mid['liveBallerData']['explain'][0]['fixture'] }}"
 					potsub="{{ s_mid['liveBallerData']['potentialSub'] }}"
 					style="flex-grow: 2;"
-					>
-					<div class="ballerLiveHdr">
+				>
+					<div>
 						<span cap="{{ s_mid['multiplier']==2 }}">
 							{{ s_mid["web_name"] }}
 						</span>
@@ -190,54 +165,37 @@
 							</span>
 						</div>
 						<div><span></span></div>
+						<select value="more">
+						{% for e in s_mid["liveBallerData"]["explain"][0]["stats"] %}
+							<option value="{{ e['points'] }}">
+								<span class="span_l">
+									{{ e["points"] }}
+								</span>
+								<span class="span_r">
+									({{ e["value"] }}:{{ e["identifier"] }})
+								</span>
+							</option>
+						{% endfor %}
+						</select>
 					</div>
-
-					{% for s in s_mid['liveBallerData']['explain'] %}
-						<div class="ballerLiveGameHdr" fxtrid="{{ s['fixture'] }}" >
-							<h6>{{ s['opp'] }} : {{ s['gmTotal']}}</h6>
-
-							<select value="{{ s['gmTotal'] }}">
-
-								{% for e in s['stats'] %}
-
-								<option value="{{ e['points'] }}">
-									<span class="span_l">{{ e["identifier"] }}: </span>
-									<span class="span_m">{{ e["value"] }}</span>
-									<span class="span_r"> = {{ e["points"] }}</span>
-								</option>
-
-								{% endfor %}
-
-							</select>
-
-						</div>
-					{% endfor %}
-
-					</div>
-
-				{% endif %}
-	
-			{% endfor %}
+				</div>
+			{% endif %}	
+		{% endfor %}
 		</div>
-
 	</div>
-
-
 
 	<div class="row gutter-3">
 		<div class="tmCntTmRowHdr fwd">Forwards</div>
 		<div>
-			{% for s_fwd in fpl[5]['data']["strtrs"] %}
-	
-				{% if ( s_fwd["ballerData"]["element_type"] == 4 ) %}
-
+		{% for s_fwd in fpl[5]['data']["strtrs"] %}
+			{% if (s_fwd["ballerData"]["element_type"]==4) %}
 				<div class="ballerStrtr baller starters"
 					ballerid="{{ s_fwd['liveBallerData']['id'] }}"
-					fxtrids="{{ s_fwd['liveBallerData']['stats']['gwGames'] }}"
+					fxtrid="{{ s_fwd['liveBallerData']['explain'][0]['fixture'] }}"
 					potsub="{{ s_fwd['liveBallerData']['potentialSub'] }}"
-					style="flex-grow: 3;"
+					style="flex-grow: 3; "
 					>
-					<div class="ballerLiveHdr">
+					<div>
 						<span cap="{{ s_fwd['multiplier']==2 }}">
 							{{ s_fwd["web_name"] }}
 						</span>
@@ -247,38 +205,24 @@
 							</span>
 						</div>
 						<div><span></span></div>
+						<select value="more">
+						{% for e in s_fwd["liveBallerData"]["explain"][0]["stats"] %}
+							<option value="{{ e['points'] }}">
+								<span class="span_l">
+									{{ e["points"] }}
+								</span>
+								<span class="span_r">
+									({{ e["value"] }}:{{ e["identifier"] }})
+								</span>
+							</option>
+						{% endfor %}
+						</select>
 					</div>
-
-					{% for s in s_fwd['liveBallerData']['explain'] %}
-						<div class="ballerLiveGameHdr" fxtrid="{{ s['fixture'] }}" >
-							<h6>{{ s['opp'] }} : {{ s['gmTotal']}}</h6>
-
-							<select value="{{ s['gmTotal'] }}">
-
-								{% for e in s['stats'] %}
-
-								<option value="{{ e['points'] }}">
-									<span class="span_l">{{ e["identifier"] }}: </span>
-									<span class="span_m">{{ e["value"] }}</span>
-									<span class="span_r"> = {{ e["points"] }}</span>
-								</option>
-
-								{% endfor %}
-
-							</select>
-
-						</div>
-					{% endfor %}
-
-					</div>
-
-				{% endif %}
-	
-			{% endfor %}
-		</div>
-
+				</div>
+			{% endif %}	
+		{% endfor %}
+		</div>	
 	</div>
-
 
 	<div class="row gutter-1">
 		<div class="tmCntTmRowHdr bench">Bench</div>
@@ -288,48 +232,32 @@
 					element_out="{{ res['element_out'] }}"
 					element_in="{{ res['element_in'] }}"
 					ballerid="{{ res['liveBallerData']['id'] }}"
-					fxtrids="{{ res['liveBallerData']['stats']['gwGames'] }}"
+					fxtrid="{{ res['liveBallerData']['explain'][0]['fixture'] }}"
 			>
-				<div class="ballerLiveHdr">
+				<div>
 					<span>{{ res["web_name"] }}</span>
 					<span>{{ res["posNm"]  }} ({{ (res["position"]-11) }})</span>
-
 					<div class="row">
 						<span style="border: 1px solid black;">
 							{{ res["liveBallerData"]["stats"]["total_points"] }}
 						</span>
 					</div>
-				</div>
-
-
-				{% for s in res['liveBallerData']['explain'] %}
-					<div class="ballerLiveGameHdr" fxtrid="{{ s['fixture'] }}" >
-						<h6>{{ s['opp'] }} : {{ s['gmTotal']}}</h6>
-
-						<select value="{{ s['gmTotal'] }}">
-
-							{% for e in s['stats'] %}
-
+						<select value="more">
+						{% for e in res["liveBallerData"]["explain"][0]["stats"] %}
 							<option value="{{ e['points'] }}">
-								<span class="span_l">{{ e["identifier"] }}: </span>
-								<span class="span_m">{{ e["value"] }}</span>
-								<span class="span_r"> = {{ e["points"] }}</span>
+								<span class="span_l">
+									{{ e["points"] }}
+								</span>
+								<span class="span_r">
+									({{ e["value"] }}:{{ e["identifier"] }})
+								</span>
 							</option>
-
-							{% endfor %}
-
+						{% endfor %}
 						</select>
-
-					</div>
-				{% endfor %}
-
+				</div>
 			</div>
-
 		{% endfor %}
-		
 		</div>
-
 	</div>
 
 </div>
-

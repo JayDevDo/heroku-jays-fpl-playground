@@ -8,7 +8,7 @@ let gamesOverview = {
                         userDF: false,
                         hasPP: true,
                         postponedGameIds: [],
-                        postponedGames: [1]
+                        postponedGames: [2]
                     }
 
 showEvent = (id)=>{ for(let e=0; e < fixtures.length; e++){ if( fixtures[e].id == id ){ return fixtures[e]; }}}

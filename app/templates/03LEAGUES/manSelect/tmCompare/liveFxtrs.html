@@ -1,25 +1,3 @@
-<script type="text/javascript">
-
-$(document).ready(
-	function() {
-
-		highlightFxtr = (fxtrId)=>{
-			showFxtrBonus(fxtrId)
-			ballersInvolved = $("div.baller[fxtrid='"+ fxtrId + "']" ).get()
-			$(".baller").removeClass("highlight")
-			if( ballersInvolved.length>0 ){	$(ballersInvolved).addClass("highlight") }
-		}
-
-		showFxtrBonus = (fxtrId)=>{
-			$(".fxtr_bns").addClass("fxtr_bns_hidden"); 
-			bnsCnt = $("div.fxtr_bns[fxtrid='" + fxtrId + "']").get()
-			$(bnsCnt).removeClass("fxtr_bns_hidden"); 
-			$("#bnsCnt").detach().appendTo($("#lvFxtrTbl_later th:nth-of-type(2)"));
-		}
-
-});
-
-</script>
 
 <div class="middleGames">
 	<table 	id="liveGames" 
@@ -138,14 +116,14 @@ $(document).ready(
 		<div class="fxtr_bns fxtr_bns_hidden" fxtrid="{{ fxr['id'] }}" title="{{ fxr['id'] }}" >
 			<table class="fxtr_bns">
 				<tr>
-					<th>bns_rank</th>
-					<th>web_name</th>
-					<th>value</th>
-					<th>bns_pts</th>
+					<th>Rank</th>
+					<th>Name</th>
+					<th>Bonus</th>
+					<th>Points</th>
 				</tr>
 
 				{% for e in fxr['event_bonus']  %}
-				<tr class="fxtr_bns_data" style="background-color: black !important;">
+				<tr class="fxtr_bns_data" >
 					<td>{{ e["bns_rank"] }}</td>
 					<td>{{ e["web_name"] }}</td>
 					<td>{{ e["value"] }}</td>
@@ -156,3 +134,34 @@ $(document).ready(
 		</div>
 	{% endfor %}
 </div>
+
+<script type="text/javascript">
+
+$(document).ready(
+	function() {
+
+		highlightFxtr = (fxtrId)=>{
+			showFxtrBonus(fxtrId)
+			$(".highlight").removeClass("highlight");
+			ballersInvDblGW = $("div.ballerLiveGameHdr[fxtrid='"+ fxtrId + "']" ).get()
+
+			if( ballersInvDblGW.length > 0 ){ $(ballersInvDblGW).addClass("highlight");}
+			hasHLGame = $("div.highlight").get();
+		    $.each( 
+				hasHLGame,
+    			function(){$( this ).parent(".ballerLiveHdr").addClass("highlight");} 
+    		);
+		}
+
+		showFxtrBonus = (fxtrId)=>{
+			$("div.fxtr_bns").addClass("fxtr_bns_hidden"); 
+			bnsCnt = $("div.fxtr_bns[fxtrid=" + fxtrId + "]").get()
+			console.log("showFxtrBonus\t" + fxtrId , " len:\t", bnsCnt.length )			
+			$(bnsCnt).removeClass("fxtr_bns_hidden"); 
+			$(bnsCnt).addClass("fxtr_bns_show"); 
+			$("#bnsCnt").detach().appendTo($("#lvFxtrTbl_later th:nth-of-type(2)"));
+		}
+
+});
+
+</script>

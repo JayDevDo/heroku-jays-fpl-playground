@@ -9,16 +9,6 @@
 							"team_a_nm": "MNC",
 							"team_a_id": 12,
 							"reason": "FA cup reschedule"
-						},
-						{   "ppid": 364,
-							"nwRound": 39,
-							"origRnd": 37,
-							"added": false,
-							"team_h_nm": "MNU",
-							"team_h_id": 13,
-							"team_a_nm": "CHE",
-							"team_a_id": 6,
-							"reason": "FA cup reschedule."	
 						}
 					]
 
@@ -385,13 +375,25 @@
 							"team_a_id": 6,
 							"status": "replanned",
 							"reason": "FA cup reschedule"
-						}
+						},
+						{   "ppid": 364,
+							"nwRound": 34,
+							"origRnd": 37,
+							"added": false,
+							"team_h_nm": "MNU",
+							"team_h_id": 13,
+							"team_a_nm": "CHE",
+							"team_a_id": 6,
+							"status": "replanned",
+							"reason": "FA cup reschedule."	
+						}						
 					]
 	},
 	{ "ppRpIds":[ 	124, 153, 162, 164, 166, 171, 172, 174, 176, 178, 179, 
 					183, 184, 190, 191, 195, 196, 207, 209, 213, 218, 232, 
-					243, 261, 292, 294, 295, 296, 264, 299,	321, 322, 323
+					243, 261, 292, 294, 295, 296, 264, 299,	321, 322, 323,
+					364
 				] },
-	{ "ppIds":	[ 330, 364 ] }
+	{ "ppIds":	[ 330] }
 ]
 

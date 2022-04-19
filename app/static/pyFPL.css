@@ -8,9 +8,10 @@ li{ list-style: none; }
 input.fxtrTblInput{ width: 25px;}
 td span { height: fit-content; display: inline-block; overflow: auto; }
 
-.span_r{ display:initial; }
-.span_r::before{ content: "--"; }
-.span_l{ float:left; }
+.span_r{ margin-right: 0px; }
+/*.span_r::before{ content: "--"; } */
+.span_l{  margin-left: 0px; }
+.span_m{ margin: auto; }
 .cmprCnt{ display:inline-grid; }
 .teamCnt{ display:flex-grid;text-align:center; }
 .tmCntTmRowHdr{ width:100%; }
@@ -32,7 +33,6 @@ section.tx{ background-color:#92A8D1; }
 .table-sm{  padding: 0.2rem 0.4rem !important;}
 .middleGames{ font-size: 0.7em; }
 .fxtr_bns_hidden{ display: none;}
-.fxtr_bns_data{ color: bs-orange !important; }
 .tabShow{ display: 	block;}
 .tchide{ 	display: none;}
 .ppCont{ display: inline-block; }
@@ -57,7 +57,7 @@ section.tx{ background-color:#92A8D1; }
 #selectionsTbl tr th{ background-color: #000000 !important; color: #FFFFFF !important; }
 #teamDFCnt{font-size: smaller ;overflow-x: scroll;width: fit-content;}
 #teamDFCnt th,td{padding: 0.2rem 0.2rem 0.2rem 0.2rem!important;}
-#bnsCnt{position: absolute;background-color: darkgrey !important;}
+#bnsCnt{position: absolute;background-color: black !important;}
 #liveGames{  font-size: 0.9em; width: 85%;}
 
 #ppGamesAcc > li > span{ background-color: white; opacity: 0.71; color:  black; }
