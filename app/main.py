@@ -23,6 +23,7 @@ import app.static.scripts.fdl 		as mod_fdl
 from flask import Flask, render_template, url_for, request, redirect
 
 """		######## variables ######## 	"""
+dbg = False
 cli = sys.modules['flask.cli']
 cli.show_server_banner = lambda *x: None
 
@@ -94,7 +95,7 @@ def doListCount(dict):
 	cntr = 0
 	for d in dict:
 		cntr +=1
-		
+
 	return cntr
 
 
@@ -107,12 +108,12 @@ def doMyUpdate():
 	fplData[6]["data"].clear
 	fplData[6]["data"] = mod_mng.getManagerLeagues(myTeamId,0)
 	for lg in fplData[6]['data']:
-		lg["lgCount"] = mod_lgs.guessLeagueCount(0, int(lg["id"]) ) 
+		lg["lgCount"] = mod_lgs.guessLeagueCount(0, int(lg["id"]) )
 
 	fplData[7]["data"].clear
 	fplData[7]["data"] = mod_mng.getManagerLeagues(myTeamId,1)
 	for lg in fplData[7]['data']:
-		lg["lgCount"] = mod_lgs.guessLeagueCount(1, int(lg["id"]) ) 
+		lg["lgCount"] = mod_lgs.guessLeagueCount(1, int(lg["id"]) )
 
 
 
@@ -163,7 +164,7 @@ def newRound(newRound):
 def home():
 	newRound( int(fplData[13]["data"] ) )
 	fplDataCounter()
-	return render_template( 'home.html', fpl=fplData ) 
+	return render_template( 'home.html', fpl=fplData )
 
 @app.route('/info', methods=['GET','POST'])
 def info():
@@ -176,7 +177,7 @@ def info():
 
 @app.route('/fdl', methods=['GET','POST'])
 def fdl():
-	return render_template( '02FDL/pyFDL.html', fdl=mod_fdl.loadFDLData() ) 
+	return render_template( '02FDL/pyFDL.html', fdl=mod_fdl.loadFDLData() )
 
 
 @app.route('/compare', methods=['GET','POST'])
@@ -205,7 +206,7 @@ def leaguetype(lgTp):
 	fplData[6+lgTp]['data'] = mod_mng.getManagerLeagues(myTeamId,lgTp)
 
 	for lg in fplData[6+lgTp]['data']:
-		lg["lgCount"] = mod_lgs.guessLeagueCount(lgTp, int(lg["id"]) ) 
+		lg["lgCount"] = mod_lgs.guessLeagueCount(lgTp, int(lg["id"]) )
 
 	fplDataCounter()
 	return ( render_template( 'loading.html' ))
@@ -214,7 +215,7 @@ def leaguetype(lgTp):
 def lgTeamAcc(lgTp, lgId):
 	global fplData
 	fplData[9]["data"]	=	mod_mng.getManIdsFromLeague( lgTp, lgId)
-	fplData[12]["data"] = { "id": lgId, "nm": mod_mng.getLgNm(lgId) } 
+	fplData[12]["data"] = { "id": lgId, "nm": mod_mng.getLgNm(lgId) }
 	return ( render_template( '/03LEAGUES/leagues.html', fpl=fplData ))
 
 
@@ -240,4 +241,4 @@ def numberFormat(value):
 ###############################################
 # nav.init_app(app)
 if __name__ == '__main__':
-	app.run(debug=False)
+	app.run(debug=dbg)
