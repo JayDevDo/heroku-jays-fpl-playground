@@ -45,7 +45,7 @@ fdl = 	[
 		]
 
 fdl_file 		= "./app/static/data/live/active/fdl.json"
-pp_file 		= "./app/static/data/static/ppfxtrs.json"
+pp_file 		= "./app/static/data/static/ppFxtrs.json"
 clubs_df_file 	= "./app/static/data/static/clubs_df.json"
 
 
@@ -78,7 +78,7 @@ def getLocalppFxtrs():
 		pass
 		# print("pp_file does NOT exists !! ")
 
-	# print("data_ppFxtrs", json.dumps(data_ppFxtrs[0]['unplanned'],indent=4))	
+	# print("data_ppFxtrs", json.dumps(data_ppFxtrs[0]['unplanned'],indent=4))
 	for clb in fdl[1]['data']:
 		clb['ppgc'] = ppFxtrClubCount( data_ppFxtrs[0]['unplanned'], clb['id'] )
 		clb['df'] = getLclDFData( clb['id'] )
@@ -105,7 +105,7 @@ def getLclDFData(clubId):
 		cdfo = open( clubs_df_file )
 		data_clb_df = json.load(cdfo)
 		cdfo.close
-		# print("data_ppFxtrs", json.dumps(data_ppFxtrs[0]['unplanned'],indent=4))	
+		# print("data_ppFxtrs", json.dumps(data_ppFxtrs[0]['unplanned'],indent=4))
 		for clb in data_clb_df:
 			if( clubId == int(clb['id']) ):
 				return clb['locDF']

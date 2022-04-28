@@ -1,18 +1,5 @@
 [
-	{ "unplanned": [
-						{   "ppid": 330,
-							"nwRound": 39,
-							"origRnd": 33,
-							"added": false,
-							"team_h_nm": "WOL",
-							"team_h_id": 20,
-							"team_a_nm": "MNC",
-							"team_a_id": 12,
-							"reason": "FA cup reschedule"
-						}
-					]
-
-	},
+	{ "unplanned": [] },
 	{ "re-planned": [
 						{   "ppid": 124,
 							"nwRound": 26,
@@ -35,7 +22,7 @@
 							"team_a_id": 17,
 							"status": "replanned",
 							"reason": "COVID outbreak"
-						},
+						},		
 						{   "ppid": 162,
 							"nwRound": 22,
 							"origRnd": 17,
@@ -79,7 +66,7 @@
 							"team_a_id": 5,
 							"status": "replanned",
 							"reason": "COVID outbreak"
-						},
+						},						
 						{   "ppid": 172,
 							"nwRound": 33,
 							"origRnd": 18,
@@ -90,7 +77,7 @@
 							"team_a_id": 9,
 							"status": "replanned",
 							"reason": "COVID outbreak (again)"
-						},
+						},						
 						{   "ppid": 174,
 							"nwRound": 25,
 							"origRnd": 18,
@@ -143,9 +130,9 @@
 							"team_h_id": 5,
 							"team_a_nm": "EVE",
 							"team_a_id": 8,
-							"status": "replanned",
+							"status": "replanned",							
 							"reason": "COVID outbreak"
-						},
+						},						
 						{   "ppid": 184,
 							"nwRound": 26,
 							"origRnd": 19,
@@ -198,9 +185,9 @@
 							"team_h_id": 10,
 							"team_a_nm": "AVL",
 							"team_a_id": 2,
-							"status": "replanned",
+							"status": "replanned",							
 							"reason": "COVID outbreak"
-						},
+						},						
 						{   "ppid": 207,
 							"nwRound": 36,
 							"origRnd": 21,
@@ -222,7 +209,7 @@
 							"team_a_id": 14,
 							"status": "replanned",
 							"reason": "COVID outbreak"
-						},
+						},						
 						{   "ppid": 213,
 							"nwRound": 27,
 							"origRnd": 22,
@@ -231,7 +218,7 @@
 							"team_h_id": 5,
 							"team_a_nm": "LEI",
 							"team_a_id": 9,
-							"status": "replanned",
+							"status": "replanned",							
 							"reason": "COVID outbreak"
 						},
 						{   "ppid": 218,
@@ -244,7 +231,7 @@
 							"team_a_id": 1,
 							"status": "replanned",
 							"reason": "COVID outbreak"
-						},
+						},	
 						{   "ppid": 232,
 							"nwRound": 22,
 							"origRnd": 24,
@@ -266,7 +253,7 @@
 							"team_a_id": 1,
 							"status": "replanned",
 							"reason": "CHE plays world cup"
-						},
+						},						
 						{   "ppid": 261,
 							"nwRound": 29,
 							"origRnd": 27,
@@ -299,7 +286,7 @@
 							"team_a_id": 16,
 							"status": "replanned",
 							"reason": "FA cup SOU"
-						},
+						},						
 						{   "ppid": 294,
 							"nwRound": 33,
 							"origRnd": 30,
@@ -321,7 +308,7 @@
 							"team_a_id": 4,
 							"status": "replanned",
 							"reason": "FA cup MNC"
-						},
+						},	
 						{   "ppid": 296,
 							"nwRound": 33,
 							"origRnd": 30,
@@ -376,6 +363,17 @@
 							"status": "replanned",
 							"reason": "FA cup reschedule"
 						},
+						{   "ppid": 330,
+							"nwRound": 36,
+							"origRnd": 33,
+							"added": false,
+							"team_h_nm": "WOL",
+							"team_h_id": 20,
+							"team_a_nm": "MNC",
+							"team_a_id": 12,
+							"status": "replanned",
+							"reason": "FA cup reschedule"
+						},						
 						{   "ppid": 364,
 							"nwRound": 34,
 							"origRnd": 37,
@@ -385,25 +383,15 @@
 							"team_a_nm": "CHE",
 							"team_a_id": 6,
 							"status": "replanned",
-							"reason": "FA cup reschedule."
-						},
-						{   "ppid": 366,
-							"nwRound": 37,
-							"origRnd": 37,
-							"added": false,
-							"team_h_nm": "SOU",
-							"team_h_id": 16,
-							"team_a_nm": "LIV",
-							"team_a_id": 11,
-							"status": "replanned",							
-							"reason": "FA cup reschedule (LIV)"
-						}
+							"reason": "FA cup reschedule."	
+						}						
 					]
 	},
-	{ "ppRpIds":[ 	124, 153, 162, 164, 166, 171, 172, 174, 176, 178, 179,
-					183, 184, 190, 191, 195, 196, 207, 209, 213, 218, 232,
+	{ "ppRpIds":[ 	124, 153, 162, 164, 166, 171, 172, 174, 176, 178, 179, 
+					183, 184, 190, 191, 195, 196, 207, 209, 213, 218, 232, 
 					243, 261, 292, 294, 295, 296, 264, 299,	321, 322, 323,
-					364, 366
+					330, 364
 				] },
-	{ "ppIds":	[ 330] }
+	{ "ppIds":	[ ] }
 ]
+
