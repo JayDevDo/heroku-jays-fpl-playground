@@ -1,14 +1,14 @@
 let gamesOverview = {
                         fixedColumns: 3,
-                        finishedRounds: 32,
-                        eventWndwStart: 33,
-                        currentRnd: 33,
-                        rndsToShow: 5,
-                        eventWndwEnd: 37,
+                        finishedRounds: 34,
+                        eventWndwStart: 35,
+                        currentRnd: 35,
+                        rndsToShow: 4,
+                        eventWndwEnd: 38,
                         userDF: false,
-                        hasPP: true,
+                        hasPP: false,
                         postponedGameIds: [],
-                        postponedGames: [2]
+                        postponedGames: []
                     }
 
 showEvent = (id)=>{ for(let e=0; e < fixtures.length; e++){ if( fixtures[e].id == id ){ return fixtures[e]; }}}

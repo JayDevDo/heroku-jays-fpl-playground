@@ -60,7 +60,7 @@ fxtrTbl = []
 
 def loadFDLData():
 	global fdl
-	fdl[0]['data']= [{"evwStart":33},{"evwEnd":37},{"evwPeriod":5},{"evwShowHddn":False },{"evwShowPP":True}];
+	fdl[0]['data']= [{"evwStart":35},{"evwEnd":38},{"evwPeriod":5},{"evwShowHddn":False },{"evwShowPP":False}];
 	fdl[1]['data'] = mod_clb.getClubs('r')
 	fdl[2]['data'] = mod_fxt.getFxtrs('r')
 	fdl[3]['data'] = getLocalppFxtrs()

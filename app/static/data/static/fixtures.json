@@ -80800,27 +80800,47 @@
     {
         "code": 2210634,
         "event": 34,
-        "finished": false,
-        "finished_provisional": false,
+        "finished": true,
+        "finished_provisional": true,
         "id": 364,
         "kickoff_time": "2022-04-28T18:45:00Z",
-        "minutes": 0,
+        "minutes": 90,
         "provisional_start_time": false,
         "started": true,
         "team_a": 6,
-        "team_a_score": 0,
+        "team_a_score": 1,
         "team_h": 13,
-        "team_h_score": 0,
+        "team_h_score": 1,
         "stats": [
             {
                 "identifier": "goals_scored",
-                "a": [],
-                "h": []
+                "a": [
+                    {
+                        "value": 1,
+                        "element": 122
+                    }
+                ],
+                "h": [
+                    {
+                        "value": 1,
+                        "element": 579
+                    }
+                ]
             },
             {
                 "identifier": "assists",
-                "a": [],
-                "h": []
+                "a": [
+                    {
+                        "value": 1,
+                        "element": 141
+                    }
+                ],
+                "h": [
+                    {
+                        "value": 1,
+                        "element": 271
+                    }
+                ]
             },
             {
                 "identifier": "own_goals",
@@ -80839,7 +80859,12 @@
             },
             {
                 "identifier": "yellow_cards",
-                "a": [],
+                "a": [
+                    {
+                        "value": 1,
+                        "element": 127
+                    }
+                ],
                 "h": []
             },
             {
@@ -80851,7 +80876,7 @@
                 "identifier": "saves",
                 "a": [
                     {
-                        "value": 1,
+                        "value": 2,
                         "element": 143
                     }
                 ],
@@ -80864,97 +80889,139 @@
             },
             {
                 "identifier": "bonus",
-                "a": [],
-                "h": []
+                "a": [
+                    {
+                        "value": 1,
+                        "element": 122
+                    }
+                ],
+                "h": [
+                    {
+                        "value": 3,
+                        "element": 271
+                    },
+                    {
+                        "value": 3,
+                        "element": 579
+                    }
+                ]
             },
             {
                 "identifier": "bps",
                 "a": [
                     {
-                        "value": 15,
-                        "element": 130
-                    },
-                    {
-                        "value": 14,
-                        "element": 142
-                    },
-                    {
-                        "value": 11,
-                        "element": 119
-                    },
-                    {
-                        "value": 9,
-                        "element": 121
-                    },
-                    {
-                        "value": 9,
-                        "element": 123
-                    },
-                    {
-                        "value": 7,
-                        "element": 127
-                    },
-                    {
-                        "value": 6,
-                        "element": 143
-                    },
-                    {
-                        "value": 4,
+                        "value": 27,
                         "element": 122
                     },
                     {
-                        "value": 2,
-                        "element": 134
+                        "value": 21,
+                        "element": 130
                     },
                     {
-                        "value": 2,
+                        "value": 21,
+                        "element": 142
+                    },
+                    {
+                        "value": 16,
+                        "element": 119
+                    },
+                    {
+                        "value": 16,
+                        "element": 123
+                    },
+                    {
+                        "value": 14,
+                        "element": 121
+                    },
+                    {
+                        "value": 13,
                         "element": 138
                     },
                     {
-                        "value": -5,
+                        "value": 11,
+                        "element": 143
+                    },
+                    {
+                        "value": 9,
                         "element": 141
+                    },
+                    {
+                        "value": 4,
+                        "element": 127
+                    },
+                    {
+                        "value": 3,
+                        "element": 132
+                    },
+                    {
+                        "value": 3,
+                        "element": 134
+                    },
+                    {
+                        "value": 3,
+                        "element": 137
+                    },
+                    {
+                        "value": 2,
+                        "element": 529
                     }
                 ],
                 "h": [
                     {
-                        "value": 15,
-                        "element": 270
-                    },
-                    {
-                        "value": 6,
-                        "element": 284
-                    },
-                    {
-                        "value": 6,
-                        "element": 510
-                    },
-                    {
-                        "value": 6,
-                        "element": 555
-                    },
-                    {
-                        "value": 5,
+                        "value": 32,
                         "element": 271
                     },
                     {
-                        "value": 5,
+                        "value": 32,
+                        "element": 579
+                    },
+                    {
+                        "value": 18,
+                        "element": 270
+                    },
+                    {
+                        "value": 18,
+                        "element": 510
+                    },
+                    {
+                        "value": 17,
                         "element": 279
                     },
                     {
-                        "value": 4,
+                        "value": 13,
                         "element": 277
                     },
                     {
-                        "value": 4,
+                        "value": 13,
+                        "element": 284
+                    },
+                    {
+                        "value": 10,
                         "element": 285
                     },
                     {
-                        "value": 4,
+                        "value": 9,
+                        "element": 555
+                    },
+                    {
+                        "value": 7,
                         "element": 512
                     },
                     {
-                        "value": 4,
-                        "element": 579
+                        "value": 3,
+                        "element": 281
+                    },
+                    {
+                        "value": 3,
+                        "element": 632
+                    },
+                    {
+                        "value": 3,
+                        "element": 723
+                    },
+                    {
+                        "value": 1,
+                        "element": 459
                     }
                 ]
             }

@@ -3667,27 +3667,47 @@
     {
         "code": 2210634,
         "event": 34,
-        "finished": false,
-        "finished_provisional": false,
+        "finished": true,
+        "finished_provisional": true,
         "id": 364,
         "kickoff_time": "2022-04-28T18:45:00Z",
-        "minutes": 0,
+        "minutes": 90,
         "provisional_start_time": false,
         "started": true,
         "team_a": 6,
-        "team_a_score": 0,
+        "team_a_score": 1,
         "team_h": 13,
-        "team_h_score": 0,
+        "team_h_score": 1,
         "stats": [
             {
                 "identifier": "goals_scored",
-                "a": [],
-                "h": []
+                "a": [
+                    {
+                        "value": 1,
+                        "element": 122
+                    }
+                ],
+                "h": [
+                    {
+                        "value": 1,
+                        "element": 579
+                    }
+                ]
             },
             {
                 "identifier": "assists",
-                "a": [],
-                "h": []
+                "a": [
+                    {
+                        "value": 1,
+                        "element": 141
+                    }
+                ],
+                "h": [
+                    {
+                        "value": 1,
+                        "element": 271
+                    }
+                ]
             },
             {
                 "identifier": "own_goals",
@@ -3706,7 +3726,12 @@
             },
             {
                 "identifier": "yellow_cards",
-                "a": [],
+                "a": [
+                    {
+                        "value": 1,
+                        "element": 127
+                    }
+                ],
                 "h": []
             },
             {
@@ -3718,7 +3743,7 @@
                 "identifier": "saves",
                 "a": [
                     {
-                        "value": 1,
+                        "value": 2,
                         "element": 143
                     }
                 ],
@@ -3731,160 +3756,223 @@
             },
             {
                 "identifier": "bonus",
-                "a": [],
-                "h": []
+                "a": [
+                    {
+                        "value": 1,
+                        "element": 122
+                    }
+                ],
+                "h": [
+                    {
+                        "value": 3,
+                        "element": 271
+                    },
+                    {
+                        "value": 3,
+                        "element": 579
+                    }
+                ]
             },
             {
                 "identifier": "bps",
                 "a": [
                     {
-                        "value": 16,
-                        "element": 130,
-                        "web_name": "Kant\u00e9",
-                        "bns_rank": 1,
-                        "bns_pts": 3
-                    },
-                    {
-                        "value": 14,
-                        "element": 142,
-                        "web_name": "James",
+                        "value": 27,
+                        "element": 122,
+                        "web_name": "Alonso",
                         "bns_rank": 3,
                         "bns_pts": 1
                     },
                     {
-                        "value": 11,
-                        "element": 119,
-                        "web_name": "Azpilicueta",
+                        "value": 21,
+                        "element": 130,
+                        "web_name": "Kant\u00e9",
                         "bns_rank": 4,
                         "bns_pts": 0
                     },
                     {
-                        "value": 10,
-                        "element": 123,
-                        "web_name": "Jorginho",
-                        "bns_rank": 5,
+                        "value": 21,
+                        "element": 142,
+                        "web_name": "James",
+                        "bns_rank": 4,
                         "bns_pts": 0
                     },
                     {
-                        "value": 9,
-                        "element": 121,
-                        "web_name": "Thiago Silva",
-                        "bns_rank": 6,
-                        "bns_pts": 0
-                    },
-                    {
-                        "value": 7,
-                        "element": 127,
-                        "web_name": "R\u00fcdiger",
+                        "value": 16,
+                        "element": 119,
+                        "web_name": "Azpilicueta",
                         "bns_rank": 7,
                         "bns_pts": 0
                     },
                     {
-                        "value": 6,
+                        "value": 16,
+                        "element": 123,
+                        "web_name": "Jorginho",
+                        "bns_rank": 7,
+                        "bns_pts": -3
+                    },
+                    {
+                        "value": 14,
+                        "element": 121,
+                        "web_name": "Thiago Silva",
+                        "bns_rank": 7,
+                        "bns_pts": 0
+                    },
+                    {
+                        "value": 13,
+                        "element": 138,
+                        "web_name": "Mount",
+                        "bns_rank": 7,
+                        "bns_pts": 0
+                    },
+                    {
+                        "value": 11,
                         "element": 143,
                         "web_name": "Mendy",
                         "bns_rank": 7,
                         "bns_pts": 0
                     },
                     {
-                        "value": 4,
-                        "element": 122,
-                        "web_name": "Alonso",
+                        "value": 9,
+                        "element": 141,
+                        "web_name": "Havertz",
                         "bns_rank": 7,
                         "bns_pts": 0
                     },
                     {
-                        "value": 2,
+                        "value": 4,
+                        "element": 127,
+                        "web_name": "R\u00fcdiger",
+                        "bns_rank": 7,
+                        "bns_pts": 0
+                    },
+                    {
+                        "value": 3,
+                        "element": 132,
+                        "web_name": "Loftus-Cheek",
+                        "bns_rank": 7,
+                        "bns_pts": 0
+                    },
+                    {
+                        "value": 3,
                         "element": 134,
                         "web_name": "Werner",
-                        "bns_rank": 7,
-                        "bns_pts": 0
-                    },
-                    {
-                        "value": 2,
-                        "element": 138,
-                        "web_name": "Mount",
                         "bns_rank": 7,
                         "bns_pts": -3
                     },
                     {
-                        "value": -5,
-                        "element": 141,
-                        "web_name": "Havertz",
+                        "value": 3,
+                        "element": 137,
+                        "web_name": "Pulisic",
+                        "bns_rank": 7,
+                        "bns_pts": -3
+                    },
+                    {
+                        "value": 2,
+                        "element": 529,
+                        "web_name": "Lukaku",
                         "bns_rank": 7,
                         "bns_pts": 0
                     }
                 ],
                 "h": [
                     {
-                        "value": 15,
-                        "element": 270,
-                        "web_name": "de Gea",
-                        "bns_rank": 2,
-                        "bns_pts": 2
-                    },
-                    {
-                        "value": 6,
-                        "element": 284,
-                        "web_name": "Lindel\u00f6f",
-                        "bns_rank": 7,
-                        "bns_pts": -3
-                    },
-                    {
-                        "value": 6,
-                        "element": 510,
-                        "web_name": "Dalot",
-                        "bns_rank": 7,
-                        "bns_pts": -3
-                    },
-                    {
-                        "value": 5,
+                        "value": 32,
                         "element": 271,
                         "web_name": "Matic",
+                        "bns_rank": 1,
+                        "bns_pts": 3
+                    },
+                    {
+                        "value": 32,
+                        "element": 579,
+                        "web_name": "Ronaldo",
+                        "bns_rank": 1,
+                        "bns_pts": 3
+                    },
+                    {
+                        "value": 18,
+                        "element": 270,
+                        "web_name": "de Gea",
+                        "bns_rank": 6,
+                        "bns_pts": 0
+                    },
+                    {
+                        "value": 18,
+                        "element": 510,
+                        "web_name": "Dalot",
+                        "bns_rank": 6,
+                        "bns_pts": -2
+                    },
+                    {
+                        "value": 17,
+                        "element": 279,
+                        "web_name": "Telles",
                         "bns_rank": 7,
                         "bns_pts": 0
                     },
                     {
-                        "value": 5,
-                        "element": 279,
-                        "web_name": "Telles",
-                        "bns_rank": 7,
-                        "bns_pts": -3
-                    },
-                    {
-                        "value": 5,
-                        "element": 555,
-                        "web_name": "Varane",
-                        "bns_rank": 7,
-                        "bns_pts": -3
-                    },
-                    {
-                        "value": 4,
+                        "value": 13,
                         "element": 277,
                         "web_name": "Fernandes",
                         "bns_rank": 7,
                         "bns_pts": -3
                     },
                     {
-                        "value": 3,
+                        "value": 13,
+                        "element": 284,
+                        "web_name": "Lindel\u00f6f",
+                        "bns_rank": 7,
+                        "bns_pts": -3
+                    },
+                    {
+                        "value": 10,
                         "element": 285,
                         "web_name": "McTominay",
                         "bns_rank": 7,
                         "bns_pts": 0
                     },
                     {
-                        "value": 3,
+                        "value": 9,
+                        "element": 555,
+                        "web_name": "Varane",
+                        "bns_rank": 7,
+                        "bns_pts": -3
+                    },
+                    {
+                        "value": 7,
                         "element": 512,
                         "web_name": "Elanga",
+                        "bns_rank": 7,
+                        "bns_pts": 0
+                    },
+                    {
+                        "value": 3,
+                        "element": 281,
+                        "web_name": "Rashford",
                         "bns_rank": 7,
                         "bns_pts": -3
                     },
                     {
                         "value": 3,
-                        "element": 579,
-                        "web_name": "Ronaldo",
+                        "element": 632,
+                        "web_name": "Jones",
                         "bns_rank": 7,
                         "bns_pts": -3
+                    },
+                    {
+                        "value": 3,
+                        "element": 723,
+                        "web_name": "Garnacho",
+                        "bns_rank": 7,
+                        "bns_pts": -3
+                    },
+                    {
+                        "value": 1,
+                        "element": 459,
+                        "web_name": "Mata",
+                        "bns_rank": 7,
+                        "bns_pts": 0
                     }
                 ]
             }
@@ -3894,47 +3982,47 @@
         "pulse_id": 66705,
         "team_h_nm": "Man Utd",
         "team_a_nm": "Chelsea",
-        "status": "live",
+        "status": "finished",
         "event_bonus": [
             {
-                "value": 16,
-                "element": 130,
-                "web_name": "Kant\u00e9",
+                "value": 32,
+                "element": 271,
+                "web_name": "Matic",
                 "bns_rank": 1,
                 "bns_pts": 3
             },
             {
-                "value": 15,
-                "element": 270,
-                "web_name": "de Gea",
-                "bns_rank": 2,
-                "bns_pts": 2
+                "value": 32,
+                "element": 579,
+                "web_name": "Ronaldo",
+                "bns_rank": 1,
+                "bns_pts": 3
             },
             {
-                "value": 14,
-                "element": 142,
-                "web_name": "James",
+                "value": 27,
+                "element": 122,
+                "web_name": "Alonso",
                 "bns_rank": 3,
                 "bns_pts": 1
             },
             {
-                "value": 11,
-                "element": 119,
-                "web_name": "Azpilicueta",
+                "value": 21,
+                "element": 130,
+                "web_name": "Kant\u00e9",
                 "bns_rank": 4,
                 "bns_pts": 0
             },
             {
-                "value": 10,
-                "element": 123,
-                "web_name": "Jorginho",
-                "bns_rank": 5,
+                "value": 21,
+                "element": 142,
+                "web_name": "James",
+                "bns_rank": 4,
                 "bns_pts": 0
             },
             {
-                "value": 9,
-                "element": 121,
-                "web_name": "Thiago Silva",
+                "value": 18,
+                "element": 270,
+                "web_name": "de Gea",
                 "bns_rank": 6,
                 "bns_pts": 0
             }

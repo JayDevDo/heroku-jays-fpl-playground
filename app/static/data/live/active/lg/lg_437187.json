@@ -33,13 +33,13 @@
                 "rank": 1,
                 "last_rank": 1,
                 "rank_sort": 1,
-                "total": 69,
+                "total": 72,
                 "entry_name": "TYCOON FC",
-                "matches_played": 33,
-                "matches_won": 23,
+                "matches_played": 34,
+                "matches_won": 24,
                 "matches_drawn": 0,
                 "matches_lost": 10,
-                "points_for": 2049
+                "points_for": 2102
             },
             {
                 "id": 339243,
@@ -49,13 +49,13 @@
                 "rank": 2,
                 "last_rank": 2,
                 "rank_sort": 2,
-                "total": 67,
+                "total": 70,
                 "entry_name": "Umair1",
-                "matches_played": 33,
-                "matches_won": 22,
+                "matches_played": 34,
+                "matches_won": 23,
                 "matches_drawn": 1,
                 "matches_lost": 10,
-                "points_for": 1848
+                "points_for": 1911
             },
             {
                 "id": 339249,
@@ -67,11 +67,11 @@
                 "rank_sort": 3,
                 "total": 63,
                 "entry_name": "Money Mundo FC",
-                "matches_played": 33,
+                "matches_played": 34,
                 "matches_won": 21,
                 "matches_drawn": 0,
-                "matches_lost": 12,
-                "points_for": 1919
+                "matches_lost": 13,
+                "points_for": 1957
             },
             {
                 "id": 339247,
@@ -83,11 +83,11 @@
                 "rank_sort": 4,
                 "total": 63,
                 "entry_name": "Golazo!",
-                "matches_played": 33,
+                "matches_played": 34,
                 "matches_won": 21,
                 "matches_drawn": 0,
-                "matches_lost": 12,
-                "points_for": 1810
+                "matches_lost": 13,
+                "points_for": 1856
             },
             {
                 "id": 339251,
@@ -99,43 +99,43 @@
                 "rank_sort": 5,
                 "total": 59,
                 "entry_name": "Hugo Stortiss",
-                "matches_played": 33,
+                "matches_played": 34,
                 "matches_won": 19,
                 "matches_drawn": 2,
-                "matches_lost": 12,
-                "points_for": 1741
-            },
-            {
-                "id": 339244,
-                "division": 27396,
-                "entry": 2114255,
-                "player_name": "awi safiai",
-                "rank": 6,
-                "last_rank": 6,
-                "rank_sort": 6,
-                "total": 55,
-                "entry_name": "awi takut termenang",
-                "matches_played": 33,
-                "matches_won": 18,
-                "matches_drawn": 1,
-                "matches_lost": 14,
-                "points_for": 1968
+                "matches_lost": 13,
+                "points_for": 1787
             },
             {
                 "id": 339241,
                 "division": 27396,
                 "entry": 993831,
                 "player_name": "Jay Vando",
+                "rank": 6,
+                "last_rank": 6,
+                "rank_sort": 6,
+                "total": 57,
+                "entry_name": "Bielsabub's Demons",
+                "matches_played": 34,
+                "matches_won": 19,
+                "matches_drawn": 0,
+                "matches_lost": 15,
+                "points_for": 2013
+            },
+            {
+                "id": 339244,
+                "division": 27396,
+                "entry": 2114255,
+                "player_name": "awi safiai",
                 "rank": 7,
                 "last_rank": 7,
                 "rank_sort": 7,
-                "total": 54,
-                "entry_name": "Bielsabub's Demons",
-                "matches_played": 33,
+                "total": 55,
+                "entry_name": "awi takut termenang",
+                "matches_played": 34,
                 "matches_won": 18,
-                "matches_drawn": 0,
+                "matches_drawn": 1,
                 "matches_lost": 15,
-                "points_for": 1943
+                "points_for": 2018
             },
             {
                 "id": 339240,
@@ -145,13 +145,13 @@
                 "rank": 8,
                 "last_rank": 8,
                 "rank_sort": 8,
-                "total": 51,
+                "total": 54,
                 "entry_name": "Single kHAM",
-                "matches_played": 33,
-                "matches_won": 17,
+                "matches_played": 34,
+                "matches_won": 18,
                 "matches_drawn": 0,
                 "matches_lost": 16,
-                "points_for": 1788
+                "points_for": 1836
             },
             {
                 "id": 339253,
@@ -161,13 +161,13 @@
                 "rank": 9,
                 "last_rank": 9,
                 "rank_sort": 9,
-                "total": 51,
+                "total": 54,
                 "entry_name": "johnniey254",
-                "matches_played": 33,
-                "matches_won": 17,
+                "matches_played": 34,
+                "matches_won": 18,
                 "matches_drawn": 0,
                 "matches_lost": 16,
-                "points_for": 1718
+                "points_for": 1769
             },
             {
                 "id": 339254,
@@ -177,13 +177,13 @@
                 "rank": 10,
                 "last_rank": 10,
                 "rank_sort": 10,
-                "total": 46,
+                "total": 49,
                 "entry_name": "Jacksplatarmy",
-                "matches_played": 33,
-                "matches_won": 15,
+                "matches_played": 34,
+                "matches_won": 16,
                 "matches_drawn": 1,
                 "matches_lost": 17,
-                "points_for": 1587
+                "points_for": 1634
             },
             {
                 "id": 339246,
@@ -193,45 +193,45 @@
                 "rank": 11,
                 "last_rank": 11,
                 "rank_sort": 11,
-                "total": 42,
+                "total": 45,
                 "entry_name": "fc baali",
-                "matches_played": 33,
-                "matches_won": 14,
+                "matches_played": 34,
+                "matches_won": 15,
                 "matches_drawn": 0,
                 "matches_lost": 19,
-                "points_for": 1694
-            },
-            {
-                "id": 339250,
-                "division": 27396,
-                "entry": 1482643,
-                "player_name": "Min Rahman",
-                "rank": 12,
-                "last_rank": 12,
-                "rank_sort": 12,
-                "total": 42,
-                "entry_name": "umair2",
-                "matches_played": 33,
-                "matches_won": 14,
-                "matches_drawn": 0,
-                "matches_lost": 19,
-                "points_for": 1615
+                "points_for": 1744
             },
             {
                 "id": 339245,
                 "division": 27396,
                 "entry": 2114082,
                 "player_name": "Lars Olofsson",
+                "rank": 12,
+                "last_rank": 12,
+                "rank_sort": 12,
+                "total": 43,
+                "entry_name": "Dojan Boys",
+                "matches_played": 34,
+                "matches_won": 14,
+                "matches_drawn": 1,
+                "matches_lost": 19,
+                "points_for": 1629
+            },
+            {
+                "id": 339250,
+                "division": 27396,
+                "entry": 1482643,
+                "player_name": "Min Rahman",
                 "rank": 13,
                 "last_rank": 13,
                 "rank_sort": 13,
-                "total": 40,
-                "entry_name": "Dojan Boys",
-                "matches_played": 33,
-                "matches_won": 13,
-                "matches_drawn": 1,
-                "matches_lost": 19,
-                "points_for": 1582
+                "total": 42,
+                "entry_name": "umair2",
+                "matches_played": 34,
+                "matches_won": 14,
+                "matches_drawn": 0,
+                "matches_lost": 20,
+                "points_for": 1651
             },
             {
                 "id": 339252,
@@ -243,11 +243,11 @@
                 "rank_sort": 14,
                 "total": 34,
                 "entry_name": "Astro",
-                "matches_played": 33,
+                "matches_played": 34,
                 "matches_won": 11,
                 "matches_drawn": 1,
-                "matches_lost": 21,
-                "points_for": 1711
+                "matches_lost": 22,
+                "points_for": 1755
             },
             {
                 "id": 339239,
@@ -259,11 +259,11 @@
                 "rank_sort": 15,
                 "total": 33,
                 "entry_name": "\u0627\u0644\u062a\u062c\u062f\u064a\u062f \u0627\u0644\u0631\u064a\u0627\u0636\u064a",
-                "matches_played": 33,
+                "matches_played": 34,
                 "matches_won": 11,
                 "matches_drawn": 0,
-                "matches_lost": 22,
-                "points_for": 1492
+                "matches_lost": 23,
+                "points_for": 1543
             },
             {
                 "id": 339242,
@@ -275,11 +275,11 @@
                 "rank_sort": 16,
                 "total": 19,
                 "entry_name": "Mcw",
-                "matches_played": 33,
+                "matches_played": 34,
                 "matches_won": 6,
                 "matches_drawn": 1,
-                "matches_lost": 26,
-                "points_for": 1293
+                "matches_lost": 27,
+                "points_for": 1332
             }
         ]
     }
