@@ -42,7 +42,7 @@
 				<section>
 					<h2> GW </h2>
 					<span>
-						<h3>
+						<h3 id="ownRunningTotal" txCost="{{fpl[4]['data']['roundDash']['event_transfers_cost']}}">
 							{{fpl[4]['data']["roundDash"]["points"]-fpl[4]['data']["roundDash"]["event_transfers_cost"]}}	
 						</h3>
 					</span>					
@@ -66,12 +66,12 @@
 					potsub="{{ s_gkp['liveBallerData']['potentialSub'] }}"
 					style="flex-grow: 5;"
 					>
-					<div class="ballerLiveHdr">
+					<div class="ballerLiveHdr own">
 						<span cap="{{ s_gkp['multiplier']==2 }}">
 							{{ s_gkp["web_name"] }}
 						</span>
 						<div class="row">
-							<span style="border: 1px solid black;">
+							<span style="border: 1px solid black;" class="lbGmTtl" >
 								{{ s_gkp["liveBallerData"]["stats"]["total_points"] * s_gkp["multiplier"] }}
 							</span>
 						</div>
@@ -79,7 +79,11 @@
 					</div>
 
 					{% for s in s_gkp['liveBallerData']['explain'] %}
-						<div class="ballerLiveGameHdr" fxtrid="{{ s['fixture'] }}" >
+						<div 	class="ballerLiveGameHdrOwn" 
+								fxtrid="{{ s['fixture'] }}" 
+								bllrLvTotal="{{ s['gmTotal'] }}" 
+								bllrMlt="{{ s_gkp['multiplier']}}"
+						>
 							<h6>{{ s['opp'] }} : {{ s['gmTotal']}}</h6>
 
 							<select value="{{ s['gmTotal'] }}">
@@ -89,7 +93,7 @@
 								<option value="{{ e['points'] }}">
 									<span class="span_l">{{ e["identifier"] }}: </span>
 									<span class="span_m">{{ e["value"] }}</span>
-									<span class="span_r"> = {{ e["points"] }}</span>
+									<span class="span_r lbGmItem" > = {{ e["points"] }}</span>
 								</option>
 
 								{% endfor %}
@@ -123,12 +127,12 @@
 					potsub="{{ s_def['liveBallerData']['potentialSub'] }}"
 					style="flex-grow: 2;"
 					>
-					<div class="ballerLiveHdr">
+					<div class="ballerLiveHdr own">
 						<span cap="{{ s_def['multiplier']==2 }}">
 							{{ s_def["web_name"] }}
 						</span>
 						<div class="row">
-							<span style="border: 1px solid black;">
+							<span style="border: 1px solid black;" class="lbGmTtl" >
 								{{ s_def["liveBallerData"]["stats"]["total_points"] * s_def["multiplier"] }}
 							</span>
 						</div>
@@ -136,7 +140,11 @@
 					</div>
 
 					{% for s in s_def['liveBallerData']['explain'] %}
-						<div class="ballerLiveGameHdr" fxtrid="{{ s['fixture'] }}" >
+						<div 	class="ballerLiveGameHdrOwn" 
+								fxtrid="{{ s['fixture'] }}" 
+								bllrLvTotal="{{ s['gmTotal'] }}" 
+								bllrMlt="{{ s_def['multiplier']}}"
+						>
 							<h6>{{ s['opp'] }} : {{ s['gmTotal']}}</h6>
 
 							<select value="{{ s['gmTotal'] }}">
@@ -146,7 +154,7 @@
 								<option value="{{ e['points'] }}">
 									<span class="span_l">{{ e["identifier"] }}: </span>
 									<span class="span_m">{{ e["value"] }}</span>
-									<span class="span_r"> = {{ e["points"] }}</span>
+									<span class="span_r lbGmItem"> = {{ e["points"] }}</span>
 								</option>
 
 								{% endfor %}
@@ -181,12 +189,12 @@
 					potsub="{{ s_mid['liveBallerData']['potentialSub'] }}"
 					style="flex-grow: 2;"
 				>
-					<div class="ballerLiveHdr">
+					<div class="ballerLiveHdr own">
 						<span cap="{{ s_mid['multiplier']==2 }}">
 							{{ s_mid["web_name"] }}
 						</span>
 						<div class="row">
-							<span style="border: 1px solid black;">
+							<span style="border: 1px solid black;" class="lbGmTtl" >
 								{{ s_mid["liveBallerData"]["stats"]["total_points"] * s_mid["multiplier"] }}
 							</span>
 						</div>
@@ -194,7 +202,12 @@
 					</div>
 
 					{% for s in s_mid['liveBallerData']['explain'] %}
-						<div class="ballerLiveGameHdr" fxtrid="{{ s['fixture'] }}" >
+						<div 	class="ballerLiveGameHdrOwn" 
+								fxtrid="{{ s['fixture'] }}" 
+								bllrLvTotal="{{ s['gmTotal'] }}" 
+								bllrMlt="{{ s_mid['multiplier']}}"
+						>
+
 							<h6>{{ s['opp'] }} : {{ s['gmTotal']}}</h6>
 
 							<select value="{{ s['gmTotal'] }}">
@@ -204,7 +217,7 @@
 								<option value="{{ e['points'] }}">
 									<span class="span_l">{{ e["identifier"] }}: </span>
 									<span class="span_m">{{ e["value"] }}</span>
-									<span class="span_r"> = {{ e["points"] }}</span>
+									<span class="span_r lbGmItem"> = {{ e["points"] }}</span>
 								</option>
 
 								{% endfor %}
@@ -238,13 +251,13 @@
 					potsub="{{ s_fwd['liveBallerData']['potentialSub'] }}"
 					style="flex-grow: 3;"
 					>
-					<div class="ballerLiveHdr">
+					<div class="ballerLiveHdr own">
 						<span cap="{{ s_fwd['multiplier']==2 }}">
 							{{ s_fwd["web_name"] }}
 						</span>
 
 						<div class="row">
-							<span style="border: 1px solid black;">
+							<span style="border: 1px solid black;" class="lbGmTtl" >
 								{{ s_fwd["liveBallerData"]["stats"]["total_points"] * s_fwd["multiplier"] }}
 							</span>
 						</div>
@@ -253,7 +266,11 @@
 					</div>
 
 					{% for s in s_fwd['liveBallerData']['explain'] %}
-						<div class="ballerLiveGameHdr" fxtrid="{{ s['fixture'] }}" >
+						<div 	class="ballerLiveGameHdrOwn" 
+								fxtrid="{{ s['fixture'] }}" 
+								bllrLvTotal="{{ s['gmTotal'] }}" 
+								bllrMlt="{{ s_fwd['multiplier']}}"
+						>
 							<h6>{{ s['opp'] }} : {{ s['gmTotal']}}</h6>
 
 							<select value="{{ s['gmTotal'] }}">
@@ -263,7 +280,7 @@
 								<option value="{{ e['points'] }}">
 									<span class="span_l">{{ e["identifier"] }}: </span>
 									<span class="span_m">{{ e["value"] }}</span>
-									<span class="span_r"> = {{ e["points"] }}</span>
+									<span class="span_r lbGmItem"> = {{ e["points"] }}</span>
 								</option>
 
 								{% endfor %}
@@ -293,12 +310,12 @@
 					ballerid="{{ res['liveBallerData']['id'] }}"
 					fxtrids="{{ res['liveBallerData']['stats']['gwGames'] }}"
 			>
-				<div class="ballerLiveHdr">
+				<div class="ballerLiveHdr own">
 					<span>{{ res["web_name"] }}</span>
 					<span>{{ res["posNm"]  }} ({{ (res["position"]-11) }})</span>
 
 					<div class="row">
-						<span style="border: 1px solid black;">
+						<span style="border: 1px solid black;" class="lbGmTtl" >
 							{{ res["liveBallerData"]["stats"]["total_points"] }}
 						</span>
 					</div>
@@ -306,8 +323,8 @@
 
 
 				{% for s in res['liveBallerData']['explain'] %}
-					<div class="ballerLiveGameHdr" fxtrid="{{ s['fixture'] }}" >
-						<h6>{{ s['opp'] }} : {{ s['gmTotal']}}</h6>
+					<div class="ballerLiveGameHdrOwn" fxtrid="{{ s['fixture'] }}" >
+						<h6 class="lbGmTtl">{{ s['opp'] }} : {{ s['gmTotal']}}</h6>
 
 						<select value="{{ s['gmTotal'] }}">
 
@@ -316,7 +333,7 @@
 							<option value="{{ e['points'] }}">
 								<span class="span_l">{{ e["identifier"] }}: </span>
 								<span class="span_m">{{ e["value"] }}</span>
-								<span class="span_r"> = {{ e["points"] }}</span>
+								<span class="span_r lbGmItem"> = {{ e["points"] }}</span>
 							</option>
 
 							{% endfor %}
@@ -334,5 +351,30 @@
 
 	</div>
 
+	<script type="text/javascript">
+		function liveTotalsOwn(){
+			let starterArr = $("div[bllrLvTotal].ballerLiveGameHdrOwn");
+			let startersPoints = 0;
+			let txCost = parseInt($("#ownRunningTotal").attr("txCost"));
+
+			$.each( 
+				starterArr, 
+				function(index, strtr){ 
+					console.log(
+							"liveTotalsOwn", index, 
+							"bllrTtl" ,$(strtr).attr("bllrLvTotal"),
+							"bllrmlt", parseInt( $(strtr).attr("bllrMlt")) 
+					);
+					startersPoints += ( parseInt( $(strtr).attr("bllrLvTotal") ) * parseInt( $(strtr).attr("bllrMlt") ) ) ;
+				}
+			);
+
+			console.log("startersPoints",startersPoints , "txCost", txCost);
+			return (startersPoints-txCost);	
+		}
+
+		$("#ownRunningTotal").text(liveTotalsOwn());
+		
+	</script>
 </div>
 

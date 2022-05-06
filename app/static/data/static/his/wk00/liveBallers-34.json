@@ -4515,11 +4515,11 @@
     {
         "id": 119,
         "stats": {
-            "minutes": 117,
+            "minutes": 180,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 1,
-            "goals_conceded": 0,
+            "goals_conceded": 1,
             "own_goals": 0,
             "penalties_saved": 0,
             "penalties_missed": 0,
@@ -4527,12 +4527,12 @@
             "red_cards": 0,
             "saves": 0,
             "bonus": 0,
-            "bps": 29,
-            "influence": "16.2",
-            "creativity": "17.4",
-            "threat": "8.0",
-            "ict_index": "4.2",
-            "total_points": 7,
+            "bps": 41,
+            "influence": "30.8",
+            "creativity": "22.9",
+            "threat": "12.0",
+            "ict_index": "6.6",
+            "total_points": 8,
             "in_dreamteam": false
         },
         "explain": [
@@ -4556,8 +4556,8 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 1,
-                        "value": 27
+                        "points": 2,
+                        "value": 90
                     }
                 ]
             }
@@ -4612,11 +4612,11 @@
     {
         "id": 121,
         "stats": {
-            "minutes": 117,
+            "minutes": 180,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 1,
-            "goals_conceded": 0,
+            "goals_conceded": 1,
             "own_goals": 0,
             "penalties_saved": 0,
             "penalties_missed": 0,
@@ -4624,12 +4624,12 @@
             "red_cards": 0,
             "saves": 0,
             "bonus": 1,
-            "bps": 30,
-            "influence": "25.4",
-            "creativity": "2.4",
+            "bps": 41,
+            "influence": "43.2",
+            "creativity": "3.8",
             "threat": "8.0",
-            "ict_index": "3.6",
-            "total_points": 8,
+            "ict_index": "5.5",
+            "total_points": 9,
             "in_dreamteam": false
         },
         "explain": [
@@ -4658,8 +4658,8 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 1,
-                        "value": 27
+                        "points": 2,
+                        "value": 90
                     }
                 ]
             }
@@ -4668,24 +4668,24 @@
     {
         "id": 122,
         "stats": {
-            "minutes": 117,
-            "goals_scored": 0,
+            "minutes": 180,
+            "goals_scored": 1,
             "assists": 1,
             "clean_sheets": 1,
-            "goals_conceded": 0,
+            "goals_conceded": 1,
             "own_goals": 0,
             "penalties_saved": 0,
             "penalties_missed": 0,
             "yellow_cards": 1,
             "red_cards": 0,
             "saves": 0,
-            "bonus": 2,
-            "bps": 34,
-            "influence": "19.6",
-            "creativity": "30.7",
-            "threat": "18.0",
-            "ict_index": "6.8",
-            "total_points": 11,
+            "bonus": 3,
+            "bps": 57,
+            "influence": "67.2",
+            "creativity": "72.5",
+            "threat": "53.0",
+            "ict_index": "19.2",
+            "total_points": 19,
             "in_dreamteam": true
         },
         "explain": [
@@ -4724,8 +4724,18 @@
                 "stats": [
                     {
                         "identifier": "minutes",
+                        "points": 2,
+                        "value": 90
+                    },
+                    {
+                        "identifier": "goals_scored",
+                        "points": 6,
+                        "value": 1
+                    },
+                    {
+                        "identifier": "bonus",
                         "points": 1,
-                        "value": 27
+                        "value": 1
                     }
                 ]
             }
@@ -4734,11 +4744,11 @@
     {
         "id": 123,
         "stats": {
-            "minutes": 117,
+            "minutes": 180,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 1,
-            "goals_conceded": 0,
+            "goals_conceded": 1,
             "own_goals": 0,
             "penalties_saved": 0,
             "penalties_missed": 1,
@@ -4746,12 +4756,12 @@
             "red_cards": 0,
             "saves": 0,
             "bonus": 0,
-            "bps": 17,
-            "influence": "23.8",
-            "creativity": "26.8",
-            "threat": "17.0",
-            "ict_index": "6.8",
-            "total_points": 2,
+            "bps": 30,
+            "influence": "38.4",
+            "creativity": "44.7",
+            "threat": "20.0",
+            "ict_index": "10.4",
+            "total_points": 3,
             "in_dreamteam": false
         },
         "explain": [
@@ -4780,8 +4790,8 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 1,
-                        "value": 27
+                        "points": 2,
+                        "value": 90
                     }
                 ]
             }
@@ -4928,23 +4938,23 @@
     {
         "id": 127,
         "stats": {
-            "minutes": 27,
+            "minutes": 90,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 0,
-            "goals_conceded": 0,
+            "goals_conceded": 1,
             "own_goals": 0,
             "penalties_saved": 0,
             "penalties_missed": 0,
-            "yellow_cards": 0,
+            "yellow_cards": 1,
             "red_cards": 0,
             "saves": 0,
             "bonus": 0,
-            "bps": 3,
-            "influence": "0.0",
-            "creativity": "0.0",
-            "threat": "0.0",
-            "ict_index": "0.0",
+            "bps": 4,
+            "influence": "3.2",
+            "creativity": "3.8",
+            "threat": "19.0",
+            "ict_index": "2.6",
             "total_points": 1,
             "in_dreamteam": false
         },
@@ -4964,8 +4974,13 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 1,
-                        "value": 27
+                        "points": 2,
+                        "value": 90
+                    },
+                    {
+                        "identifier": "yellow_cards",
+                        "points": -1,
+                        "value": 1
                     }
                 ]
             }
@@ -5056,11 +5071,11 @@
     {
         "id": 130,
         "stats": {
-            "minutes": 117,
+            "minutes": 171,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 1,
-            "goals_conceded": 0,
+            "goals_conceded": 1,
             "own_goals": 0,
             "penalties_saved": 0,
             "penalties_missed": 0,
@@ -5068,12 +5083,12 @@
             "red_cards": 0,
             "saves": 0,
             "bonus": 0,
-            "bps": 19,
-            "influence": "14.6",
-            "creativity": "9.5",
-            "threat": "40.0",
-            "ict_index": "6.4",
-            "total_points": 4,
+            "bps": 35,
+            "influence": "32.2",
+            "creativity": "54.9",
+            "threat": "61.0",
+            "ict_index": "14.8",
+            "total_points": 5,
             "in_dreamteam": false
         },
         "explain": [
@@ -5097,8 +5112,8 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 1,
-                        "value": 27
+                        "points": 2,
+                        "value": 81
                     }
                 ]
             }
@@ -5153,7 +5168,7 @@
     {
         "id": 132,
         "stats": {
-            "minutes": 75,
+            "minutes": 83,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 1,
@@ -5165,12 +5180,12 @@
             "red_cards": 0,
             "saves": 0,
             "bonus": 0,
-            "bps": 14,
-            "influence": "20.0",
-            "creativity": "50.2",
+            "bps": 17,
+            "influence": "25.4",
+            "creativity": "50.5",
             "threat": "18.0",
-            "ict_index": "8.8",
-            "total_points": 3,
+            "ict_index": "9.4",
+            "total_points": 4,
             "in_dreamteam": false
         },
         "explain": [
@@ -5194,8 +5209,8 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 0,
-                        "value": 0
+                        "points": 1,
+                        "value": 8
                     }
                 ]
             }
@@ -5250,11 +5265,11 @@
     {
         "id": 134,
         "stats": {
-            "minutes": 102,
+            "minutes": 145,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 1,
-            "goals_conceded": 0,
+            "goals_conceded": 1,
             "own_goals": 0,
             "penalties_saved": 0,
             "penalties_missed": 0,
@@ -5263,11 +5278,11 @@
             "saves": 0,
             "bonus": 0,
             "bps": 7,
-            "influence": "6.0",
-            "creativity": "27.8",
-            "threat": "86.0",
-            "ict_index": "12.0",
-            "total_points": 3,
+            "influence": "9.2",
+            "creativity": "31.3",
+            "threat": "109.0",
+            "ict_index": "15.0",
+            "total_points": 4,
             "in_dreamteam": false
         },
         "explain": [
@@ -5286,8 +5301,8 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 1,
-                        "value": 27
+                        "points": 2,
+                        "value": 70
                     }
                 ]
             }
@@ -5388,7 +5403,7 @@
     {
         "id": 137,
         "stats": {
-            "minutes": 14,
+            "minutes": 33,
             "goals_scored": 1,
             "assists": 0,
             "clean_sheets": 0,
@@ -5400,12 +5415,12 @@
             "red_cards": 0,
             "saves": 0,
             "bonus": 0,
-            "bps": 25,
-            "influence": "35.2",
-            "creativity": "11.7",
-            "threat": "17.0",
-            "ict_index": "6.4",
-            "total_points": 6,
+            "bps": 28,
+            "influence": "36.8",
+            "creativity": "12.4",
+            "threat": "19.0",
+            "ict_index": "6.8",
+            "total_points": 7,
             "in_dreamteam": false
         },
         "explain": [
@@ -5429,8 +5444,8 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 0,
-                        "value": 0
+                        "points": 1,
+                        "value": 19
                     }
                 ]
             }
@@ -5439,11 +5454,11 @@
     {
         "id": 138,
         "stats": {
-            "minutes": 117,
+            "minutes": 180,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 1,
-            "goals_conceded": 0,
+            "goals_conceded": 1,
             "own_goals": 0,
             "penalties_saved": 0,
             "penalties_missed": 0,
@@ -5451,12 +5466,12 @@
             "red_cards": 0,
             "saves": 0,
             "bonus": 0,
-            "bps": 10,
-            "influence": "2.4",
-            "creativity": "41.1",
-            "threat": "50.0",
-            "ict_index": "9.4",
-            "total_points": 4,
+            "bps": 20,
+            "influence": "14.4",
+            "creativity": "94.6",
+            "threat": "93.0",
+            "ict_index": "20.3",
+            "total_points": 5,
             "in_dreamteam": false
         },
         "explain": [
@@ -5480,8 +5495,8 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 1,
-                        "value": 27
+                        "points": 2,
+                        "value": 90
                     }
                 ]
             }
@@ -5582,11 +5597,11 @@
     {
         "id": 141,
         "stats": {
-            "minutes": 102,
+            "minutes": 144,
             "goals_scored": 0,
-            "assists": 0,
+            "assists": 1,
             "clean_sheets": 1,
-            "goals_conceded": 0,
+            "goals_conceded": 1,
             "own_goals": 0,
             "penalties_saved": 0,
             "penalties_missed": 0,
@@ -5594,12 +5609,12 @@
             "red_cards": 0,
             "saves": 0,
             "bonus": 0,
-            "bps": 5,
-            "influence": "7.4",
-            "creativity": "23.8",
-            "threat": "20.0",
-            "ict_index": "5.1",
-            "total_points": 4,
+            "bps": 13,
+            "influence": "28.4",
+            "creativity": "69.8",
+            "threat": "90.0",
+            "ict_index": "18.8",
+            "total_points": 8,
             "in_dreamteam": false
         },
         "explain": [
@@ -5623,8 +5638,13 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 1,
-                        "value": 27
+                        "points": 2,
+                        "value": 69
+                    },
+                    {
+                        "identifier": "assists",
+                        "points": 3,
+                        "value": 1
                     }
                 ]
             }
@@ -5633,11 +5653,11 @@
     {
         "id": 142,
         "stats": {
-            "minutes": 27,
+            "minutes": 90,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 0,
-            "goals_conceded": 0,
+            "goals_conceded": 1,
             "own_goals": 0,
             "penalties_saved": 0,
             "penalties_missed": 0,
@@ -5645,12 +5665,12 @@
             "red_cards": 0,
             "saves": 0,
             "bonus": 0,
-            "bps": 5,
-            "influence": "0.0",
-            "creativity": "0.0",
-            "threat": "0.0",
-            "ict_index": "0.0",
-            "total_points": 1,
+            "bps": 21,
+            "influence": "31.8",
+            "creativity": "50.0",
+            "threat": "61.0",
+            "ict_index": "14.3",
+            "total_points": 2,
             "in_dreamteam": false
         },
         "explain": [
@@ -5669,8 +5689,8 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 1,
-                        "value": 27
+                        "points": 2,
+                        "value": 90
                     }
                 ]
             }
@@ -5679,24 +5699,24 @@
     {
         "id": 143,
         "stats": {
-            "minutes": 117,
+            "minutes": 180,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 1,
-            "goals_conceded": 0,
+            "goals_conceded": 1,
             "own_goals": 0,
             "penalties_saved": 0,
             "penalties_missed": 0,
             "yellow_cards": 0,
             "red_cards": 0,
-            "saves": 3,
+            "saves": 4,
             "bonus": 0,
-            "bps": 31,
-            "influence": "19.2",
+            "bps": 36,
+            "influence": "37.2",
             "creativity": "0.0",
             "threat": "0.0",
-            "ict_index": "1.9",
-            "total_points": 7,
+            "ict_index": "3.7",
+            "total_points": 8,
             "in_dreamteam": false
         },
         "explain": [
@@ -5720,8 +5740,8 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 1,
-                        "value": 27
+                        "points": 2,
+                        "value": 90
                     }
                 ]
             }
@@ -5744,9 +5764,9 @@
             "bonus": 0,
             "bps": 1,
             "influence": "3.8",
-            "creativity": "5.3",
+            "creativity": "6.3",
             "threat": "46.0",
-            "ict_index": "5.5",
+            "ict_index": "5.6",
             "total_points": 3,
             "in_dreamteam": false
         },
@@ -5902,10 +5922,10 @@
             "saves": 0,
             "bonus": 0,
             "bps": 17,
-            "influence": "21.0",
+            "influence": "18.8",
             "creativity": "1.3",
             "threat": "0.0",
-            "ict_index": "2.2",
+            "ict_index": "2.0",
             "total_points": 3,
             "in_dreamteam": false
         },
@@ -6165,9 +6185,9 @@
             "bonus": 0,
             "bps": 5,
             "influence": "7.6",
-            "creativity": "20.7",
+            "creativity": "23.7",
             "threat": "2.0",
-            "ict_index": "3.0",
+            "ict_index": "3.3",
             "total_points": 1,
             "in_dreamteam": false
         },
@@ -6309,9 +6329,9 @@
             "bonus": 0,
             "bps": -4,
             "influence": "0.0",
-            "creativity": "2.3",
+            "creativity": "3.3",
             "threat": "38.0",
-            "ict_index": "4.0",
+            "ict_index": "4.1",
             "total_points": 2,
             "in_dreamteam": false
         },
@@ -6345,9 +6365,9 @@
             "bonus": 0,
             "bps": 11,
             "influence": "15.0",
-            "creativity": "21.4",
+            "creativity": "22.4",
             "threat": "18.0",
-            "ict_index": "5.4",
+            "ict_index": "5.5",
             "total_points": 3,
             "in_dreamteam": false
         },
@@ -7248,7 +7268,7 @@
             "saves": 0,
             "bonus": 0,
             "bps": 24,
-            "influence": "29.6",
+            "influence": "30.0",
             "creativity": "10.4",
             "threat": "19.0",
             "ict_index": "5.9",
@@ -7289,10 +7309,10 @@
             "saves": 0,
             "bonus": 2,
             "bps": 28,
-            "influence": "25.0",
-            "creativity": "11.2",
+            "influence": "27.2",
+            "creativity": "11.1",
             "threat": "2.0",
-            "ict_index": "3.8",
+            "ict_index": "4.0",
             "total_points": 8,
             "in_dreamteam": false
         },
@@ -7336,9 +7356,9 @@
             "bonus": 0,
             "bps": 2,
             "influence": "3.0",
-            "creativity": "1.5",
+            "creativity": "1.4",
             "threat": "2.0",
-            "ict_index": "0.7",
+            "ict_index": "0.6",
             "total_points": 1,
             "in_dreamteam": false
         },
@@ -7371,10 +7391,10 @@
             "saves": 0,
             "bonus": 0,
             "bps": 11,
-            "influence": "5.4",
-            "creativity": "13.3",
+            "influence": "6.4",
+            "creativity": "19.3",
             "threat": "4.0",
-            "ict_index": "2.3",
+            "ict_index": "3.0",
             "total_points": 2,
             "in_dreamteam": false
         },
@@ -7407,10 +7427,10 @@
             "saves": 0,
             "bonus": 0,
             "bps": 8,
-            "influence": "17.0",
+            "influence": "18.0",
             "creativity": "12.5",
             "threat": "9.0",
-            "ict_index": "3.9",
+            "ict_index": "4.0",
             "total_points": 3,
             "in_dreamteam": false
         },
@@ -7484,10 +7504,10 @@
             "saves": 0,
             "bonus": 0,
             "bps": 20,
-            "influence": "22.2",
+            "influence": "22.4",
             "creativity": "0.2",
             "threat": "0.0",
-            "ict_index": "2.2",
+            "ict_index": "2.3",
             "total_points": 5,
             "in_dreamteam": false
         },
@@ -7531,9 +7551,9 @@
             "bonus": 0,
             "bps": 10,
             "influence": "11.2",
-            "creativity": "1.2",
+            "creativity": "1.3",
             "threat": "0.0",
-            "ict_index": "1.2",
+            "ict_index": "1.3",
             "total_points": 3,
             "in_dreamteam": false
         },
@@ -7644,9 +7664,9 @@
             "bonus": 0,
             "bps": 7,
             "influence": "6.4",
-            "creativity": "0.4",
+            "creativity": "1.4",
             "threat": "0.0",
-            "ict_index": "0.7",
+            "ict_index": "0.8",
             "total_points": 1,
             "in_dreamteam": false
         },
@@ -7715,10 +7735,10 @@
             "saves": 0,
             "bonus": 0,
             "bps": 6,
-            "influence": "9.6",
-            "creativity": "2.5",
+            "influence": "10.6",
+            "creativity": "3.6",
             "threat": "22.0",
-            "ict_index": "3.4",
+            "ict_index": "3.6",
             "total_points": 3,
             "in_dreamteam": false
         },
@@ -8546,7 +8566,7 @@
             "threat": "0.0",
             "ict_index": "2.0",
             "total_points": 9,
-            "in_dreamteam": true
+            "in_dreamteam": false
         },
         "explain": [
             {
@@ -9885,7 +9905,7 @@
             "threat": "24.0",
             "ict_index": "12.2",
             "total_points": 9,
-            "in_dreamteam": true
+            "in_dreamteam": false
         },
         "explain": [
             {
@@ -10501,10 +10521,10 @@
             "saves": 0,
             "bonus": 0,
             "bps": 6,
-            "influence": "10.8",
+            "influence": "8.8",
             "creativity": "29.6",
             "threat": "21.0",
-            "ict_index": "6.1",
+            "ict_index": "5.9",
             "total_points": 3,
             "in_dreamteam": false
         },
@@ -10611,24 +10631,24 @@
     {
         "id": 270,
         "stats": {
-            "minutes": 117,
+            "minutes": 180,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 0,
-            "goals_conceded": 3,
+            "goals_conceded": 4,
             "own_goals": 0,
             "penalties_saved": 0,
             "penalties_missed": 0,
             "yellow_cards": 0,
             "red_cards": 0,
-            "saves": 7,
+            "saves": 9,
             "bonus": 0,
-            "bps": 26,
-            "influence": "26.4",
+            "bps": 33,
+            "influence": "64.8",
             "creativity": "0.0",
             "threat": "0.0",
-            "ict_index": "2.6",
-            "total_points": 4,
+            "ict_index": "6.4",
+            "total_points": 5,
             "in_dreamteam": false
         },
         "explain": [
@@ -10657,13 +10677,13 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 1,
-                        "value": 27
+                        "points": 2,
+                        "value": 90
                     },
                     {
                         "identifier": "saves",
                         "points": 1,
-                        "value": 3
+                        "value": 5
                     }
                 ]
             }
@@ -10672,25 +10692,25 @@
     {
         "id": 271,
         "stats": {
-            "minutes": 103,
+            "minutes": 154,
             "goals_scored": 0,
-            "assists": 1,
+            "assists": 2,
             "clean_sheets": 0,
-            "goals_conceded": 3,
+            "goals_conceded": 4,
             "own_goals": 0,
             "penalties_saved": 0,
             "penalties_missed": 0,
             "yellow_cards": 0,
             "red_cards": 0,
             "saves": 0,
-            "bonus": 0,
-            "bps": 27,
-            "influence": "22.6",
-            "creativity": "15.0",
-            "threat": "2.0",
-            "ict_index": "4.0",
-            "total_points": 6,
-            "in_dreamteam": false
+            "bonus": 3,
+            "bps": 56,
+            "influence": "55.2",
+            "creativity": "40.3",
+            "threat": "4.0",
+            "ict_index": "10.0",
+            "total_points": 13,
+            "in_dreamteam": true
         },
         "explain": [
             {
@@ -10713,8 +10733,18 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 1,
-                        "value": 27
+                        "points": 2,
+                        "value": 78
+                    },
+                    {
+                        "identifier": "assists",
+                        "points": 3,
+                        "value": 1
+                    },
+                    {
+                        "identifier": "bonus",
+                        "points": 3,
+                        "value": 3
                     }
                 ]
             }
@@ -10953,11 +10983,11 @@
     {
         "id": 277,
         "stats": {
-            "minutes": 110,
+            "minutes": 173,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 0,
-            "goals_conceded": 3,
+            "goals_conceded": 4,
             "own_goals": 0,
             "penalties_saved": 0,
             "penalties_missed": 1,
@@ -10965,12 +10995,12 @@
             "red_cards": 0,
             "saves": 0,
             "bonus": 0,
-            "bps": 7,
-            "influence": "12.8",
-            "creativity": "49.7",
-            "threat": "20.0",
-            "ict_index": "8.3",
-            "total_points": 0,
+            "bps": 16,
+            "influence": "29.0",
+            "creativity": "53.5",
+            "threat": "41.0",
+            "ict_index": "12.4",
+            "total_points": 1,
             "in_dreamteam": false
         },
         "explain": [
@@ -10999,8 +11029,8 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 1,
-                        "value": 27
+                        "points": 2,
+                        "value": 90
                     }
                 ]
             }
@@ -11055,11 +11085,11 @@
     {
         "id": 279,
         "stats": {
-            "minutes": 117,
+            "minutes": 180,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 0,
-            "goals_conceded": 3,
+            "goals_conceded": 4,
             "own_goals": 0,
             "penalties_saved": 0,
             "penalties_missed": 0,
@@ -11067,12 +11097,12 @@
             "red_cards": 0,
             "saves": 0,
             "bonus": 0,
-            "bps": 14,
-            "influence": "13.4",
-            "creativity": "16.3",
-            "threat": "7.0",
-            "ict_index": "3.7",
-            "total_points": 1,
+            "bps": 24,
+            "influence": "44.0",
+            "creativity": "45.6",
+            "threat": "9.0",
+            "ict_index": "9.9",
+            "total_points": 2,
             "in_dreamteam": false
         },
         "explain": [
@@ -11101,8 +11131,8 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 1,
-                        "value": 27
+                        "points": 2,
+                        "value": 90
                     }
                 ]
             }
@@ -11157,11 +11187,11 @@
     {
         "id": 281,
         "stats": {
-            "minutes": 40,
+            "minutes": 91,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 0,
-            "goals_conceded": 0,
+            "goals_conceded": 1,
             "own_goals": 0,
             "penalties_saved": 0,
             "penalties_missed": 0,
@@ -11169,12 +11199,12 @@
             "red_cards": 0,
             "saves": 0,
             "bonus": 0,
-            "bps": 3,
+            "bps": 6,
             "influence": "0.0",
-            "creativity": "0.8",
-            "threat": "0.0",
-            "ict_index": "0.1",
-            "total_points": 2,
+            "creativity": "2.5",
+            "threat": "2.0",
+            "ict_index": "0.3",
+            "total_points": 3,
             "in_dreamteam": false
         },
         "explain": [
@@ -11193,8 +11223,8 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 1,
-                        "value": 27
+                        "points": 2,
+                        "value": 78
                     }
                 ]
             }
@@ -11285,11 +11315,11 @@
     {
         "id": 284,
         "stats": {
-            "minutes": 117,
+            "minutes": 180,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 0,
-            "goals_conceded": 3,
+            "goals_conceded": 4,
             "own_goals": 0,
             "penalties_saved": 0,
             "penalties_missed": 0,
@@ -11297,12 +11327,12 @@
             "red_cards": 0,
             "saves": 0,
             "bonus": 0,
-            "bps": 15,
-            "influence": "5.8",
-            "creativity": "1.4",
-            "threat": "0.0",
-            "ict_index": "0.7",
-            "total_points": 1,
+            "bps": 23,
+            "influence": "28.4",
+            "creativity": "1.8",
+            "threat": "17.0",
+            "ict_index": "4.7",
+            "total_points": 2,
             "in_dreamteam": false
         },
         "explain": [
@@ -11331,8 +11361,8 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 1,
-                        "value": 27
+                        "points": 2,
+                        "value": 90
                     }
                 ]
             }
@@ -11341,11 +11371,11 @@
     {
         "id": 285,
         "stats": {
-            "minutes": 117,
+            "minutes": 180,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 0,
-            "goals_conceded": 3,
+            "goals_conceded": 4,
             "own_goals": 0,
             "penalties_saved": 0,
             "penalties_missed": 0,
@@ -11353,12 +11383,12 @@
             "red_cards": 0,
             "saves": 0,
             "bonus": 0,
-            "bps": 10,
-            "influence": "4.0",
-            "creativity": "21.3",
-            "threat": "11.0",
-            "ict_index": "3.6",
-            "total_points": 3,
+            "bps": 16,
+            "influence": "19.2",
+            "creativity": "23.1",
+            "threat": "13.0",
+            "ict_index": "5.5",
+            "total_points": 4,
             "in_dreamteam": false
         },
         "explain": [
@@ -11377,8 +11407,8 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 1,
-                        "value": 27
+                        "points": 2,
+                        "value": 90
                     }
                 ]
             }
@@ -17900,7 +17930,7 @@
     {
         "id": 459,
         "stats": {
-            "minutes": 6,
+            "minutes": 17,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 0,
@@ -17912,12 +17942,12 @@
             "red_cards": 0,
             "saves": 0,
             "bonus": 0,
-            "bps": 7,
-            "influence": "4.8",
-            "creativity": "1.4",
+            "bps": 8,
+            "influence": "7.2",
+            "creativity": "2.0",
             "threat": "0.0",
-            "ict_index": "0.6",
-            "total_points": 1,
+            "ict_index": "0.9",
+            "total_points": 2,
             "in_dreamteam": false
         },
         "explain": [
@@ -17936,8 +17966,8 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 0,
-                        "value": 0
+                        "points": 1,
+                        "value": 11
                     }
                 ]
             }
@@ -18474,7 +18504,7 @@
             "bonus": 0,
             "bps": 20,
             "influence": "10.6",
-            "creativity": "1.7",
+            "creativity": "1.8",
             "threat": "1.0",
             "ict_index": "1.3",
             "total_points": 5,
@@ -18596,10 +18626,10 @@
             "saves": 0,
             "bonus": 1,
             "bps": 25,
-            "influence": "8.8",
+            "influence": "9.6",
             "creativity": "10.3",
             "threat": "22.0",
-            "ict_index": "4.1",
+            "ict_index": "4.2",
             "total_points": 7,
             "in_dreamteam": false
         },
@@ -19012,7 +19042,7 @@
             "saves": 0,
             "bonus": 0,
             "bps": 20,
-            "influence": "10.0",
+            "influence": "10.2",
             "creativity": "0.7",
             "threat": "4.0",
             "ict_index": "1.5",
@@ -19213,9 +19243,9 @@
             "bonus": 1,
             "bps": 25,
             "influence": "13.8",
-            "creativity": "25.3",
+            "creativity": "29.3",
             "threat": "0.0",
-            "ict_index": "3.9",
+            "ict_index": "4.3",
             "total_points": 7,
             "in_dreamteam": false
         },
@@ -19866,11 +19896,11 @@
     {
         "id": 510,
         "stats": {
-            "minutes": 117,
+            "minutes": 180,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 0,
-            "goals_conceded": 3,
+            "goals_conceded": 4,
             "own_goals": 0,
             "penalties_saved": 0,
             "penalties_missed": 0,
@@ -19878,12 +19908,12 @@
             "red_cards": 0,
             "saves": 0,
             "bonus": 0,
-            "bps": 15,
-            "influence": "20.2",
-            "creativity": "12.6",
+            "bps": 28,
+            "influence": "45.2",
+            "creativity": "15.1",
             "threat": "18.0",
-            "ict_index": "5.1",
-            "total_points": 2,
+            "ict_index": "7.9",
+            "total_points": 3,
             "in_dreamteam": false
         },
         "explain": [
@@ -19907,8 +19937,8 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 1,
-                        "value": 27
+                        "points": 2,
+                        "value": 90
                     }
                 ]
             }
@@ -19963,11 +19993,11 @@
     {
         "id": 512,
         "stats": {
-            "minutes": 103,
+            "minutes": 166,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 0,
-            "goals_conceded": 3,
+            "goals_conceded": 4,
             "own_goals": 0,
             "penalties_saved": 0,
             "penalties_missed": 0,
@@ -19975,12 +20005,12 @@
             "red_cards": 0,
             "saves": 0,
             "bonus": 0,
-            "bps": 4,
-            "influence": "10.4",
-            "creativity": "2.5",
-            "threat": "28.0",
-            "ict_index": "4.1",
-            "total_points": 3,
+            "bps": 8,
+            "influence": "13.6",
+            "creativity": "5.1",
+            "threat": "38.0",
+            "ict_index": "5.7",
+            "total_points": 4,
             "in_dreamteam": false
         },
         "explain": [
@@ -19999,8 +20029,8 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 1,
-                        "value": 27
+                        "points": 2,
+                        "value": 90
                     }
                 ]
             }
@@ -20605,7 +20635,7 @@
     {
         "id": 529,
         "stats": {
-            "minutes": 14,
+            "minutes": 34,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 0,
@@ -20617,12 +20647,12 @@
             "red_cards": 0,
             "saves": 0,
             "bonus": 0,
-            "bps": 6,
+            "bps": 8,
             "influence": "4.0",
-            "creativity": "10.0",
+            "creativity": "11.3",
             "threat": "22.0",
-            "ict_index": "3.6",
-            "total_points": 1,
+            "ict_index": "3.7",
+            "total_points": 2,
             "in_dreamteam": false
         },
         "explain": [
@@ -20641,8 +20671,8 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 0,
-                        "value": 0
+                        "points": 1,
+                        "value": 20
                     }
                 ]
             }
@@ -21395,9 +21425,9 @@
             "bonus": 0,
             "bps": 5,
             "influence": "4.2",
-            "creativity": "10.8",
-            "threat": "2.0",
-            "ict_index": "1.7",
+            "creativity": "11.8",
+            "threat": "0.0",
+            "ict_index": "1.6",
             "total_points": 1,
             "in_dreamteam": false
         },
@@ -21561,11 +21591,11 @@
     {
         "id": 555,
         "stats": {
-            "minutes": 117,
+            "minutes": 180,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 0,
-            "goals_conceded": 3,
+            "goals_conceded": 4,
             "own_goals": 0,
             "penalties_saved": 0,
             "penalties_missed": 0,
@@ -21573,12 +21603,12 @@
             "red_cards": 0,
             "saves": 0,
             "bonus": 0,
-            "bps": 20,
-            "influence": "19.2",
-            "creativity": "0.5",
-            "threat": "0.0",
-            "ict_index": "2.0",
-            "total_points": 2,
+            "bps": 24,
+            "influence": "40.6",
+            "creativity": "11.0",
+            "threat": "4.0",
+            "ict_index": "5.6",
+            "total_points": 3,
             "in_dreamteam": false
         },
         "explain": [
@@ -21602,8 +21632,8 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 1,
-                        "value": 27
+                        "points": 2,
+                        "value": 90
                     }
                 ]
             }
@@ -22445,25 +22475,25 @@
     {
         "id": 579,
         "stats": {
-            "minutes": 117,
-            "goals_scored": 1,
+            "minutes": 180,
+            "goals_scored": 2,
             "assists": 0,
             "clean_sheets": 0,
-            "goals_conceded": 3,
+            "goals_conceded": 4,
             "own_goals": 0,
             "penalties_saved": 0,
             "penalties_missed": 0,
             "yellow_cards": 1,
             "red_cards": 0,
             "saves": 0,
-            "bonus": 2,
-            "bps": 35,
-            "influence": "36.0",
-            "creativity": "24.2",
-            "threat": "45.0",
-            "ict_index": "10.5",
-            "total_points": 8,
-            "in_dreamteam": false
+            "bonus": 5,
+            "bps": 63,
+            "influence": "73.2",
+            "creativity": "29.0",
+            "threat": "80.0",
+            "ict_index": "18.2",
+            "total_points": 16,
+            "in_dreamteam": true
         },
         "explain": [
             {
@@ -22496,8 +22526,18 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 1,
-                        "value": 27
+                        "points": 2,
+                        "value": 90
+                    },
+                    {
+                        "identifier": "goals_scored",
+                        "points": 4,
+                        "value": 1
+                    },
+                    {
+                        "identifier": "bonus",
+                        "points": 3,
+                        "value": 3
                     }
                 ]
             }
@@ -24428,7 +24468,7 @@
     {
         "id": 632,
         "stats": {
-            "minutes": 0,
+            "minutes": 11,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 0,
@@ -24440,12 +24480,12 @@
             "red_cards": 0,
             "saves": 0,
             "bonus": 0,
-            "bps": 0,
+            "bps": 3,
             "influence": "0.0",
             "creativity": "0.0",
             "threat": "0.0",
             "ict_index": "0.0",
-            "total_points": 0,
+            "total_points": 1,
             "in_dreamteam": false
         },
         "explain": [
@@ -24464,8 +24504,8 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 0,
-                        "value": 0
+                        "points": 1,
+                        "value": 11
                     }
                 ]
             }
@@ -27839,7 +27879,7 @@
     {
         "id": 723,
         "stats": {
-            "minutes": 0,
+            "minutes": 1,
             "goals_scored": 0,
             "assists": 0,
             "clean_sheets": 0,
@@ -27851,12 +27891,12 @@
             "red_cards": 0,
             "saves": 0,
             "bonus": 0,
-            "bps": 0,
+            "bps": 3,
             "influence": "0.0",
             "creativity": "0.0",
             "threat": "0.0",
             "ict_index": "0.0",
-            "total_points": 0,
+            "total_points": 1,
             "in_dreamteam": false
         },
         "explain": [
@@ -27875,8 +27915,8 @@
                 "stats": [
                     {
                         "identifier": "minutes",
-                        "points": 0,
-                        "value": 0
+                        "points": 1,
+                        "value": 1
                     }
                 ]
             }
@@ -27980,6 +28020,98 @@
         "explain": [
             {
                 "fixture": 334,
+                "stats": [
+                    {
+                        "identifier": "minutes",
+                        "points": 0,
+                        "value": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 727,
+        "stats": {
+            "minutes": 0,
+            "goals_scored": 0,
+            "assists": 0,
+            "clean_sheets": 0,
+            "goals_conceded": 0,
+            "own_goals": 0,
+            "penalties_saved": 0,
+            "penalties_missed": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "saves": 0,
+            "bonus": 0,
+            "bps": 0,
+            "influence": "0.0",
+            "creativity": "0.0",
+            "threat": "0.0",
+            "ict_index": "0.0",
+            "total_points": 0,
+            "in_dreamteam": false
+        },
+        "explain": [
+            {
+                "fixture": 331,
+                "stats": [
+                    {
+                        "identifier": "minutes",
+                        "points": 0,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "fixture": 364,
+                "stats": [
+                    {
+                        "identifier": "minutes",
+                        "points": 0,
+                        "value": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 728,
+        "stats": {
+            "minutes": 0,
+            "goals_scored": 0,
+            "assists": 0,
+            "clean_sheets": 0,
+            "goals_conceded": 0,
+            "own_goals": 0,
+            "penalties_saved": 0,
+            "penalties_missed": 0,
+            "yellow_cards": 0,
+            "red_cards": 0,
+            "saves": 0,
+            "bonus": 0,
+            "bps": 0,
+            "influence": "0.0",
+            "creativity": "0.0",
+            "threat": "0.0",
+            "ict_index": "0.0",
+            "total_points": 0,
+            "in_dreamteam": false
+        },
+        "explain": [
+            {
+                "fixture": 331,
+                "stats": [
+                    {
+                        "identifier": "minutes",
+                        "points": 0,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "fixture": 364,
                 "stats": [
                     {
                         "identifier": "minutes",

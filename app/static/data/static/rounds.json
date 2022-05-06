@@ -1525,26 +1525,46 @@
         "id": 35,
         "name": "Gameweek 35",
         "deadline_time": "2022-04-30T10:00:00Z",
-        "average_entry_score": 0,
-        "finished": false,
-        "data_checked": false,
-        "highest_scoring_entry": null,
+        "average_entry_score": 44,
+        "finished": true,
+        "data_checked": true,
+        "highest_scoring_entry": 405443,
         "deadline_time_epoch": 1651312800,
         "deadline_time_game_offset": 0,
-        "highest_score": null,
+        "highest_score": 129,
         "is_previous": false,
         "is_current": true,
         "is_next": false,
         "cup_leagues_created": true,
         "h2h_ko_matches_created": true,
-        "chip_plays": [],
-        "most_selected": null,
-        "most_transferred_in": null,
-        "top_element": null,
-        "top_element_info": null,
-        "transfers_made": 0,
-        "most_captained": null,
-        "most_vice_captained": null
+        "chip_plays": [
+            {
+                "chip_name": "bboost",
+                "num_played": 66736
+            },
+            {
+                "chip_name": "freehit",
+                "num_played": 36325
+            },
+            {
+                "chip_name": "wildcard",
+                "num_played": 127267
+            },
+            {
+                "chip_name": "3xc",
+                "num_played": 37782
+            }
+        ],
+        "most_selected": 233,
+        "most_transferred_in": 263,
+        "top_element": 359,
+        "top_element_info": {
+            "id": 359,
+            "points": 19
+        },
+        "transfers_made": 6143352,
+        "most_captained": 233,
+        "most_vice_captained": 233
     },
     {
         "id": 36,
@@ -1560,8 +1580,8 @@
         "is_previous": false,
         "is_current": false,
         "is_next": true,
-        "cup_leagues_created": false,
-        "h2h_ko_matches_created": false,
+        "cup_leagues_created": true,
+        "h2h_ko_matches_created": true,
         "chip_plays": [],
         "most_selected": null,
         "most_transferred_in": null,
@@ -1599,12 +1619,12 @@
     {
         "id": 38,
         "name": "Gameweek 38",
-        "deadline_time": "2022-05-22T12:30:00Z",
+        "deadline_time": "2022-05-22T13:30:00Z",
         "average_entry_score": 0,
         "finished": false,
         "data_checked": false,
         "highest_scoring_entry": null,
-        "deadline_time_epoch": 1653222600,
+        "deadline_time_epoch": 1653226200,
         "deadline_time_game_offset": 0,
         "highest_score": null,
         "is_previous": false,
