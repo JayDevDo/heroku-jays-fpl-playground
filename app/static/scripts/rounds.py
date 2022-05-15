@@ -92,4 +92,3 @@ def getRemoteRnds():
 	rnf.close
 	mod_data.fplDataTS[0] = float(time.time())
 	return rounds
-

@@ -57,7 +57,7 @@ fplData =	[
 				{ "id":"oppId"		, "data": 2045927 },							#10
 				{ "id":"refresh"	, "data": 60 },									#11
 				{ "id": "selLg" 	, "data": { "id":436866, "nm":"League 436866"}},#12
-				{ "id": "curRound" 	, "data": 36 }	 								#13
+				{ "id": "curRound" 	, "data": 37 }	 								#13
 			]
 
 fplData[10]["data"] =	578444
