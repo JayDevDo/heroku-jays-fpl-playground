@@ -1532,7 +1532,7 @@
         "deadline_time_epoch": 1651312800,
         "deadline_time_game_offset": 0,
         "highest_score": 129,
-        "is_previous": true,
+        "is_previous": false,
         "is_current": false,
         "is_next": false,
         "cup_leagues_created": true,
@@ -1577,8 +1577,8 @@
         "deadline_time_epoch": 1651926600,
         "deadline_time_game_offset": 0,
         "highest_score": 225,
-        "is_previous": false,
-        "is_current": true,
+        "is_previous": true,
+        "is_current": false,
         "is_next": false,
         "cup_leagues_created": true,
         "h2h_ko_matches_created": true,
@@ -1623,16 +1623,36 @@
         "deadline_time_game_offset": 0,
         "highest_score": null,
         "is_previous": false,
-        "is_current": false,
-        "is_next": true,
+        "is_current": true,
+        "is_next": false,
         "cup_leagues_created": true,
         "h2h_ko_matches_created": true,
-        "chip_plays": [],
-        "most_selected": null,
-        "most_transferred_in": null,
-        "top_element": null,
-        "top_element_info": null,
-        "transfers_made": 0,
+        "chip_plays": [
+            {
+                "chip_name": "bboost",
+                "num_played": 235300
+            },
+            {
+                "chip_name": "freehit",
+                "num_played": 396962
+            },
+            {
+                "chip_name": "wildcard",
+                "num_played": 139309
+            },
+            {
+                "chip_name": "3xc",
+                "num_played": 177851
+            }
+        ],
+        "most_selected": 233,
+        "most_transferred_in": 359,
+        "top_element": 103,
+        "top_element_info": {
+            "id": 103,
+            "points": 1
+        },
+        "transfers_made": 12404447,
         "most_captained": null,
         "most_vice_captained": null
     },
@@ -1649,7 +1669,7 @@
         "highest_score": null,
         "is_previous": false,
         "is_current": false,
-        "is_next": false,
+        "is_next": true,
         "cup_leagues_created": false,
         "h2h_ko_matches_created": false,
         "chip_plays": [],
