@@ -33,13 +33,13 @@
                 "rank": 1,
                 "last_rank": 1,
                 "rank_sort": 1,
-                "total": 87,
+                "total": 90,
                 "entry_name": "Sancho Villa",
-                "matches_played": 36,
-                "matches_won": 29,
+                "matches_played": 37,
+                "matches_won": 30,
                 "matches_drawn": 0,
                 "matches_lost": 7,
-                "points_for": 2302
+                "points_for": 2371
             },
             {
                 "id": 336841,
@@ -51,43 +51,43 @@
                 "rank_sort": 2,
                 "total": 70,
                 "entry_name": "Bielsabub's Demons",
-                "matches_played": 36,
+                "matches_played": 37,
                 "matches_won": 23,
                 "matches_drawn": 1,
-                "matches_lost": 12,
-                "points_for": 2143
-            },
-            {
-                "id": 336852,
-                "division": 27161,
-                "entry": 578444,
-                "player_name": "H\u00e3ss\u00f5\u00f5n Mustafa",
-                "rank": 3,
-                "last_rank": 3,
-                "rank_sort": 3,
-                "total": 66,
-                "entry_name": "hassoon",
-                "matches_played": 36,
-                "matches_won": 21,
-                "matches_drawn": 3,
-                "matches_lost": 12,
-                "points_for": 2009
+                "matches_lost": 13,
+                "points_for": 2215
             },
             {
                 "id": 336851,
                 "division": 27161,
                 "entry": 894924,
                 "player_name": "Karol Ahmadi",
+                "rank": 3,
+                "last_rank": 3,
+                "rank_sort": 3,
+                "total": 68,
+                "entry_name": "DU30 ALLSTARS",
+                "matches_played": 37,
+                "matches_won": 22,
+                "matches_drawn": 2,
+                "matches_lost": 13,
+                "points_for": 2242
+            },
+            {
+                "id": 336852,
+                "division": 27161,
+                "entry": 578444,
+                "player_name": "H\u00e3ss\u00f5\u00f5n Mustafa",
                 "rank": 4,
                 "last_rank": 4,
                 "rank_sort": 4,
-                "total": 65,
-                "entry_name": "DU30 ALLSTARS",
-                "matches_played": 36,
+                "total": 66,
+                "entry_name": "hassoon",
+                "matches_played": 37,
                 "matches_won": 21,
-                "matches_drawn": 2,
+                "matches_drawn": 3,
                 "matches_lost": 13,
-                "points_for": 2152
+                "points_for": 2057
             },
             {
                 "id": 336845,
@@ -99,11 +99,11 @@
                 "rank_sort": 5,
                 "total": 63,
                 "entry_name": "Allbrook Wanderers",
-                "matches_played": 36,
+                "matches_played": 37,
                 "matches_won": 21,
                 "matches_drawn": 0,
-                "matches_lost": 15,
-                "points_for": 2074
+                "matches_lost": 16,
+                "points_for": 2102
             },
             {
                 "id": 336847,
@@ -113,13 +113,13 @@
                 "rank": 6,
                 "last_rank": 6,
                 "rank_sort": 6,
-                "total": 60,
+                "total": 63,
                 "entry_name": "You\u2019llNeverWalkAlone",
-                "matches_played": 36,
-                "matches_won": 19,
+                "matches_played": 37,
+                "matches_won": 20,
                 "matches_drawn": 3,
                 "matches_lost": 14,
-                "points_for": 2002
+                "points_for": 2036
             },
             {
                 "id": 336840,
@@ -129,13 +129,13 @@
                 "rank": 7,
                 "last_rank": 7,
                 "rank_sort": 7,
-                "total": 58,
+                "total": 61,
                 "entry_name": "Fill Me Wycombe",
-                "matches_played": 36,
-                "matches_won": 19,
+                "matches_played": 37,
+                "matches_won": 20,
                 "matches_drawn": 1,
                 "matches_lost": 16,
-                "points_for": 2037
+                "points_for": 2094
             },
             {
                 "id": 336846,
@@ -147,11 +147,11 @@
                 "rank_sort": 8,
                 "total": 56,
                 "entry_name": "Stuhico-07",
-                "matches_played": 36,
+                "matches_played": 37,
                 "matches_won": 18,
                 "matches_drawn": 2,
-                "matches_lost": 16,
-                "points_for": 1935
+                "matches_lost": 17,
+                "points_for": 1946
             },
             {
                 "id": 336842,
@@ -161,13 +161,13 @@
                 "rank": 9,
                 "last_rank": 9,
                 "rank_sort": 9,
-                "total": 52,
+                "total": 55,
                 "entry_name": "HedgeEnders",
-                "matches_played": 36,
-                "matches_won": 17,
+                "matches_played": 37,
+                "matches_won": 18,
                 "matches_drawn": 1,
                 "matches_lost": 18,
-                "points_for": 1854
+                "points_for": 1961
             },
             {
                 "id": 336850,
@@ -177,13 +177,13 @@
                 "rank": 10,
                 "last_rank": 10,
                 "rank_sort": 10,
-                "total": 50,
+                "total": 51,
                 "entry_name": "Area Boys",
-                "matches_played": 36,
+                "matches_played": 37,
                 "matches_won": 16,
-                "matches_drawn": 2,
+                "matches_drawn": 3,
                 "matches_lost": 18,
-                "points_for": 2025
+                "points_for": 2066
             },
             {
                 "id": 336838,
@@ -195,11 +195,11 @@
                 "rank_sort": 11,
                 "total": 49,
                 "entry_name": "Dyan",
-                "matches_played": 36,
+                "matches_played": 37,
                 "matches_won": 16,
                 "matches_drawn": 1,
-                "matches_lost": 19,
-                "points_for": 1965
+                "matches_lost": 20,
+                "points_for": 1997
             },
             {
                 "id": 336848,
@@ -209,13 +209,13 @@
                 "rank": 12,
                 "last_rank": 12,
                 "rank_sort": 12,
-                "total": 44,
+                "total": 47,
                 "entry_name": "\u062a\u0639\u0628\u0627\u0646 \u064a\u0627\u0643\u0627\u0628\u062a\u0646.",
-                "matches_played": 36,
-                "matches_won": 14,
+                "matches_played": 37,
+                "matches_won": 15,
                 "matches_drawn": 2,
                 "matches_lost": 20,
-                "points_for": 2056
+                "points_for": 2136
             },
             {
                 "id": 336839,
@@ -227,11 +227,11 @@
                 "rank_sort": 13,
                 "total": 37,
                 "entry_name": "The Lions \ufffd",
-                "matches_played": 36,
+                "matches_played": 37,
                 "matches_won": 12,
                 "matches_drawn": 1,
-                "matches_lost": 23,
-                "points_for": 1627
+                "matches_lost": 24,
+                "points_for": 1664
             },
             {
                 "id": 336837,
@@ -243,11 +243,11 @@
                 "rank_sort": 14,
                 "total": 36,
                 "entry_name": "Inter Ma'Belly",
-                "matches_played": 36,
+                "matches_played": 37,
                 "matches_won": 12,
                 "matches_drawn": 0,
-                "matches_lost": 24,
-                "points_for": 1812
+                "matches_lost": 25,
+                "points_for": 1889
             },
             {
                 "id": 336849,
@@ -257,13 +257,13 @@
                 "rank": 15,
                 "last_rank": 15,
                 "rank_sort": 15,
-                "total": 34,
+                "total": 35,
                 "entry_name": "Gelamfc",
-                "matches_played": 36,
+                "matches_played": 37,
                 "matches_won": 11,
-                "matches_drawn": 1,
+                "matches_drawn": 2,
                 "matches_lost": 24,
-                "points_for": 1661
+                "points_for": 1702
             },
             {
                 "id": 336843,
@@ -273,13 +273,13 @@
                 "rank": 16,
                 "last_rank": 16,
                 "rank_sort": 16,
-                "total": 27,
+                "total": 30,
                 "entry_name": "Silent Eleven FC",
-                "matches_played": 36,
-                "matches_won": 9,
+                "matches_played": 37,
+                "matches_won": 10,
                 "matches_drawn": 0,
                 "matches_lost": 27,
-                "points_for": 1428
+                "points_for": 1465
             }
         ]
     }

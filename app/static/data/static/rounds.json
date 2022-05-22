@@ -1577,7 +1577,7 @@
         "deadline_time_epoch": 1651926600,
         "deadline_time_game_offset": 0,
         "highest_score": 225,
-        "is_previous": true,
+        "is_previous": false,
         "is_current": false,
         "is_next": false,
         "cup_leagues_created": true,
@@ -1615,15 +1615,15 @@
         "id": 37,
         "name": "Gameweek 37",
         "deadline_time": "2022-05-15T09:30:00Z",
-        "average_entry_score": 0,
-        "finished": false,
-        "data_checked": false,
-        "highest_scoring_entry": null,
+        "average_entry_score": 43,
+        "finished": true,
+        "data_checked": true,
+        "highest_scoring_entry": 6543240,
         "deadline_time_epoch": 1652607000,
         "deadline_time_game_offset": 0,
-        "highest_score": null,
-        "is_previous": false,
-        "is_current": true,
+        "highest_score": 166,
+        "is_previous": true,
+        "is_current": false,
         "is_next": false,
         "cup_leagues_created": true,
         "h2h_ko_matches_created": true,
@@ -1647,14 +1647,14 @@
         ],
         "most_selected": 233,
         "most_transferred_in": 359,
-        "top_element": 103,
+        "top_element": 212,
         "top_element_info": {
-            "id": 103,
-            "points": 1
+            "id": 212,
+            "points": 25
         },
         "transfers_made": 12404447,
-        "most_captained": null,
-        "most_vice_captained": null
+        "most_captained": 233,
+        "most_vice_captained": 359
     },
     {
         "id": 38,
@@ -1668,17 +1668,37 @@
         "deadline_time_game_offset": 0,
         "highest_score": null,
         "is_previous": false,
-        "is_current": false,
-        "is_next": true,
-        "cup_leagues_created": false,
-        "h2h_ko_matches_created": false,
-        "chip_plays": [],
-        "most_selected": null,
-        "most_transferred_in": null,
-        "top_element": null,
-        "top_element_info": null,
-        "transfers_made": 0,
-        "most_captained": null,
-        "most_vice_captained": null
+        "is_current": true,
+        "is_next": false,
+        "cup_leagues_created": true,
+        "h2h_ko_matches_created": true,
+        "chip_plays": [
+            {
+                "chip_name": "bboost",
+                "num_played": 346490
+            },
+            {
+                "chip_name": "freehit",
+                "num_played": 228651
+            },
+            {
+                "chip_name": "wildcard",
+                "num_played": 131714
+            },
+            {
+                "chip_name": "3xc",
+                "num_played": 259017
+            }
+        ],
+        "most_selected": 256,
+        "most_transferred_in": 359,
+        "top_element": 441,
+        "top_element_info": {
+            "id": 441,
+            "points": 6
+        },
+        "transfers_made": 8851595,
+        "most_captained": 233,
+        "most_vice_captained": 359
     }
 ]

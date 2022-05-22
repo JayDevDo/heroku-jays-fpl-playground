@@ -1,9 +1,9 @@
 let gamesOverview = {
                         fixedColumns: 3,
-                        finishedRounds: 36,
-                        eventWndwStart: 37,
-                        currentRnd: 37,
-                        rndsToShow: 2,
+                        finishedRounds: 37,
+                        eventWndwStart: 38,
+                        currentRnd: 38,
+                        rndsToShow: 1,
                         eventWndwEnd: 38,
                         userDF: false,
                         hasPP: false,
@@ -19,16 +19,16 @@ getEventWndwEnd  =  ()=>{ return gamesOverview.eventWndwEnd; } ;
 setEventWndwStart = (ews)=>{
     gamesOverview.eventWndwStart = parseInt(ews);
     setEventWndwEnd();
-    return gamesOverview.eventWndwStart; 
+    return gamesOverview.eventWndwStart;
 } ;
 
-setRndsToShow = (rts)=>{ 
-    gamesOverview.rndsToShow = parseInt(rts); 
-    setEventWndwEnd(); 
-    return gamesOverview.rndsToShow ; 
+setRndsToShow = (rts)=>{
+    gamesOverview.rndsToShow = parseInt(rts);
+    setEventWndwEnd();
+    return gamesOverview.rndsToShow ;
 };
 
-setEventWndwEnd = ()=>{ 
+setEventWndwEnd = ()=>{
     let evWndw = ( (getEventWndwStart()+getRndsToShow()) > 38 )? 39:( getEventWndwStart() + getRndsToShow() -1 );
     gamesOverview.eventWndwEnd = evWndw ;
 };
@@ -50,7 +50,7 @@ showEventClmn = (rnd)=>{
 }
 
 showEventWindow = ()=>{
-    /* Update the event window with the input selection from the page */ 
+    /* Update the event window with the input selection from the page */
     setEventWndwEnd();
     let st = gamesOverview.eventWndwStart;
     let en = gamesOverview.eventWndwEnd;
@@ -61,7 +61,7 @@ showEventWindow = ()=>{
     updateTotalDF(changDFviewIdx);
     sortTable()
     showHiddenTable()
-    $("#curRound").text(st.toString() ); 
+    $("#curRound").text(st.toString() );
     console.log("event window applied", st, en)
     return "event window applied"
 }
@@ -92,7 +92,7 @@ updateTotalDF = (dfType)=>{
                     let ignoreGmDF = false ;
                     let gmDF = 0
                     ignoreGmDF = ( $(gm).hasClass("clmnHide"))? true:false ;
-                    if( ignoreGmDF == false ){ 
+                    if( ignoreGmDF == false ){
                         if( $(gm).children("span").length>0 ){
                             let spanDFaccum = 0
                             let spanCount = 0
@@ -105,7 +105,7 @@ updateTotalDF = (dfType)=>{
                                         }
                                     }
                             )
-                            selDF += spanDFaccum; 
+                            selDF += spanDFaccum;
                             selDFcnt += spanCount;
                         }else{
                             gmDF = parseInt( $(gm).attr("df")) || 0;
@@ -141,7 +141,7 @@ sortTable = ()=>{
         function (a, b) {
             let A = $(a).children('th.dfc').text();
             let B = $(b).children('th.dfc').text();
-            /* 
+            /*
             if (parseInt(A) < parseInt(B)) { return -1; }
             if (parseInt(A) > parseInt(B)) { return 1; }
             */
@@ -189,7 +189,7 @@ hideTeamRow = (tmNm)=>{
 showAllTeams = ()=>{
    let mvRow = $("#hiddenTbl tbody tr" ).get();
     $.each( mvRow, (i, row)=>{ hideTeamRow( $(row).attr("id") ) })
-    showHiddenTable()    
+    showHiddenTable()
 }
 
 showHiddenTable = ()=>{

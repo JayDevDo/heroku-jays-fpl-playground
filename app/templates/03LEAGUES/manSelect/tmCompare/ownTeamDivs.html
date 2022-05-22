@@ -9,7 +9,7 @@
 					<h2>{{ fpl[4]['data']["manager"]["name"] }}</h2>
 					<span>
 						<h3>
-							{{ fpl[4]['data']["manager"]["player_first_name"] }} 
+							{{ fpl[4]['data']["manager"]["player_first_name"] }}
 							{{ fpl[4]['data']["manager"]["player_last_name"] }}
 						</h3>
 					</span>
@@ -43,21 +43,21 @@
 					<h2> GW </h2>
 					<span>
 						<h3 id="ownRunningTotal" txCost="{{fpl[4]['data']['roundDash']['event_transfers_cost']}}">
-							{{fpl[4]['data']["roundDash"]["points"]-fpl[4]['data']["roundDash"]["event_transfers_cost"]}}	
+							{{fpl[4]['data']["roundDash"]["points"]-fpl[4]['data']["roundDash"]["event_transfers_cost"]}}
 						</h3>
-					</span>					
+					</span>
 				</section>
 			</div>
 
 		</div>
-	</div>	
+	</div>
 
 
 	<div class="row gutter-3">
 		<div class="tmCntTmRowHdr gkp">Goalkeeper</div>
 		<div>
 			{% for s_gkp in fpl[4]['data']["strtrs"] %}
-	
+
 				{% if ( s_gkp["ballerData"]["element_type"] == 1 ) %}
 
 				<div class="ballerStrtr baller starters"
@@ -67,7 +67,7 @@
 					style="flex-grow: 5;"
 					>
 					<div class="ballerLiveHdr own">
-						<span cap="{{ s_gkp['multiplier']==2 }}">
+						<span cap="{{ s_gkp['multiplier']>1 }}">
 							{{ s_gkp["web_name"] }}
 						</span>
 						<div class="row">
@@ -79,9 +79,9 @@
 					</div>
 
 					{% for s in s_gkp['liveBallerData']['explain'] %}
-						<div 	class="ballerLiveGameHdrOwn" 
-								fxtrid="{{ s['fixture'] }}" 
-								bllrLvTotal="{{ s['gmTotal'] }}" 
+						<div 	class="ballerLiveGameHdrOwn"
+								fxtrid="{{ s['fixture'] }}"
+								bllrLvTotal="{{ s['gmTotal'] }}"
 								bllrMlt="{{ s_gkp['multiplier']}}"
 						>
 							<h6>{{ s['opp'] }} : {{ s['gmTotal']}}</h6>
@@ -106,7 +106,7 @@
 					</div>
 
 				{% endif %}
-	
+
 			{% endfor %}
 		</div>
 
@@ -118,7 +118,7 @@
 		<div class="tmCntTmRowHdr def">Defenders</div>
 		<div>
 			{% for s_def in fpl[4]['data']["strtrs"] %}
-	
+
 				{% if ( s_def["ballerData"]["element_type"] == 2 ) %}
 
 				<div class="ballerStrtr baller starters"
@@ -128,7 +128,7 @@
 					style="flex-grow: 2;"
 					>
 					<div class="ballerLiveHdr own">
-						<span cap="{{ s_def['multiplier']==2 }}">
+						<span cap="{{ s_def['multiplier']>1 }}">
 							{{ s_def["web_name"] }}
 						</span>
 						<div class="row">
@@ -140,9 +140,9 @@
 					</div>
 
 					{% for s in s_def['liveBallerData']['explain'] %}
-						<div 	class="ballerLiveGameHdrOwn" 
-								fxtrid="{{ s['fixture'] }}" 
-								bllrLvTotal="{{ s['gmTotal'] }}" 
+						<div 	class="ballerLiveGameHdrOwn"
+								fxtrid="{{ s['fixture'] }}"
+								bllrLvTotal="{{ s['gmTotal'] }}"
 								bllrMlt="{{ s_def['multiplier']}}"
 						>
 							<h6>{{ s['opp'] }} : {{ s['gmTotal']}}</h6>
@@ -167,7 +167,7 @@
 					</div>
 
 				{% endif %}
-	
+
 			{% endfor %}
 		</div>
 
@@ -180,7 +180,7 @@
 		<div class="tmCntTmRowHdr mid">Midfielders</div>
 		<div>
 			{% for s_mid in fpl[4]['data']["strtrs"] %}
-	
+
 				{% if ( s_mid["ballerData"]["element_type"] == 3 ) %}
 
 				<div class="ballerStrtr baller starters"
@@ -190,7 +190,7 @@
 					style="flex-grow: 2;"
 				>
 					<div class="ballerLiveHdr own">
-						<span cap="{{ s_mid['multiplier']==2 }}">
+						<span cap="{{ s_mid['multiplier']>1 }}">
 							{{ s_mid["web_name"] }}
 						</span>
 						<div class="row">
@@ -202,9 +202,9 @@
 					</div>
 
 					{% for s in s_mid['liveBallerData']['explain'] %}
-						<div 	class="ballerLiveGameHdrOwn" 
-								fxtrid="{{ s['fixture'] }}" 
-								bllrLvTotal="{{ s['gmTotal'] }}" 
+						<div 	class="ballerLiveGameHdrOwn"
+								fxtrid="{{ s['fixture'] }}"
+								bllrLvTotal="{{ s['gmTotal'] }}"
 								bllrMlt="{{ s_mid['multiplier']}}"
 						>
 
@@ -230,7 +230,7 @@
 				</div>
 
 				{% endif %}
-	
+
 			{% endfor %}
 		</div>
 
@@ -242,7 +242,7 @@
 		<div class="tmCntTmRowHdr fwd">Forwards</div>
 		<div>
 			{% for s_fwd in fpl[4]['data']["strtrs"] %}
-	
+
 				{% if ( s_fwd["ballerData"]["element_type"] == 4 ) %}
 
 				<div class="ballerStrtr baller starters"
@@ -252,7 +252,7 @@
 					style="flex-grow: 3;"
 					>
 					<div class="ballerLiveHdr own">
-						<span cap="{{ s_fwd['multiplier']==2 }}">
+						<span cap="{{ s_fwd['multiplier']>1 }}">
 							{{ s_fwd["web_name"] }}
 						</span>
 
@@ -266,9 +266,9 @@
 					</div>
 
 					{% for s in s_fwd['liveBallerData']['explain'] %}
-						<div 	class="ballerLiveGameHdrOwn" 
-								fxtrid="{{ s['fixture'] }}" 
-								bllrLvTotal="{{ s['gmTotal'] }}" 
+						<div 	class="ballerLiveGameHdrOwn"
+								fxtrid="{{ s['fixture'] }}"
+								bllrLvTotal="{{ s['gmTotal'] }}"
 								bllrMlt="{{ s_fwd['multiplier']}}"
 						>
 							<h6>{{ s['opp'] }} : {{ s['gmTotal']}}</h6>
@@ -293,7 +293,7 @@
 				</div>
 
 				{% endif %}
-	
+
 			{% endfor %}
 		</div>
 
@@ -304,7 +304,7 @@
 		<div class="tmCntTmRowHdr bench">Bench</div>
 		<div>
 		{% for res in fpl[4]['data']["bnch"] %}
-			<div 	class="ballerBnch baller" 
+			<div 	class="ballerBnch baller"
 					element_out="{{ res['element_out'] }}"
 					element_in="{{ res['element_in'] }}"
 					ballerid="{{ res['liveBallerData']['id'] }}"
@@ -346,7 +346,7 @@
 			</div>
 
 		{% endfor %}
-		
+
 		</div>
 
 	</div>
@@ -357,24 +357,23 @@
 			let startersPoints = 0;
 			let txCost = parseInt($("#ownRunningTotal").attr("txCost"));
 
-			$.each( 
-				starterArr, 
-				function(index, strtr){ 
+			$.each(
+				starterArr,
+				function(index, strtr){
 					console.log(
-							"liveTotalsOwn", index, 
+							"liveTotalsOwn", index,
 							"bllrTtl" ,$(strtr).attr("bllrLvTotal"),
-							"bllrmlt", parseInt( $(strtr).attr("bllrMlt")) 
+							"bllrmlt", parseInt( $(strtr).attr("bllrMlt"))
 					);
 					startersPoints += ( parseInt( $(strtr).attr("bllrLvTotal") ) * parseInt( $(strtr).attr("bllrMlt") ) ) ;
 				}
 			);
 
 			console.log("startersPoints",startersPoints , "txCost", txCost);
-			return (startersPoints-txCost);	
+			return (startersPoints-txCost);
 		}
 
 		$("#ownRunningTotal").text(liveTotalsOwn());
-		
+
 	</script>
 </div>
-

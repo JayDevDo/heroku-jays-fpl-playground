@@ -76,13 +76,6 @@
                     },
                     {
                         "value": 5,
-                        "element": 103,
-                        "web_name": "Long",
-                        "bns_rank": 4,
-                        "bns_pts": 0
-                    },
-                    {
-                        "value": 5,
                         "element": 113,
                         "web_name": "Taylor",
                         "bns_rank": 4,
@@ -108,6 +101,13 @@
                         "web_name": "Cork",
                         "bns_rank": 7,
                         "bns_pts": 0
+                    },
+                    {
+                        "value": 3,
+                        "element": 103,
+                        "web_name": "Long",
+                        "bns_rank": 7,
+                        "bns_pts": -3
                     },
                     {
                         "value": 3,
@@ -176,8 +176,8 @@
                     },
                     {
                         "value": 4,
-                        "element": 364,
-                        "web_name": "Davies",
+                        "element": 359,
+                        "web_name": "Son",
                         "bns_rank": 7,
                         "bns_pts": -3
                     },
@@ -190,15 +190,15 @@
                     },
                     {
                         "value": 3,
-                        "element": 359,
-                        "web_name": "Son",
+                        "element": 361,
+                        "web_name": "Dier",
                         "bns_rank": 7,
                         "bns_pts": -3
                     },
                     {
                         "value": 3,
-                        "element": 361,
-                        "web_name": "Dier",
+                        "element": 364,
+                        "web_name": "Davies",
                         "bns_rank": 7,
                         "bns_pts": -3
                     },
@@ -256,13 +256,6 @@
             },
             {
                 "value": 5,
-                "element": 103,
-                "web_name": "Long",
-                "bns_rank": 4,
-                "bns_pts": 0
-            },
-            {
-                "value": 5,
                 "element": 113,
                 "web_name": "Taylor",
                 "bns_rank": 4,
@@ -272,6 +265,13 @@
                 "value": 5,
                 "element": 451,
                 "web_name": "Collins",
+                "bns_rank": 4,
+                "bns_pts": 0
+            },
+            {
+                "value": 5,
+                "element": 365,
+                "web_name": "H\u00f8jbjerg",
                 "bns_rank": 4,
                 "bns_pts": 0
             }

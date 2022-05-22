@@ -1,120 +1,120 @@
 {
-    "active_chip": "freehit",
+    "active_chip": null,
     "automatic_subs": [],
     "entry_history": {
-        "event": 37,
+        "event": 38,
         "points": 0,
-        "total_points": 2152,
+        "total_points": 2057,
         "rank": null,
         "rank_sort": null,
-        "overall_rank": 763746,
-        "bank": 0,
-        "value": 1047,
-        "event_transfers": 0,
+        "overall_rank": 1784936,
+        "bank": 4,
+        "value": 1010,
+        "event_transfers": 1,
         "event_transfers_cost": 0,
         "points_on_bench": 0
     },
     "picks": [
         {
-            "element": 200,
+            "element": 270,
             "position": 1,
             "multiplier": 1,
             "is_captain": false,
             "is_vice_captain": false
         },
         {
-            "element": 44,
+            "element": 256,
             "position": 2,
             "multiplier": 1,
             "is_captain": false,
             "is_vice_captain": false
         },
         {
-            "element": 493,
+            "element": 237,
             "position": 3,
             "multiplier": 1,
             "is_captain": false,
             "is_vice_captain": false
         },
         {
-            "element": 488,
+            "element": 142,
             "position": 4,
             "multiplier": 1,
             "is_captain": false,
             "is_vice_captain": false
         },
         {
-            "element": 251,
+            "element": 212,
             "position": 5,
             "multiplier": 1,
             "is_captain": false,
             "is_vice_captain": false
         },
         {
-            "element": 212,
+            "element": 196,
             "position": 6,
             "multiplier": 1,
             "is_captain": false,
             "is_vice_captain": false
         },
         {
-            "element": 681,
+            "element": 251,
             "position": 7,
-            "multiplier": 1,
-            "is_captain": false,
-            "is_vice_captain": true
+            "multiplier": 2,
+            "is_captain": true,
+            "is_vice_captain": false
         },
         {
-            "element": 154,
+            "element": 701,
             "position": 8,
             "multiplier": 1,
             "is_captain": false,
             "is_vice_captain": false
         },
         {
-            "element": 205,
+            "element": 22,
             "position": 9,
-            "multiplier": 2,
-            "is_captain": true,
-            "is_vice_captain": false
-        },
-        {
-            "element": 337,
-            "position": 10,
             "multiplier": 1,
             "is_captain": false,
             "is_vice_captain": false
         },
         {
-            "element": 357,
+            "element": 205,
+            "position": 10,
+            "multiplier": 1,
+            "is_captain": false,
+            "is_vice_captain": true
+        },
+        {
+            "element": 337,
             "position": 11,
             "multiplier": 1,
             "is_captain": false,
             "is_vice_captain": false
         },
         {
-            "element": 170,
+            "element": 475,
             "position": 12,
             "multiplier": 0,
             "is_captain": false,
             "is_vice_captain": false
         },
         {
-            "element": 169,
+            "element": 245,
             "position": 13,
             "multiplier": 0,
             "is_captain": false,
             "is_vice_captain": false
         },
         {
-            "element": 578,
+            "element": 595,
             "position": 14,
             "multiplier": 0,
             "is_captain": false,
             "is_vice_captain": false
         },
         {
-            "element": 585,
+            "element": 410,
             "position": 15,
             "multiplier": 0,
             "is_captain": false,
