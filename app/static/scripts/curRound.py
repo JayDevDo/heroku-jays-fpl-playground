@@ -27,17 +27,23 @@ import app.static.scripts.rounds as mod_rnd
 rnds_file 	= "./app/static/data/static/rounds.json"
 
 def getCurrentRnd():
+	gw = 3
 	if( os.path.exists( rnds_file )):
 		foRnds = open( rnds_file )
 		data_rnds = json.load( foRnds )
 		foRnds.close
 	else:
-		return 39
+		return gw
 
 	for r in data_rnds:
 		if( r["is_current"] ):
-			# print("return currentRnd", str(r["id"]) )
-			return r["id"]
+			print("return currentRnd", str(r["id"]) )
+			gw = r["id"]
+		elif( r["is_next"] and (r["id"] != 1) ):
+			print("return isNext", str(r["id"]) )
+
+	return gw
+
 
 
 def getCurrentDeadline():
@@ -46,10 +52,9 @@ def getCurrentDeadline():
 		data_rnds = json.load( foRnds )
 		foRnds.close
 	else:
-		return "2021-07-01T00:00:00Z"
+		return "2022-08-27T11:59:59Z"
 
 	for r in data_rnds:
 		if( r["is_current"] ):
-			# print("return currentRnd", str(r["id"]) )
+			print("return getCurrentDeadline", str(r["id"]) )
 			return r["deadline_time"]
-

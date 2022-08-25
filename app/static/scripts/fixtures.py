@@ -89,7 +89,7 @@ ppFixture=  {
 				"finished": True,
 				"finished_provisional": False,
 				"id": 0,
-				"kickoff_time": "2022-06-30T15:00:00Z",
+				"kickoff_time": "2023-06-30T15:00:00Z",
 				"minutes": 0,
 				"provisional_start_time": False,
 				"started": False,
@@ -163,13 +163,19 @@ def getFixture(fxtrId):
 
 
 def getLiveFxtrData():
-	global live_fixtures
+	global live_fixtures, fxtr_cr
 	if( mod_data.infoRt(8) or (True) ):
-		print("mod_data.infoRt(8) == True. using remote live_fixtures")
+		if( type(fxtr_cr) == type(None) ):
+			print("getLiveFxtrData NO current Round" )
+			fxtr_cr = 0
+		else:
+			print("getLiveFxtrData. Using remote live_fixtures of gw:\t", fxtr_cr )
+
 		url = "https://fantasy.premierleague.com/api/fixtures/?event=" + str(fxtr_cr)
 		response = urlopen( url)
 		gld = json.loads(response.read())
 		mod_data.fplDataTS[8] = float(time.time())
+
 
 	else:	
 		if( len(live_fixtures) > 0 ):

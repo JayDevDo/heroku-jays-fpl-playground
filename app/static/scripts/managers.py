@@ -129,6 +129,8 @@ lgStanFile = "./app/static/data/live/active/lg/lg_"
 
 def getManagerData(manId):
 	man = urlopen("https://fantasy.premierleague.com/api/entry/" + str(manId) + "/")
+	# print("getManagerData url:\t", "https://fantasy.premierleague.com/api/entry/" + str(manId) + "/"  )
+
 	managerData = json.loads(man.read())
 	# time.sleep(1)
 	# print("getManagerData returns", str(managerData["name"]) )
@@ -141,13 +143,12 @@ def getManagerLeagues( manId, lgType ):
 		lgType = 0 
 
 	man_lgs = man['leagues'];
+	# print("getManagerLeagues:\t", man_lgs[ lgTypeArr[lgType] ] )
 	return man_lgs[ lgTypeArr[lgType] ]
 
 def getManIdsFromLeague(lgType, lgId):
 	"""
-		some leagues are huge.
 		0=classic, 1=head2head, 3=cup
-		h2h #2= 437187
 	"""
 	lgCount = mod_lgs.guessLeagueCount(lgType, lgId)
 
@@ -166,7 +167,7 @@ def getManIdsFromLeague(lgType, lgId):
 		pass
 		# print("lgType not recognised")
 
-	# print("getting type=", lgType ,"lg", lgId, url)
+	print("getting type=", lgType ,"lg", lgId, url)
 	response = urlopen( url )
 	lg = json.loads( response.read() )
 	lg["league"]['lgCount'] = lgCount

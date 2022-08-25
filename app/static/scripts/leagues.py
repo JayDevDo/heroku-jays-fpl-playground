@@ -69,13 +69,17 @@ global leagues
 leagues = []
 
 global testLg
-testLg = 1101492;
-#  1101492 = liga nostra
-#  295539 = fantasy 606
-#  276 = game week 1
+testLg = 348264;
+# CLASSIC:
+# https://fantasy.premierleague.com/api/leagues-classic/941528/standings/?page_new_entries=1&page_standings=1&phase=1
+
+
+# H2H:
+# 	  https://fantasy.premierleague.com/api/leagues-h2h/348264/standings/?page_new_entries=1&page_standings=1
+
 
 global testId
-testId = 993831;
+testId = 704118;
 
 global testTp
 testTp = 0;
@@ -93,7 +97,7 @@ global pageMax
 pageMax = 200000;
 
 global manCntHis
-manCntHis = [ 1, 1, 9287713 ];
+manCntHis = [ 1, 1, 6000000 ];
 
 global lgCountFinished
 lgCountFinished = False;
@@ -113,7 +117,6 @@ def guessLeagueCount(lgTp, lgId):
 	elif( glilc > 0 ):
 		return glilc
 
-	# only overall has all managers in the league
 	max_steps  	= 12
 	lw = 50
 	lgCountFinished = False
@@ -162,13 +165,16 @@ def checkNext(lgTp, lgId, pg):
 	global lgCountFinished
 	# works with lgTp=0
 	if( (lgTp==0) and (pg>0) ):
-		url= "https://fantasy.premierleague.com/api/leagues-classic/" + str( lgId ) + "/standings/?page_new_entries=1&phase=1&page_standings=" + str(pg) 
+		# 		https://fantasy.premierleague.com/api/leagues-classic/941528/standings/?page_new_entries=1&page_standings=1&phase=1
+		url=   "https://fantasy.premierleague.com/api/leagues-classic/" + str( lgId ) + "/standings/?page_new_entries=1&phase=1&page_standings=" + str(pg) 
 	elif( (lgTp==1) and (pg>0) ):
+		# 	  https://fantasy.premierleague.com/api/leagues-h2h/348264/standings/?page_new_entries=1&page_standings=1
 		url= "https://fantasy.premierleague.com/api/leagues-h2h/" + str( lgId ) + "/standings/?page_new_entries=1&page_standings=" + str(pg)
 	else:
 		retval = {"has_next": False, "lowest": 0,"resCount": 0, "page": pg }
 		return retval 
 
+	print("checkNext-url:\t", url)
 	res = urlopen(url)
 	resData = json.loads(res.read())
 	

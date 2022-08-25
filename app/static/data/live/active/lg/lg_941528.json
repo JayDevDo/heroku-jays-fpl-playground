@@ -1,0 +1,250 @@
+{
+    "new_entries": {
+        "has_next": false,
+        "page": 1,
+        "results": []
+    },
+    "last_updated_data": "2022-08-22T21:58:44Z",
+    "league": {
+        "id": 941528,
+        "name": "League 941528",
+        "created": "2022-07-30T11:52:39.394146Z",
+        "closed": true,
+        "max_entries": null,
+        "league_type": "c",
+        "scoring": "c",
+        "admin_entry": null,
+        "start_event": 1,
+        "code_privacy": "p",
+        "has_cup": false,
+        "cup_league": null,
+        "rank": null,
+        "lgCount": 50
+    },
+    "standings": {
+        "has_next": false,
+        "page": 1,
+        "results": [
+            {
+                "id": 26669193,
+                "event_total": 61,
+                "player_name": "Emman Timbang",
+                "rank": 1,
+                "last_rank": 3,
+                "rank_sort": 1,
+                "total": 205,
+                "entry": 4316613,
+                "entry_name": "EMMAN XIX"
+            },
+            {
+                "id": 26670035,
+                "event_total": 52,
+                "player_name": "Jay Vando",
+                "rank": 2,
+                "last_rank": 2,
+                "rank_sort": 2,
+                "total": 201,
+                "entry": 704118,
+                "entry_name": "Frenkie g2 Liverpool"
+            },
+            {
+                "id": 26670465,
+                "event_total": 47,
+                "player_name": "Tom Ibbotson",
+                "rank": 3,
+                "last_rank": 1,
+                "rank_sort": 3,
+                "total": 196,
+                "entry": 3919567,
+                "entry_name": "Take Me Home"
+            },
+            {
+                "id": 26670344,
+                "event_total": 66,
+                "player_name": "Enda Barrett",
+                "rank": 4,
+                "last_rank": 9,
+                "rank_sort": 4,
+                "total": 191,
+                "entry": 3260761,
+                "entry_name": "Doolough11"
+            },
+            {
+                "id": 26670313,
+                "event_total": 60,
+                "player_name": "Abdullahi Musa Akanbi",
+                "rank": 5,
+                "last_rank": 7,
+                "rank_sort": 5,
+                "total": 188,
+                "entry": 3040098,
+                "entry_name": "Graces secret"
+            },
+            {
+                "id": 27007603,
+                "event_total": 50,
+                "player_name": "Agocome Awaiting",
+                "rank": 6,
+                "last_rank": 4,
+                "rank_sort": 6,
+                "total": 186,
+                "entry": 4350499,
+                "entry_name": "RUNNERS All The Way"
+            },
+            {
+                "id": 26669741,
+                "event_total": 49,
+                "player_name": "Ujjawal Shah",
+                "rank": 7,
+                "last_rank": 5,
+                "rank_sort": 7,
+                "total": 183,
+                "entry": 4138345,
+                "entry_name": "Red Devil"
+            },
+            {
+                "id": 26669832,
+                "event_total": 53,
+                "player_name": "Peru Peruz",
+                "rank": 8,
+                "last_rank": 10,
+                "rank_sort": 8,
+                "total": 177,
+                "entry": 4309266,
+                "entry_name": "Perez FC"
+            },
+            {
+                "id": 26669954,
+                "event_total": 57,
+                "player_name": "\u5342\u15ea\u5344\u5342\u722a |\u4e43\u5c3a\u5342\u5344\ud835\udd26\u722a",
+                "rank": 9,
+                "last_rank": 12,
+                "rank_sort": 9,
+                "total": 176,
+                "entry": 337050,
+                "entry_name": "THE WALKING DEAD"
+            },
+            {
+                "id": 26670232,
+                "event_total": 44,
+                "player_name": "Isaiah Michael",
+                "rank": 10,
+                "last_rank": 6,
+                "rank_sort": 10,
+                "total": 175,
+                "entry": 4265134,
+                "entry_name": "Storm FC"
+            },
+            {
+                "id": 26670152,
+                "event_total": 51,
+                "player_name": "Ahmed Dida",
+                "rank": 11,
+                "last_rank": 11,
+                "rank_sort": 11,
+                "total": 172,
+                "entry": 230368,
+                "entry_name": "\u0627\u0646\u0642\u0630\u0648\u0627_\u0627\u0644\u064a\u0648\u0646\u0627\u064a\u062a\u062f#"
+            },
+            {
+                "id": 26669815,
+                "event_total": 41,
+                "player_name": "tampus player",
+                "rank": 12,
+                "last_rank": 7,
+                "rank_sort": 12,
+                "total": 169,
+                "entry": 3765552,
+                "entry_name": "tampusplays11"
+            },
+            {
+                "id": 26670227,
+                "event_total": 57,
+                "player_name": "folsky stapler",
+                "rank": 13,
+                "last_rank": 17,
+                "rank_sort": 13,
+                "total": 168,
+                "entry": 405488,
+                "entry_name": "Aufa17"
+            },
+            {
+                "id": 26670284,
+                "event_total": 47,
+                "player_name": "olamide michael",
+                "rank": 14,
+                "last_rank": 15,
+                "rank_sort": 14,
+                "total": 165,
+                "entry": 1789661,
+                "entry_name": "Apex fc"
+            },
+            {
+                "id": 26669803,
+                "event_total": 48,
+                "player_name": "Ron Lehane",
+                "rank": 15,
+                "last_rank": 16,
+                "rank_sort": 15,
+                "total": 165,
+                "entry": 4214260,
+                "entry_name": "DelMan United"
+            },
+            {
+                "id": 26669581,
+                "event_total": 43,
+                "player_name": "mark farid",
+                "rank": 16,
+                "last_rank": 13,
+                "rank_sort": 16,
+                "total": 162,
+                "entry": 1636154,
+                "entry_name": "MARK"
+            },
+            {
+                "id": 26670191,
+                "event_total": 70,
+                "player_name": "Reza Udwadia",
+                "rank": 17,
+                "last_rank": 14,
+                "rank_sort": 17,
+                "total": 161,
+                "entry": 4311138,
+                "entry_name": "Fairview FC"
+            },
+            {
+                "id": 26669368,
+                "event_total": 59,
+                "player_name": "mohammed hossam",
+                "rank": 18,
+                "last_rank": 18,
+                "rank_sort": 18,
+                "total": 158,
+                "entry": 4130929,
+                "entry_name": "hossam"
+            },
+            {
+                "id": 26670199,
+                "event_total": 53,
+                "player_name": "Owen Hart",
+                "rank": 19,
+                "last_rank": 19,
+                "rank_sort": 19,
+                "total": 133,
+                "entry": 4316644,
+                "entry_name": "Ows"
+            },
+            {
+                "id": 26669866,
+                "event_total": 49,
+                "player_name": "fin gulliver",
+                "rank": 20,
+                "last_rank": 20,
+                "rank_sort": 20,
+                "total": 126,
+                "entry": 1561146,
+                "entry_name": "ChickenTika NoSalad"
+            }
+        ]
+    }
+}

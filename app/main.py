@@ -41,7 +41,8 @@ global posArr
 global lgManagerIds
 
 mod_data.getStatic("r")
-myTeamId =	993831
+myTeamId =	704118 # 21/22=993831
+
 posArr =	["POS","GKP","DEF","MID","FWD"]
 fplData =	[
 				{ "id":"rounds"		, "data": mod_rnd.getRnds() 		},			#0
@@ -53,14 +54,14 @@ fplData =	[
 				{ "id":"LgCls"		, "data": mod_mng.getManagerLeagues(myTeamId,0)},#6
 				{ "id":"LgH2h"		, "data": mod_mng.getManagerLeagues(myTeamId,1)},#7
 				{ "id":"CrrntFxtrs" , "data": [] },									#8
-				{ "id":"lgManIds"	, "data": mod_mng.getManIdsFromLeague(1,436866)},#9
-				{ "id":"oppId"		, "data": 2045927 },							#10
+				{ "id":"lgManIds"	, "data": mod_mng.getManIdsFromLeague(0,941528)},	#9 941528=clssc
+				{ "id":"oppId"		, "data": 30954 },								#10
 				{ "id":"refresh"	, "data": 60 },									#11
-				{ "id": "selLg" 	, "data": { "id":436866, "nm":"League 436866"}},#12
-				{ "id": "curRound" 	, "data": 38 }	 								#13
+				{ "id": "selLg" 	, "data": { "id":12, "nm":"Liverpool"}},		#12
+				{ "id": "curRound" 	, "data": 4 }	 								#13
 			]
 
-fplData[10]["data"] =	578444
+fplData[10]["data"] =	30954
 lgManagerIds 		=	fplData[9]["data"]
 oppId 				=	fplData[10]["data"]
 refr_interval 		=	fplData[11]["data"]
@@ -234,7 +235,10 @@ def teamId():
 
 @app.template_filter()
 def numberFormat(value):
-    return format(int(value), ',d')
+	if( type(value) == type(None)):
+		return '0'
+	else:
+	    return format(int(value), ',d')
 
 ###############################################
 #                Run app                      #
