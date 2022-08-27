@@ -27,7 +27,7 @@ import app.static.scripts.rounds as mod_rnd
 rnds_file 	= "./app/static/data/static/rounds.json"
 
 def getCurrentRnd():
-	gw = 3
+	gw = 4
 	if( os.path.exists( rnds_file )):
 		foRnds = open( rnds_file )
 		data_rnds = json.load( foRnds )
