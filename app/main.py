@@ -54,11 +54,11 @@ fplData =	[
 				{ "id":"LgCls"		, "data": mod_mng.getManagerLeagues(myTeamId,0)},#6
 				{ "id":"LgH2h"		, "data": mod_mng.getManagerLeagues(myTeamId,1)},#7
 				{ "id":"CrrntFxtrs" , "data": [] },									#8
-				{ "id":"lgManIds"	, "data": mod_mng.getManIdsFromLeague(0,941528)},	#9 941528=clssc
+				{ "id":"lgManIds"	, "data": mod_mng.getManIdsFromLeague(1,348264)},	#9 941528=clssc
 				{ "id":"oppId"		, "data": 30954 },								#10
 				{ "id":"refresh"	, "data": 60 },									#11
-				{ "id": "selLg" 	, "data": { "id":12, "nm":"Liverpool"}},		#12
-				{ "id": "curRound" 	, "data": 4 }	 								#13
+				{ "id": "selLg" 	, "data": { "id":348264, "nm":"348264"}},		#12
+				{ "id": "curRound" 	, "data": 5 }	 								#13
 			]
 
 fplData[10]["data"] =	30954
