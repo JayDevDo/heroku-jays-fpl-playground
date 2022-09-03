@@ -92,7 +92,7 @@
         "deadline_time_epoch": 1660989600,
         "deadline_time_game_offset": 0,
         "highest_score": 118,
-        "is_previous": true,
+        "is_previous": false,
         "is_current": false,
         "is_next": false,
         "cup_leagues_created": false,
@@ -130,76 +130,136 @@
         "id": 4,
         "name": "Gameweek 4",
         "deadline_time": "2022-08-27T10:00:00Z",
-        "average_entry_score": 0,
-        "finished": false,
-        "data_checked": false,
-        "highest_scoring_entry": null,
+        "average_entry_score": 62,
+        "finished": true,
+        "data_checked": true,
+        "highest_scoring_entry": 9406675,
         "deadline_time_epoch": 1661594400,
         "deadline_time_game_offset": 0,
-        "highest_score": null,
-        "is_previous": true,
+        "highest_score": 149,
+        "is_previous": false,
         "is_current": false,
         "is_next": false,
         "cup_leagues_created": false,
         "h2h_ko_matches_created": false,
-        "chip_plays": [],
-        "most_selected": null,
-        "most_transferred_in": null,
-        "top_element": null,
-        "top_element_info": null,
-        "transfers_made": 0,
-        "most_captained": null,
-        "most_vice_captained": null
+        "chip_plays": [
+            {
+                "chip_name": "bboost",
+                "num_played": 145393
+            },
+            {
+                "chip_name": "freehit",
+                "num_played": 112828
+            },
+            {
+                "chip_name": "wildcard",
+                "num_played": 380916
+            },
+            {
+                "chip_name": "3xc",
+                "num_played": 277947
+            }
+        ],
+        "most_selected": 28,
+        "most_transferred_in": 225,
+        "top_element": 279,
+        "top_element_info": {
+            "id": 279,
+            "points": 22
+        },
+        "transfers_made": 16105042,
+        "most_captained": 283,
+        "most_vice_captained": 28
     },
     {
         "id": 5,
         "name": "Gameweek 5",
         "deadline_time": "2022-08-30T17:00:00Z",
-        "average_entry_score": 0,
-        "finished": false,
-        "data_checked": false,
-        "highest_scoring_entry": null,
+        "average_entry_score": 62,
+        "finished": true,
+        "data_checked": true,
+        "highest_scoring_entry": 2109803,
         "deadline_time_epoch": 1661878800,
         "deadline_time_game_offset": 0,
-        "highest_score": null,
-        "is_previous": false,
-        "is_current": true,
+        "highest_score": 124,
+        "is_previous": true,
+        "is_current": false,
         "is_next": false,
         "cup_leagues_created": false,
         "h2h_ko_matches_created": false,
-        "chip_plays": [],
-        "most_selected": null,
-        "most_transferred_in": null,
-        "top_element": null,
-        "top_element_info": null,
-        "transfers_made": 0,
-        "most_captained": null,
-        "most_vice_captained": null
+        "chip_plays": [
+            {
+                "chip_name": "bboost",
+                "num_played": 92307
+            },
+            {
+                "chip_name": "freehit",
+                "num_played": 111429
+            },
+            {
+                "chip_name": "wildcard",
+                "num_played": 330787
+            },
+            {
+                "chip_name": "3xc",
+                "num_played": 244159
+            }
+        ],
+        "most_selected": 28,
+        "most_transferred_in": 104,
+        "top_element": 318,
+        "top_element_info": {
+            "id": 318,
+            "points": 17
+        },
+        "transfers_made": 14741619,
+        "most_captained": 318,
+        "most_vice_captained": 28
     },
     {
         "id": 6,
         "name": "Gameweek 6",
         "deadline_time": "2022-09-03T10:00:00Z",
-        "average_entry_score": 0,
+        "average_entry_score": 18,
         "finished": false,
         "data_checked": false,
-        "highest_scoring_entry": null,
+        "highest_scoring_entry": 9081970,
         "deadline_time_epoch": 1662199200,
         "deadline_time_game_offset": 0,
-        "highest_score": null,
+        "highest_score": 81,
         "is_previous": false,
-        "is_current": false,
-        "is_next": true,
+        "is_current": true,
+        "is_next": false,
         "cup_leagues_created": false,
         "h2h_ko_matches_created": false,
-        "chip_plays": [],
-        "most_selected": null,
-        "most_transferred_in": null,
-        "top_element": null,
-        "top_element_info": null,
-        "transfers_made": 0,
-        "most_captained": null,
-        "most_vice_captained": null
+        "chip_plays": [
+            {
+                "chip_name": "bboost",
+                "num_played": 110023
+            },
+            {
+                "chip_name": "freehit",
+                "num_played": 126955
+            },
+            {
+                "chip_name": "wildcard",
+                "num_played": 410070
+            },
+            {
+                "chip_name": "3xc",
+                "num_played": 213257
+            }
+        ],
+        "most_selected": 28,
+        "most_transferred_in": 104,
+        "top_element": 80,
+        "top_element_info": {
+            "id": 80,
+            "points": 14
+        },
+        "transfers_made": 17124386,
+        "most_captained": 318,
+        "most_vice_captained": 283
     },
     {
         "id": 7,
@@ -214,7 +274,7 @@
         "highest_score": null,
         "is_previous": false,
         "is_current": false,
-        "is_next": false,
+        "is_next": true,
         "cup_leagues_created": false,
         "h2h_ko_matches_created": false,
         "chip_plays": [],

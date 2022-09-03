@@ -3,11 +3,11 @@
 <head>
 	<title>Jay's FPl FDL</title>
 </head>
-<script 
+<script
     src="{{url_for('static', filename='github_FDL_CONSTANTS.js')}}" >
 </script>
 
-<script 
+<script
     src="{{url_for('static', filename='github_FDL_UI.js')}}" >
 </script>
 
@@ -19,6 +19,8 @@
 
 	<div class="row">
 		<div id="fxtr_tableCnt">{% include "02FDL/fxtrTbl.html" %}</div>
-		<div id="ppOviewCnt">{% include "02FDL/ppOview.html" %}</div>
+			{% if fdl[3]['data'][unplanned]|length > 0 %}
+				<div id="ppOviewCnt">{% include "02FDL/ppOview.html" %}</div>
+			{% endif %}
 	</div>
 </div>

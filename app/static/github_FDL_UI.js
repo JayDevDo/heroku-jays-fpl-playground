@@ -1,9 +1,9 @@
 let gamesOverview = {
                         fixedColumns: 3,
-                        finishedRounds: 4,
-                        eventWndwStart: 5,
-                        currentRnd: 5,
-                        rndsToShow: 4,
+                        finishedRounds: 5,
+                        eventWndwStart: 6,
+                        currentRnd: 6,
+                        rndsToShow: 3,
                         eventWndwEnd: 8,
                         userDF: false,
                         hasPP: false,

@@ -9,7 +9,7 @@
 				{% for h in fpl[7]['data'] %}
 					<a 	class="list-group-item list-group-item-dark"
 						title="of {{ h['lgCount'] }}"
-						onclick="setIfrm(1,{{ h['id']}})" 
+						onclick="setIfrm(1,{{ h['id']}})"
 						href="/league/1/{{ h['id'] }}"
 					>
 					<!--  href="/league/1/{{ h['id'] }}"  -->
@@ -23,8 +23,8 @@
 			<div id="leagueListClssc" class="list-group" >
 				{% for h in fpl[6]['data'] %}
 					<a 	class="list-group-item list-group-item-dark"
-						title="of {{ h['lgCount'] }}" 
-						onclick="setIfrm(0,{{ h['id']}})" 
+						title="of {{ h['lgCount'] }}"
+						onclick="setIfrm(0,{{ h['id']}})"
 						href="/league/0/{{ h['id'] }}"
 					>
 					<!--  href="/league/0/{{ h['id'] }}"  -->
@@ -41,11 +41,12 @@
 </div>
 
 <script type="text/javascript">
+	console.log("using:\tapp/templates/03LEAGUES/leagues.html")
 	setIfrm = (lgTp, lgId)=> {$.getJSON("/league/"+lgTp+"/"+lgId )}
 	setLgType = (lgTp)=>{$.getJSON("/leagueType/"+lgTp )}
 	getOpponent = (oppId)=>{window.open( '/opponent/'+ oppId)}
 	$( "#leagueAccordion" ).accordion({
-			collapsible: false,
+			collapsible: true,
 			heightStyle: "content",
 			classes: { "ui-accordion": "highlight"}
 	});

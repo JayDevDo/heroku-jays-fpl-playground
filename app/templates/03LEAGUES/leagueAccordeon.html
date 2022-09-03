@@ -1,10 +1,10 @@
 {% extends "03tmCompare/managerSelect.html" %}
 <div class="accordion" id="clsscAccordion">
 {% block lgs %}
-  {% for l in fpl[6]['data'] %}  
+  {% for l in fpl[6]['data'] %}
   <div class="accordion-item">
 
-    <h2 class="accordion-header" id="heading{{ l['id'] }}">    
+    <h2 class="accordion-header" id="heading{{ l['id'] }}">
       <button class="accordion-button" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapseLg{{ l['id'] }}" aria-expanded="false" aria-controls="collapseLg{{ l['id'] }}">
         id: {{ l['id'] }} - {{ l['name'] }}
       </button>
@@ -26,6 +26,10 @@
 
   </div>
   {% endfor %}
+
+<script type="text/javascript">
+	console.log("using:\tapp/templates/03LEAGUES/leagueAccordeon.html")
+</script>
 
 </div>
 {% endblock lgs %}

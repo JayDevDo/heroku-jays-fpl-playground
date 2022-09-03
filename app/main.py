@@ -45,20 +45,20 @@ myTeamId =	704118 # 21/22=993831
 
 posArr =	["POS","GKP","DEF","MID","FWD"]
 fplData =	[
-				{ "id":"rounds"		, "data": mod_rnd.getRnds() 		},			#0
-				{ "id":"fixtures" 	, "data": mod_fxt.getFxtrs("r") 	},			#1
-				{ "id":"clubs"		, "data": mod_clb.getClubs("r") 	},			#2
-				{ "id":"players"	, "data": mod_plyr.getElmnts("r") 	},			#3
-				{ "id":"ownteam"	, "data": [] },									#4
-				{ "id":"oppteam"	, "data": [] },									#5
-				{ "id":"LgCls"		, "data": mod_mng.getManagerLeagues(myTeamId,0)},#6
-				{ "id":"LgH2h"		, "data": mod_mng.getManagerLeagues(myTeamId,1)},#7
-				{ "id":"CrrntFxtrs" , "data": [] },									#8
-				{ "id":"lgManIds"	, "data": mod_mng.getManIdsFromLeague(1,348264)},	#9 941528=clssc
-				{ "id":"oppId"		, "data": 30954 },								#10
-				{ "id":"refresh"	, "data": 60 },									#11
-				{ "id": "selLg" 	, "data": { "id":348264, "nm":"348264"}},		#12
-				{ "id": "curRound" 	, "data": 5 }	 								#13
+				{ "id":"rounds"	,	"ts":0	, "data": mod_rnd.getRnds() 		},				#0
+				{ "id":"fixtures",	"ts":0	, "data": mod_fxt.getFxtrs("r") 	},				#1
+				{ "id":"clubs",		"ts":0	, "data": mod_clb.getClubs("r") 	},				#2
+				{ "id":"players",	"ts":0	, "data": mod_plyr.getElmnts("r") 	},				#3
+				{ "id":"ownteam",	"ts":0	, "data": [] },										#4
+				{ "id":"oppteam",	"ts":0	, "data": [] },										#5
+				{ "id":"LgCls",		"ts":0	, "data": mod_mng.getManagerLeagues(myTeamId,0)},	#6
+				{ "id":"LgH2h",		"ts":0	, "data": mod_mng.getManagerLeagues(myTeamId,1)},	#7
+				{ "id":"CrrntFxtrs","ts":0 	, "data": [] },										#8
+				{ "id":"lgManIds",	"ts":0	, "data": mod_mng.getManIdsFromLeague(1,348264)},	#9 --> (0, 941528) = 'clssc', --> (1, 348264) = 'h2h'
+				{ "id":"oppId",		"ts":0 	, "data": 30954 },									#10
+				{ "id":"refresh",	"ts":0	, "data": 60 },										#11
+				{ "id": "selLg",	"ts":0	, "data": { "id":348264, "nm":"348264"}},			#12
+				{ "id": "curRound",	"ts":0	, "data": 6 }	 									#13
 			]
 
 fplData[10]["data"] =	30954

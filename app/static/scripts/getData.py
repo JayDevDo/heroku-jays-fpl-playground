@@ -72,21 +72,24 @@ oppTeam 		= 	[]
 fplDataTS 		= 	[1639269654,1639269654,1639269654,1639269654,1639269654,1639269654,1639269654,1639269654,1639269654,1639269654,1639269654,1639269654]
 
 """
-fplDataTS[] holds the timestamps of last update time of fplData equivalent			
+fplDataTS[] holds the timestamps of last update time of fplData equivalent
 fplDataTS[11] is for live ballers
 
-fplData = 	[
-				{	"rounds": [] }, 		#0
-				{	"fixtures": [] }, 		#1
-				{	"clubs": [] }, 			#2
-				{	"players": [] }, 		#3
-				{	"ownteam": [] }, 		#4
-				{ 	"oppteam": [] }, 		#5
-				{	"LgH2h": [] }, 			#6
-				{	"LgCls": [] }, 			#7
-				{ 	"CrrntFxtrs": [] }, 	#8
-				{  	"lgManIds": [] }, 		#9
-				{   "oppId": 2121453 } 		#10
+fplData =	[
+				{ "id":"rounds"	,	"ts":0	, "data": mod_rnd.getRnds() 		},				#0 / daily
+				{ "id":"fixtures",	"ts":0	, "data": mod_fxt.getFxtrs("r") 	},				#1 / daily
+				{ "id":"clubs",		"ts":0	, "data": mod_clb.getClubs("r") 	},				#2 / daily
+				{ "id":"players",	"ts":0	, "data": mod_plyr.getElmnts("r") 	},				#3 / daily
+				{ "id":"ownteam",	"ts":0	, "data": [] },										#4
+				{ "id":"oppteam",	"ts":0	, "data": [] },										#5
+				{ "id":"LgCls",		"ts":0	, "data": mod_mng.getManagerLeagues(myTeamId,0)},	#6
+				{ "id":"LgH2h",		"ts":0	, "data": mod_mng.getManagerLeagues(myTeamId,1)},	#7
+				{ "id":"CrrntFxtrs","ts":0 	, "data": [] },										#8
+				{ "id":"lgManIds",	"ts":0	, "data": mod_mng.getManIdsFromLeague(1,348264)},	#9 --> (0, 941528) = 'clssc', --> (1, 348264) = 'h2h'
+				{ "id":"oppId",		"ts":0 	, "data": 30954 },									#10
+				{ "id":"refresh",	"ts":0	, "data": 60 },										#11
+				{ "id": "selLg",	"ts":0	, "data": { "id":348264, "nm":"348264"}},			#12
+				{ "id": "curRound",	"ts":0	, "data": 6 }	 									#13
 			]
 
 """
@@ -94,34 +97,50 @@ fplData = 	[
 # currentRnd = mod_cr.getCurrentRnd() "currentRnd",currentRnd,
 currentDdln = mod_cr.getCurrentDeadline()
 
-# print("currentDdln",currentDdln)
-
 def infoRt(dataIdx):
 	useRemote 			= 	False
 	crit 				= 	""
 	timeStamp			=	fplDataTS[dataIdx]
-	last_update			=	datetime.fromtimestamp( timeStamp ,tz=timezone.utc)	
-	now_date			=	datetime.fromtimestamp( float(time.time()) ,tz=timezone.utc)	
+	last_update			=	datetime.fromtimestamp( timeStamp ,tz=timezone.utc)
+	now_date			=	datetime.fromtimestamp( float(time.time()) ,tz=timezone.utc)
 	today				=	datetime.today()
 	delta				=	now_date - last_update
 	days				=	delta.days
 	minutes, seconds	=	divmod( delta.seconds, 60)
 	hours, minutes		=	divmod( minutes, 60)
 
-	if( dataIdx in [ 1, 2, 3, 6, 7, 9 ] ):
+	if( dataIdx in [ 8 ] ):
 		# 'fixture' data needs to less than 10 minutes old
 		useRemote = (delta.seconds>600)
 		crit = "10mins"
-	elif( dataIdx in [ 4, 5, 8, 11 ] ):
+	elif( dataIdx in [ 3, 11 ] ):
 		# 'live ballers' data needs to less than 90 seconds old
 		useRemote = (delta.seconds>90)
 		crit = "90secs"
-	else:
-		# fplData[other] needs to be from after gameweek deadline
+	elif( dataIdx in [ 0, 1, 2, 6, 7, 9 ] ):
+		# data needs to less than 1 day old
+		# 0 = rounds, 1 = fixtures, 2 = clubs, 3 = players
 		useRemote = ( days > 1 )
-		# print( '12hrs', dataIdx, 'last_update', last_update, 'now', now_date, 'days', days , 'hrs', hours )
-	
-	# print("useRemote is", useRemote, "for", dataIdx , time.time() ,"crit", crit)
+		crit = "1 days"
+	elif( dataIdx in [ 4, 5 ] ):
+		# once after current round deadline
+		# datetime.fromtimestamp( float(time.time()) ,tz=timezone.utc)
+		delta_ddln =  datetime.utcnow() -  datetime.fromtimestamp( currentDdln  )
+		ddlnPast = ( delta_ddln.seconds > 0 )
+		print( "deadline:\t", currentDdln , 	"\tneeds update after ddln:\t", ddlnPast  )
+		useRemote = ddlnPast
+		crit = "after deadline"
+
+	elif( dataIdx in [ 10, 13 ] ):
+		# always update
+		useRemote = True
+		crit = "always"
+	else:
+		# never update. 11, 12
+		useRemote = False
+		crit = "never"
+
+	print( "useRemote is\t", useRemote, 	"\tfor\t", 	dataIdx , "\ton:\t", 	time.time() , 	"\tcrit:\t", 	crit	)
 	return useRemote
 
 
@@ -141,7 +160,7 @@ def getLocalStatic():
 		foStatic.close
 	else:
 		# print("static_file does NOT exists. using remote")
-		data_static = getRemoteStatic()		
+		data_static = getRemoteStatic()
 
 	return data_static
 
@@ -160,17 +179,17 @@ def getRemoteStatic():
 	rnf.write( json.dumps( data_static["events"], indent=4) )
 	rnf.close
 	fplDataTS[0] = baseTS
-	
+
 	# 2 = clubs
 	rclubs = data_static["teams"]
 	for c in rclubs:
-		c["goalies"] =  [] 
-		c["defenders"] =  [] 
-		c["midfielders"] =  [] 
-		c["forwards"] =  [] 
+		c["goalies"] =  []
+		c["defenders"] =  []
+		c["midfielders"] =  []
+		c["forwards"] =  []
 		c["df"] = [2,2]
 		c["ppgc"] = 0
-	
+
 	clf = open( "./app/static/data/static/clubs.json", "w+")
 	clf.write( json.dumps( rclubs, indent=4) )
 	clf.close
@@ -181,6 +200,5 @@ def getRemoteStatic():
 	elf.write( json.dumps( data_static["elements"], indent=4) )
 	elf.close
 	fplDataTS[3] = baseTS
-	
-	return data_static			
 
+	return data_static
