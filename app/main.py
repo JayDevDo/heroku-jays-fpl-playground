@@ -58,7 +58,7 @@ fplData =	[
 				{ "id":"oppId",		"ts":0 	, "data": 30954 },									#10
 				{ "id":"refresh",	"ts":0	, "data": 60 },										#11
 				{ "id": "selLg",	"ts":0	, "data": { "id":348264, "nm":"348264"}},			#12
-				{ "id": "curRound",	"ts":0	, "data": 6 }	 									#13
+				{ "id": "curRound",	"ts":0	, "data": 10 }	 									#13
 			]
 
 fplData[10]["data"] =	30954

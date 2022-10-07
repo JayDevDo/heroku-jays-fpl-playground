@@ -1,12 +1,12 @@
 let gamesOverview = {
                         fixedColumns: 3,
-                        finishedRounds: 5,
-                        eventWndwStart: 6,
-                        currentRnd: 6,
-                        rndsToShow: 3,
-                        eventWndwEnd: 8,
+                        finishedRounds: 9,
+                        eventWndwStart: 10,
+                        currentRnd: 10,
+                        rndsToShow: 7,
+                        eventWndwEnd: 16,
                         userDF: false,
-                        hasPP: false,
+                        hasPP: true,
                         postponedGameIds: [],
                         postponedGames: []
                     }
